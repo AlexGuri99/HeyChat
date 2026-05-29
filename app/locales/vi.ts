@@ -1,602 +1,603 @@
-import { SubmitKey } from "../store/config";
+﻿import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 const isApp = !!getClientConfig()?.isApp;
 
 const vi: PartialLocaleType = {
-  WIP: "Sắp ra mắt...",
+  WIP: "Sáº¯p ra máº¯t...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Cuộc trò chuyện gặp một số vấn đề, đừng lo lắng:
-    \\ 1️⃣ Nếu bạn muốn bắt đầu mà không cần cấu hình, [nhấp vào đây để bắt đầu trò chuyện ngay lập tức 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️`
-      : `😆 Cuộc trò chuyện gặp một số vấn đề, đừng lo lắng:
-    \ 1️⃣ Nếu bạn muốn bắt đầu mà không cần cấu hình, [nhấp vào đây để bắt đầu trò chuyện ngay lập tức 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ Nếu bạn đang sử dụng phiên bản triển khai riêng, hãy nhấp [vào đây](/#/auth) để nhập khóa truy cập 🔑
-    \ 3️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️
+      ? `ðŸ˜† Cuá»™c trÃ² chuyá»‡n gáº·p má»™t sá»‘ váº¥n Ä‘á», Ä‘á»«ng lo láº¯ng:
+    \\ 1ï¸âƒ£ Náº¿u báº¡n muá»‘n báº¯t Ä‘áº§u mÃ  khÃ´ng cáº§n cáº¥u hÃ¬nh, [nháº¥p vÃ o Ä‘Ã¢y Ä‘á»ƒ báº¯t Ä‘áº§u trÃ² chuyá»‡n ngay láº­p tá»©c ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ Náº¿u báº¡n muá»‘n sá»­ dá»¥ng tÃ i nguyÃªn OpenAI cá»§a riÃªng mÃ¬nh, hÃ£y nháº¥p [vÃ o Ä‘Ã¢y](/#/settings) Ä‘á»ƒ thay Ä‘á»•i cÃ i Ä‘áº·t âš™ï¸`
+      : `ðŸ˜† Cuá»™c trÃ² chuyá»‡n gáº·p má»™t sá»‘ váº¥n Ä‘á», Ä‘á»«ng lo láº¯ng:
+    \ 1ï¸âƒ£ Náº¿u báº¡n muá»‘n báº¯t Ä‘áº§u mÃ  khÃ´ng cáº§n cáº¥u hÃ¬nh, [nháº¥p vÃ o Ä‘Ã¢y Ä‘á»ƒ báº¯t Ä‘áº§u trÃ² chuyá»‡n ngay láº­p tá»©c ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ Náº¿u báº¡n Ä‘ang sá»­ dá»¥ng phiÃªn báº£n triá»ƒn khai riÃªng, hÃ£y nháº¥p [vÃ o Ä‘Ã¢y](/#/auth) Ä‘á»ƒ nháº­p khÃ³a truy cáº­p ðŸ”‘
+    \ 3ï¸âƒ£ Náº¿u báº¡n muá»‘n sá»­ dá»¥ng tÃ i nguyÃªn OpenAI cá»§a riÃªng mÃ¬nh, hÃ£y nháº¥p [vÃ o Ä‘Ã¢y](/#/settings) Ä‘á»ƒ thay Ä‘á»•i cÃ i Ä‘áº·t âš™ï¸
  `,
   },
   Auth: {
-    Title: "Cần mật khẩu",
-    Tips: "Quản trị viên đã bật xác thực mật khẩu, vui lòng nhập mã truy cập ở dưới",
-    SubTips: "Hoặc nhập khóa API OpenAI hoặc Google của bạn",
-    Input: "Nhập mã truy cập tại đây",
-    Confirm: "Xác nhận",
-    Later: "Để sau",
-    Return: "Trở lại",
-    SaasTips: "Cấu hình quá phức tạp, tôi muốn sử dụng ngay lập tức",
+    Title: "Cáº§n máº­t kháº©u",
+    Tips: "Quáº£n trá»‹ viÃªn Ä‘Ã£ báº­t xÃ¡c thá»±c máº­t kháº©u, vui lÃ²ng nháº­p mÃ£ truy cáº­p á»Ÿ dÆ°á»›i",
+    SubTips: "Hoáº·c nháº­p khÃ³a API OpenAI hoáº·c Google cá»§a báº¡n",
+    Input: "Nháº­p mÃ£ truy cáº­p táº¡i Ä‘Ã¢y",
+    Confirm: "XÃ¡c nháº­n",
+    Later: "Äá»ƒ sau",
+    Return: "Trá»Ÿ láº¡i",
+    SaasTips: "Cáº¥u hÃ¬nh quÃ¡ phá»©c táº¡p, tÃ´i muá»‘n sá»­ dá»¥ng ngay láº­p tá»©c",
     TopTips:
-      "🥳 Ưu đãi ra mắt NextChat AI, mở khóa OpenAI o1, GPT-4o, Claude-3.5 và các mô hình lớn mới nhất ngay bây giờ",
+      "ðŸ¥³ Æ¯u Ä‘Ã£i ra máº¯t HeyChat AI, má»Ÿ khÃ³a OpenAI o1, GPT-4o, Claude-3.5 vÃ  cÃ¡c mÃ´ hÃ¬nh lá»›n má»›i nháº¥t ngay bÃ¢y giá»",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} cuộc trò chuyện`,
+    ChatItemCount: (count: number) => `${count} cuá»™c trÃ² chuyá»‡n`,
   },
   Chat: {
-    SubTitle: (count: number) => `Tổng cộng ${count} cuộc trò chuyện`,
+    SubTitle: (count: number) => `Tá»•ng cá»™ng ${count} cuá»™c trÃ² chuyá»‡n`,
     EditMessage: {
-      Title: "Chỉnh sửa ghi chép tin nhắn",
+      Title: "Chá»‰nh sá»­a ghi chÃ©p tin nháº¯n",
       Topic: {
-        Title: "Chủ đề trò chuyện",
-        SubTitle: "Thay đổi chủ đề trò chuyện hiện tại",
+        Title: "Chá»§ Ä‘á» trÃ² chuyá»‡n",
+        SubTitle: "Thay Ä‘á»•i chá»§ Ä‘á» trÃ² chuyá»‡n hiá»‡n táº¡i",
       },
     },
     Actions: {
-      ChatList: "Xem danh sách tin nhắn",
-      CompressedHistory: "Xem lịch sử Prompt đã nén",
-      Export: "Xuất khẩu ghi chép trò chuyện",
-      Copy: "Sao chép",
-      Stop: "Dừng lại",
-      Retry: "Thử lại",
+      ChatList: "Xem danh sÃ¡ch tin nháº¯n",
+      CompressedHistory: "Xem lá»‹ch sá»­ Prompt Ä‘Ã£ nÃ©n",
+      Export: "Xuáº¥t kháº©u ghi chÃ©p trÃ² chuyá»‡n",
+      Copy: "Sao chÃ©p",
+      Stop: "Dá»«ng láº¡i",
+      Retry: "Thá»­ láº¡i",
       Pin: "Ghim",
-      PinToastContent: "Đã ghim 1 cuộc trò chuyện vào lời nhắc đã đặt sẵn",
+      PinToastContent: "ÄÃ£ ghim 1 cuá»™c trÃ² chuyá»‡n vÃ o lá»i nháº¯c Ä‘Ã£ Ä‘áº·t sáºµn",
       PinToastAction: "Xem",
-      Delete: "Xóa",
-      Edit: "Chỉnh sửa",
-      RefreshTitle: "Làm mới tiêu đề",
-      RefreshToast: "Đã gửi yêu cầu làm mới tiêu đề",
+      Delete: "XÃ³a",
+      Edit: "Chá»‰nh sá»­a",
+      RefreshTitle: "LÃ m má»›i tiÃªu Ä‘á»",
+      RefreshToast: "ÄÃ£ gá»­i yÃªu cáº§u lÃ m má»›i tiÃªu Ä‘á»",
     },
     Commands: {
-      new: "Tạo cuộc trò chuyện mới",
-      newm: "Tạo cuộc trò chuyện từ mặt nạ",
-      next: "Cuộc trò chuyện tiếp theo",
-      prev: "Cuộc trò chuyện trước đó",
-      clear: "Xóa ngữ cảnh",
-      del: "Xóa cuộc trò chuyện",
+      new: "Táº¡o cuá»™c trÃ² chuyá»‡n má»›i",
+      newm: "Táº¡o cuá»™c trÃ² chuyá»‡n tá»« máº·t náº¡",
+      next: "Cuá»™c trÃ² chuyá»‡n tiáº¿p theo",
+      prev: "Cuá»™c trÃ² chuyá»‡n trÆ°á»›c Ä‘Ã³",
+      clear: "XÃ³a ngá»¯ cáº£nh",
+      del: "XÃ³a cuá»™c trÃ² chuyá»‡n",
     },
     InputActions: {
-      Stop: "Dừng phản hồi",
-      ToBottom: "Cuộn đến tin nhắn mới nhất",
+      Stop: "Dá»«ng pháº£n há»“i",
+      ToBottom: "Cuá»™n Ä‘áº¿n tin nháº¯n má»›i nháº¥t",
       Theme: {
-        auto: "Chủ đề tự động",
-        light: "Chế độ sáng",
-        dark: "Chế độ tối",
+        auto: "Chá»§ Ä‘á» tá»± Ä‘á»™ng",
+        light: "Cháº¿ Ä‘á»™ sÃ¡ng",
+        dark: "Cháº¿ Ä‘á»™ tá»‘i",
       },
-      Prompt: "Lệnh tắt",
-      Masks: "Tất cả mặt nạ",
-      Clear: "Xóa cuộc trò chuyện",
-      Settings: "Cài đặt trò chuyện",
-      UploadImage: "Tải lên hình ảnh",
+      Prompt: "Lá»‡nh táº¯t",
+      Masks: "Táº¥t cáº£ máº·t náº¡",
+      Clear: "XÃ³a cuá»™c trÃ² chuyá»‡n",
+      Settings: "CÃ i Ä‘áº·t trÃ² chuyá»‡n",
+      UploadImage: "Táº£i lÃªn hÃ¬nh áº£nh",
     },
-    Rename: "Đổi tên cuộc trò chuyện",
-    Typing: "Đang nhập…",
+    Rename: "Äá»•i tÃªn cuá»™c trÃ² chuyá»‡n",
+    Typing: "Äang nháº­pâ€¦",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} gửi`;
+      var inputHints = `${submitKey} gá»­i`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter xuống dòng";
+        inputHints += "ï¼ŒShift + Enter xuá»‘ng dÃ²ng";
       }
-      return inputHints + "，/ kích hoạt hoàn chỉnh, : kích hoạt lệnh";
+      return inputHints + "ï¼Œ/ kÃ­ch hoáº¡t hoÃ n chá»‰nh, : kÃ­ch hoáº¡t lá»‡nh";
     },
-    Send: "Gửi",
+    Send: "Gá»­i",
     Config: {
-      Reset: "Xóa trí nhớ",
-      SaveAs: "Lưu dưới dạng mặt nạ",
+      Reset: "XÃ³a trÃ­ nhá»›",
+      SaveAs: "LÆ°u dÆ°á»›i dáº¡ng máº·t náº¡",
     },
-    IsContext: "Lời nhắc đã đặt sẵn",
+    IsContext: "Lá»i nháº¯c Ä‘Ã£ Ä‘áº·t sáºµn",
   },
   Export: {
-    Title: "Chia sẻ ghi chép trò chuyện",
-    Copy: "Sao chép tất cả",
-    Download: "Tải xuống tệp",
-    Share: "Chia sẻ lên ShareGPT",
-    MessageFromYou: "Người dùng",
+    Title: "Chia sáº» ghi chÃ©p trÃ² chuyá»‡n",
+    Copy: "Sao chÃ©p táº¥t cáº£",
+    Download: "Táº£i xuá»‘ng tá»‡p",
+    Share: "Chia sáº» lÃªn ShareGPT",
+    MessageFromYou: "NgÆ°á»i dÃ¹ng",
     MessageFromChatGPT: "ChatGPT",
     Format: {
-      Title: "Định dạng xuất khẩu",
-      SubTitle: "Có thể xuất khẩu dưới dạng văn bản Markdown hoặc hình ảnh PNG",
+      Title: "Äá»‹nh dáº¡ng xuáº¥t kháº©u",
+      SubTitle: "CÃ³ thá»ƒ xuáº¥t kháº©u dÆ°á»›i dáº¡ng vÄƒn báº£n Markdown hoáº·c hÃ¬nh áº£nh PNG",
     },
     IncludeContext: {
-      Title: "Bao gồm ngữ cảnh mặt nạ",
-      SubTitle: "Có hiển thị ngữ cảnh mặt nạ trong tin nhắn không",
+      Title: "Bao gá»“m ngá»¯ cáº£nh máº·t náº¡",
+      SubTitle: "CÃ³ hiá»ƒn thá»‹ ngá»¯ cáº£nh máº·t náº¡ trong tin nháº¯n khÃ´ng",
     },
     Steps: {
-      Select: "Chọn",
-      Preview: "Xem trước",
+      Select: "Chá»n",
+      Preview: "Xem trÆ°á»›c",
     },
     Image: {
-      Toast: "Đang tạo ảnh chụp màn hình",
-      Modal: "Nhấn giữ hoặc nhấp chuột phải để lưu hình ảnh",
+      Toast: "Äang táº¡o áº£nh chá»¥p mÃ n hÃ¬nh",
+      Modal: "Nháº¥n giá»¯ hoáº·c nháº¥p chuá»™t pháº£i Ä‘á»ƒ lÆ°u hÃ¬nh áº£nh",
     },
   },
   Select: {
-    Search: "Tìm kiếm tin nhắn",
-    All: "Chọn tất cả",
-    Latest: "Một vài tin nhắn gần đây",
-    Clear: "Xóa lựa chọn",
+    Search: "TÃ¬m kiáº¿m tin nháº¯n",
+    All: "Chá»n táº¥t cáº£",
+    Latest: "Má»™t vÃ i tin nháº¯n gáº§n Ä‘Ã¢y",
+    Clear: "XÃ³a lá»±a chá»n",
   },
   Memory: {
-    Title: "Tóm tắt lịch sử",
-    EmptyContent: "Nội dung trò chuyện quá ngắn, không cần tóm tắt",
-    Send: "Tự động nén ghi chép trò chuyện và gửi dưới dạng ngữ cảnh",
-    Copy: "Sao chép tóm tắt",
+    Title: "TÃ³m táº¯t lá»‹ch sá»­",
+    EmptyContent: "Ná»™i dung trÃ² chuyá»‡n quÃ¡ ngáº¯n, khÃ´ng cáº§n tÃ³m táº¯t",
+    Send: "Tá»± Ä‘á»™ng nÃ©n ghi chÃ©p trÃ² chuyá»‡n vÃ  gá»­i dÆ°á»›i dáº¡ng ngá»¯ cáº£nh",
+    Copy: "Sao chÃ©p tÃ³m táº¯t",
     Reset: "[unused]",
-    ResetConfirm: "Xác nhận xóa tóm tắt lịch sử?",
+    ResetConfirm: "XÃ¡c nháº­n xÃ³a tÃ³m táº¯t lá»‹ch sá»­?",
   },
   Home: {
-    NewChat: "Cuộc trò chuyện mới",
-    DeleteChat: "Xác nhận xóa cuộc trò chuyện đã chọn?",
-    DeleteToast: "Đã xóa cuộc trò chuyện",
-    Revert: "Hoàn tác",
+    NewChat: "Cuá»™c trÃ² chuyá»‡n má»›i",
+    DeleteChat: "XÃ¡c nháº­n xÃ³a cuá»™c trÃ² chuyá»‡n Ä‘Ã£ chá»n?",
+    DeleteToast: "ÄÃ£ xÃ³a cuá»™c trÃ² chuyá»‡n",
+    Revert: "HoÃ n tÃ¡c",
   },
   Settings: {
-    Title: "Cài đặt",
-    SubTitle: "Tất cả các tùy chọn cài đặt",
+    Title: "CÃ i Ä‘áº·t",
+    SubTitle: "Táº¥t cáº£ cÃ¡c tÃ¹y chá»n cÃ i Ä‘áº·t",
 
     Danger: {
       Reset: {
-        Title: "Đặt lại tất cả cài đặt",
-        SubTitle: "Đặt lại tất cả các mục cài đặt về giá trị mặc định",
-        Action: "Đặt lại ngay",
-        Confirm: "Xác nhận đặt lại tất cả cài đặt?",
+        Title: "Äáº·t láº¡i táº¥t cáº£ cÃ i Ä‘áº·t",
+        SubTitle: "Äáº·t láº¡i táº¥t cáº£ cÃ¡c má»¥c cÃ i Ä‘áº·t vá» giÃ¡ trá»‹ máº·c Ä‘á»‹nh",
+        Action: "Äáº·t láº¡i ngay",
+        Confirm: "XÃ¡c nháº­n Ä‘áº·t láº¡i táº¥t cáº£ cÃ i Ä‘áº·t?",
       },
       Clear: {
-        Title: "Xóa tất cả dữ liệu",
-        SubTitle: "Xóa tất cả các cuộc trò chuyện và dữ liệu cài đặt",
-        Action: "Xóa ngay",
-        Confirm: "Xác nhận xóa tất cả cuộc trò chuyện và dữ liệu cài đặt?",
+        Title: "XÃ³a táº¥t cáº£ dá»¯ liá»‡u",
+        SubTitle: "XÃ³a táº¥t cáº£ cÃ¡c cuá»™c trÃ² chuyá»‡n vÃ  dá»¯ liá»‡u cÃ i Ä‘áº·t",
+        Action: "XÃ³a ngay",
+        Confirm: "XÃ¡c nháº­n xÃ³a táº¥t cáº£ cuá»™c trÃ² chuyá»‡n vÃ  dá»¯ liá»‡u cÃ i Ä‘áº·t?",
       },
     },
     Lang: {
-      Name: "Language", // CHÚ Ý: nếu bạn muốn thêm một bản dịch mới, vui lòng không dịch giá trị này, để nó là `Language`
-      All: "Tất cả ngôn ngữ",
+      Name: "Language", // CHÃš Ã: náº¿u báº¡n muá»‘n thÃªm má»™t báº£n dá»‹ch má»›i, vui lÃ²ng khÃ´ng dá»‹ch giÃ¡ trá»‹ nÃ y, Ä‘á»ƒ nÃ³ lÃ  `Language`
+      All: "Táº¥t cáº£ ngÃ´n ngá»¯",
     },
-    Avatar: "Hình đại diện",
+    Avatar: "HÃ¬nh Ä‘áº¡i diá»‡n",
     FontSize: {
-      Title: "Kích thước chữ",
-      SubTitle: "Kích thước chữ của nội dung trò chuyện",
+      Title: "KÃ­ch thÆ°á»›c chá»¯",
+      SubTitle: "KÃ­ch thÆ°á»›c chá»¯ cá»§a ná»™i dung trÃ² chuyá»‡n",
     },
     FontFamily: {
-      Title: "Phông Chữ Trò Chuyện",
+      Title: "PhÃ´ng Chá»¯ TrÃ² Chuyá»‡n",
       SubTitle:
-        "Phông chữ của nội dung trò chuyện, để trống để áp dụng phông chữ mặc định toàn cầu",
-      Placeholder: "Tên Phông Chữ",
+        "PhÃ´ng chá»¯ cá»§a ná»™i dung trÃ² chuyá»‡n, Ä‘á»ƒ trá»‘ng Ä‘á»ƒ Ã¡p dá»¥ng phÃ´ng chá»¯ máº·c Ä‘á»‹nh toÃ n cáº§u",
+      Placeholder: "TÃªn PhÃ´ng Chá»¯",
     },
     InjectSystemPrompts: {
-      Title: "Tiêm thông báo hệ thống",
+      Title: "TiÃªm thÃ´ng bÃ¡o há»‡ thá»‘ng",
       SubTitle:
-        "Buộc thêm một thông báo hệ thống giả ChatGPT vào đầu danh sách tin nhắn mỗi lần yêu cầu",
+        "Buá»™c thÃªm má»™t thÃ´ng bÃ¡o há»‡ thá»‘ng giáº£ ChatGPT vÃ o Ä‘áº§u danh sÃ¡ch tin nháº¯n má»—i láº§n yÃªu cáº§u",
     },
     InputTemplate: {
-      Title: "Xử lý đầu vào của người dùng",
-      SubTitle: "Tin nhắn mới nhất của người dùng sẽ được điền vào mẫu này",
+      Title: "Xá»­ lÃ½ Ä‘áº§u vÃ o cá»§a ngÆ°á»i dÃ¹ng",
+      SubTitle: "Tin nháº¯n má»›i nháº¥t cá»§a ngÆ°á»i dÃ¹ng sáº½ Ä‘Æ°á»£c Ä‘iá»n vÃ o máº«u nÃ y",
     },
 
     Update: {
-      Version: (x: string) => `Phiên bản hiện tại: ${x}`,
-      IsLatest: "Đã là phiên bản mới nhất",
-      CheckUpdate: "Kiểm tra cập nhật",
-      IsChecking: "Đang kiểm tra cập nhật...",
-      FoundUpdate: (x: string) => `Tìm thấy phiên bản mới: ${x}`,
-      GoToUpdate: "Đi đến cập nhật",
+      Version: (x: string) => `PhiÃªn báº£n hiá»‡n táº¡i: ${x}`,
+      IsLatest: "ÄÃ£ lÃ  phiÃªn báº£n má»›i nháº¥t",
+      CheckUpdate: "Kiá»ƒm tra cáº­p nháº­t",
+      IsChecking: "Äang kiá»ƒm tra cáº­p nháº­t...",
+      FoundUpdate: (x: string) => `TÃ¬m tháº¥y phiÃªn báº£n má»›i: ${x}`,
+      GoToUpdate: "Äi Ä‘áº¿n cáº­p nháº­t",
     },
-    SendKey: "Phím gửi",
-    Theme: "Giao diện",
-    TightBorder: "Chế độ không viền",
+    SendKey: "PhÃ­m gá»­i",
+    Theme: "Giao diá»‡n",
+    TightBorder: "Cháº¿ Ä‘á»™ khÃ´ng viá»n",
     SendPreviewBubble: {
-      Title: "Bong bóng xem trước",
-      SubTitle: "Xem nội dung Markdown trong bong bóng xem trước",
+      Title: "Bong bÃ³ng xem trÆ°á»›c",
+      SubTitle: "Xem ná»™i dung Markdown trong bong bÃ³ng xem trÆ°á»›c",
     },
     AutoGenerateTitle: {
-      Title: "Tự động tạo tiêu đề",
-      SubTitle: "Tạo tiêu đề phù hợp dựa trên nội dung cuộc trò chuyện",
+      Title: "Tá»± Ä‘á»™ng táº¡o tiÃªu Ä‘á»",
+      SubTitle: "Táº¡o tiÃªu Ä‘á» phÃ¹ há»£p dá»±a trÃªn ná»™i dung cuá»™c trÃ² chuyá»‡n",
     },
     Sync: {
-      CloudState: "Dữ liệu đám mây",
-      NotSyncYet: "Chưa thực hiện đồng bộ",
-      Success: "Đồng bộ thành công",
-      Fail: "Đồng bộ thất bại",
+      CloudState: "Dá»¯ liá»‡u Ä‘Ã¡m mÃ¢y",
+      NotSyncYet: "ChÆ°a thá»±c hiá»‡n Ä‘á»“ng bá»™",
+      Success: "Äá»“ng bá»™ thÃ nh cÃ´ng",
+      Fail: "Äá»“ng bá»™ tháº¥t báº¡i",
 
       Config: {
         Modal: {
-          Title: "Cấu hình đồng bộ đám mây",
-          Check: "Kiểm tra khả dụng",
+          Title: "Cáº¥u hÃ¬nh Ä‘á»“ng bá»™ Ä‘Ã¡m mÃ¢y",
+          Check: "Kiá»ƒm tra kháº£ dá»¥ng",
         },
         SyncType: {
-          Title: "Loại đồng bộ",
-          SubTitle: "Chọn máy chủ đồng bộ ưa thích",
+          Title: "Loáº¡i Ä‘á»“ng bá»™",
+          SubTitle: "Chá»n mÃ¡y chá»§ Ä‘á»“ng bá»™ Æ°a thÃ­ch",
         },
         Proxy: {
-          Title: "Kích hoạt proxy",
+          Title: "KÃ­ch hoáº¡t proxy",
           SubTitle:
-            "Khi đồng bộ qua trình duyệt, cần kích hoạt proxy để tránh hạn chế ngang miền",
+            "Khi Ä‘á»“ng bá»™ qua trÃ¬nh duyá»‡t, cáº§n kÃ­ch hoáº¡t proxy Ä‘á»ƒ trÃ¡nh háº¡n cháº¿ ngang miá»n",
         },
         ProxyUrl: {
-          Title: "Địa chỉ proxy",
-          SubTitle: "Chỉ áp dụng cho proxy ngang miền của dự án này",
+          Title: "Äá»‹a chá»‰ proxy",
+          SubTitle: "Chá»‰ Ã¡p dá»¥ng cho proxy ngang miá»n cá»§a dá»± Ã¡n nÃ y",
         },
 
         WebDav: {
-          Endpoint: "Địa chỉ WebDAV",
-          UserName: "Tên người dùng",
-          Password: "Mật khẩu",
+          Endpoint: "Äá»‹a chá»‰ WebDAV",
+          UserName: "TÃªn ngÆ°á»i dÃ¹ng",
+          Password: "Máº­t kháº©u",
         },
 
         UpStash: {
           Endpoint: "URL UpStash Redis REST",
-          UserName: "Tên sao lưu",
+          UserName: "TÃªn sao lÆ°u",
           Password: "Token UpStash Redis REST",
         },
       },
 
-      LocalState: "Dữ liệu cục bộ",
+      LocalState: "Dá»¯ liá»‡u cá»¥c bá»™",
       Overview: (overview: any) => {
-        return `${overview.chat} cuộc trò chuyện, ${overview.message} tin nhắn, ${overview.prompt} lệnh, ${overview.mask} mặt nạ`;
+        return `${overview.chat} cuá»™c trÃ² chuyá»‡n, ${overview.message} tin nháº¯n, ${overview.prompt} lá»‡nh, ${overview.mask} máº·t náº¡`;
       },
-      ImportFailed: "Nhập không thành công",
+      ImportFailed: "Nháº­p khÃ´ng thÃ nh cÃ´ng",
     },
     Mask: {
       Splash: {
-        Title: "Trang khởi động mặt nạ",
-        SubTitle: "Hiển thị trang khởi động mặt nạ khi tạo cuộc trò chuyện mới",
+        Title: "Trang khá»Ÿi Ä‘á»™ng máº·t náº¡",
+        SubTitle: "Hiá»ƒn thá»‹ trang khá»Ÿi Ä‘á»™ng máº·t náº¡ khi táº¡o cuá»™c trÃ² chuyá»‡n má»›i",
       },
       Builtin: {
-        Title: "Ẩn mặt nạ tích hợp",
-        SubTitle: "Ẩn mặt nạ tích hợp trong danh sách tất cả mặt nạ",
+        Title: "áº¨n máº·t náº¡ tÃ­ch há»£p",
+        SubTitle: "áº¨n máº·t náº¡ tÃ­ch há»£p trong danh sÃ¡ch táº¥t cáº£ máº·t náº¡",
       },
     },
     Prompt: {
       Disable: {
-        Title: "Vô hiệu hóa tự động hoàn thành lệnh",
-        SubTitle: "Nhập / ở đầu ô nhập để kích hoạt tự động hoàn thành",
+        Title: "VÃ´ hiá»‡u hÃ³a tá»± Ä‘á»™ng hoÃ n thÃ nh lá»‡nh",
+        SubTitle: "Nháº­p / á»Ÿ Ä‘áº§u Ã´ nháº­p Ä‘á»ƒ kÃ­ch hoáº¡t tá»± Ä‘á»™ng hoÃ n thÃ nh",
       },
-      List: "Danh sách lệnh tùy chỉnh",
+      List: "Danh sÃ¡ch lá»‡nh tÃ¹y chá»‰nh",
       ListCount: (builtin: number, custom: number) =>
-        `Tích hợp ${builtin} mục, người dùng định nghĩa ${custom} mục`,
-      Edit: "Chỉnh sửa",
+        `TÃ­ch há»£p ${builtin} má»¥c, ngÆ°á»i dÃ¹ng Ä‘á»‹nh nghÄ©a ${custom} má»¥c`,
+      Edit: "Chá»‰nh sá»­a",
       Modal: {
-        Title: "Danh sách lệnh",
-        Add: "Tạo mới",
-        Search: "Tìm kiếm lệnh",
+        Title: "Danh sÃ¡ch lá»‡nh",
+        Add: "Táº¡o má»›i",
+        Search: "TÃ¬m kiáº¿m lá»‡nh",
       },
       EditModal: {
-        Title: "Chỉnh sửa lệnh",
+        Title: "Chá»‰nh sá»­a lá»‡nh",
       },
     },
     HistoryCount: {
-      Title: "Số tin nhắn lịch sử kèm theo",
-      SubTitle: "Số tin nhắn lịch sử kèm theo mỗi yêu cầu",
+      Title: "Sá»‘ tin nháº¯n lá»‹ch sá»­ kÃ¨m theo",
+      SubTitle: "Sá»‘ tin nháº¯n lá»‹ch sá»­ kÃ¨m theo má»—i yÃªu cáº§u",
     },
     CompressThreshold: {
-      Title: "Ngưỡng nén tin nhắn lịch sử",
+      Title: "NgÆ°á»¡ng nÃ©n tin nháº¯n lá»‹ch sá»­",
       SubTitle:
-        "Khi tin nhắn lịch sử chưa nén vượt quá giá trị này, sẽ thực hiện nén",
+        "Khi tin nháº¯n lá»‹ch sá»­ chÆ°a nÃ©n vÆ°á»£t quÃ¡ giÃ¡ trá»‹ nÃ y, sáº½ thá»±c hiá»‡n nÃ©n",
     },
 
     Usage: {
-      Title: "Tra cứu số dư",
+      Title: "Tra cá»©u sá»‘ dÆ°",
       SubTitle(used: any, total: any) {
-        return `Đã sử dụng trong tháng: $${used}, Tổng số đăng ký: $${total}`;
+        return `ÄÃ£ sá»­ dá»¥ng trong thÃ¡ng: $${used}, Tá»•ng sá»‘ Ä‘Äƒng kÃ½: $${total}`;
       },
-      IsChecking: "Đang kiểm tra…",
-      Check: "Kiểm tra lại",
-      NoAccess: "Nhập khóa API hoặc mật khẩu truy cập để xem số dư",
+      IsChecking: "Äang kiá»ƒm traâ€¦",
+      Check: "Kiá»ƒm tra láº¡i",
+      NoAccess: "Nháº­p khÃ³a API hoáº·c máº­t kháº©u truy cáº­p Ä‘á»ƒ xem sá»‘ dÆ°",
     },
 
     Access: {
       SaasStart: {
-        Title: "Sử dụng NextChat AI",
-        Label: "(Giải pháp tiết kiệm chi phí nhất)",
+        Title: "Sá»­ dá»¥ng HeyChat AI",
+        Label: "(Giáº£i phÃ¡p tiáº¿t kiá»‡m chi phÃ­ nháº¥t)",
         SubTitle:
-          "Được NextChat chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
+          "ÄÆ°á»£c HeyChat chÃ­nh thá»©c duy trÃ¬, sáºµn sÃ ng sá»­ dá»¥ng mÃ  khÃ´ng cáº§n cáº¥u hÃ¬nh, há»— trá»£ cÃ¡c mÃ´ hÃ¬nh lá»›n má»›i nháº¥t nhÆ° OpenAI o1, GPT-4o vÃ  Claude-3.5",
         ChatNow: "Chat ngay",
       },
 
       AccessCode: {
-        Title: "Mật khẩu truy cập",
-        SubTitle: "Quản trị viên đã bật truy cập mã hóa",
-        Placeholder: "Nhập mật khẩu truy cập",
+        Title: "Máº­t kháº©u truy cáº­p",
+        SubTitle: "Quáº£n trá»‹ viÃªn Ä‘Ã£ báº­t truy cáº­p mÃ£ hÃ³a",
+        Placeholder: "Nháº­p máº­t kháº©u truy cáº­p",
       },
       CustomEndpoint: {
-        Title: "Giao diện tùy chỉnh",
-        SubTitle: "Có sử dụng dịch vụ Azure hoặc OpenAI tùy chỉnh không",
+        Title: "Giao diá»‡n tÃ¹y chá»‰nh",
+        SubTitle: "CÃ³ sá»­ dá»¥ng dá»‹ch vá»¥ Azure hoáº·c OpenAI tÃ¹y chá»‰nh khÃ´ng",
       },
       Provider: {
-        Title: "Nhà cung cấp dịch vụ mô hình",
-        SubTitle: "Chuyển đổi giữa các nhà cung cấp khác nhau",
+        Title: "NhÃ  cung cáº¥p dá»‹ch vá»¥ mÃ´ hÃ¬nh",
+        SubTitle: "Chuyá»ƒn Ä‘á»•i giá»¯a cÃ¡c nhÃ  cung cáº¥p khÃ¡c nhau",
       },
       OpenAI: {
         ApiKey: {
           Title: "API Key",
           SubTitle:
-            "Sử dụng khóa OpenAI tùy chỉnh để vượt qua hạn chế truy cập mật khẩu",
-          Placeholder: "Khóa API OpenAI",
+            "Sá»­ dá»¥ng khÃ³a OpenAI tÃ¹y chá»‰nh Ä‘á»ƒ vÆ°á»£t qua háº¡n cháº¿ truy cáº­p máº­t kháº©u",
+          Placeholder: "KhÃ³a API OpenAI",
         },
 
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ngoài địa chỉ mặc định, phải bao gồm http(s)://",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "NgoÃ i Ä‘á»‹a chá»‰ máº·c Ä‘á»‹nh, pháº£i bao gá»“m http(s)://",
         },
       },
       Azure: {
         ApiKey: {
-          Title: "Khóa giao diện",
+          Title: "KhÃ³a giao diá»‡n",
           SubTitle:
-            "Sử dụng khóa Azure tùy chỉnh để vượt qua hạn chế truy cập mật khẩu",
-          Placeholder: "Khóa API Azure",
+            "Sá»­ dá»¥ng khÃ³a Azure tÃ¹y chá»‰nh Ä‘á»ƒ vÆ°á»£t qua háº¡n cháº¿ truy cáº­p máº­t kháº©u",
+          Placeholder: "KhÃ³a API Azure",
         },
 
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "VÃ­ dá»¥:",
         },
 
         ApiVerion: {
-          Title: "Phiên bản giao diện (phiên bản API azure)",
-          SubTitle: "Chọn phiên bản phần cụ thể",
+          Title: "PhiÃªn báº£n giao diá»‡n (phiÃªn báº£n API azure)",
+          SubTitle: "Chá»n phiÃªn báº£n pháº§n cá»¥ thá»ƒ",
         },
       },
       Anthropic: {
         ApiKey: {
-          Title: "Khóa giao diện",
+          Title: "KhÃ³a giao diá»‡n",
           SubTitle:
-            "Sử dụng khóa Anthropic tùy chỉnh để vượt qua hạn chế truy cập mật khẩu",
-          Placeholder: "Khóa API Anthropic",
+            "Sá»­ dá»¥ng khÃ³a Anthropic tÃ¹y chá»‰nh Ä‘á»ƒ vÆ°á»£t qua háº¡n cháº¿ truy cáº­p máº­t kháº©u",
+          Placeholder: "KhÃ³a API Anthropic",
         },
 
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "VÃ­ dá»¥:",
         },
 
         ApiVerion: {
-          Title: "Phiên bản giao diện (phiên bản API claude)",
-          SubTitle: "Chọn một phiên bản API cụ thể để nhập",
+          Title: "PhiÃªn báº£n giao diá»‡n (phiÃªn báº£n API claude)",
+          SubTitle: "Chá»n má»™t phiÃªn báº£n API cá»¥ thá»ƒ Ä‘á»ƒ nháº­p",
         },
       },
       Google: {
         ApiKey: {
-          Title: "Khóa API",
-          SubTitle: "Lấy khóa API từ Google AI",
-          Placeholder: "Nhập khóa API Google AI Studio của bạn",
+          Title: "KhÃ³a API",
+          SubTitle: "Láº¥y khÃ³a API tá»« Google AI",
+          Placeholder: "Nháº­p khÃ³a API Google AI Studio cá»§a báº¡n",
         },
 
         Endpoint: {
-          Title: "Địa chỉ cuối",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ cuá»‘i",
+          SubTitle: "VÃ­ dá»¥:",
         },
 
         ApiVersion: {
-          Title: "Phiên bản API (chỉ áp dụng cho gemini-pro)",
-          SubTitle: "Chọn một phiên bản API cụ thể",
+          Title: "PhiÃªn báº£n API (chá»‰ Ã¡p dá»¥ng cho gemini-pro)",
+          SubTitle: "Chá»n má»™t phiÃªn báº£n API cá»¥ thá»ƒ",
         },
         GoogleSafetySettings: {
-          Title: "Mức độ lọc an toàn Google",
-          SubTitle: "Cài đặt mức độ lọc nội dung",
+          Title: "Má»©c Ä‘á»™ lá»c an toÃ n Google",
+          SubTitle: "CÃ i Ä‘áº·t má»©c Ä‘á»™ lá»c ná»™i dung",
         },
       },
       Baidu: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "Sử dụng khóa Baidu API tùy chỉnh",
-          Placeholder: "Khóa API Baidu",
+          SubTitle: "Sá»­ dá»¥ng khÃ³a Baidu API tÃ¹y chá»‰nh",
+          Placeholder: "KhÃ³a API Baidu",
         },
         SecretKey: {
           Title: "Secret Key",
-          SubTitle: "Sử dụng khóa bí mật Baidu tùy chỉnh",
-          Placeholder: "Khóa bí mật Baidu",
+          SubTitle: "Sá»­ dá»¥ng khÃ³a bÃ­ máº­t Baidu tÃ¹y chá»‰nh",
+          Placeholder: "KhÃ³a bÃ­ máº­t Baidu",
         },
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Không hỗ trợ tùy chỉnh, hãy cấu hình trong .env",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "KhÃ´ng há»— trá»£ tÃ¹y chá»‰nh, hÃ£y cáº¥u hÃ¬nh trong .env",
         },
       },
       ByteDance: {
         ApiKey: {
-          Title: "Khóa giao diện",
-          SubTitle: "Sử dụng khóa ByteDance API tùy chỉnh",
-          Placeholder: "Khóa API ByteDance",
+          Title: "KhÃ³a giao diá»‡n",
+          SubTitle: "Sá»­ dá»¥ng khÃ³a ByteDance API tÃ¹y chá»‰nh",
+          Placeholder: "KhÃ³a API ByteDance",
         },
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "VÃ­ dá»¥:",
         },
       },
       Alibaba: {
         ApiKey: {
-          Title: "Khóa giao diện",
-          SubTitle: "Sử dụng khóa Alibaba Cloud API tùy chỉnh",
-          Placeholder: "Khóa API Alibaba Cloud",
+          Title: "KhÃ³a giao diá»‡n",
+          SubTitle: "Sá»­ dá»¥ng khÃ³a Alibaba Cloud API tÃ¹y chá»‰nh",
+          Placeholder: "KhÃ³a API Alibaba Cloud",
         },
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "VÃ­ dá»¥:",
         },
       },
       AI302: {
         ApiKey: {
-          Title: "Khóa API 302.AI",
-          SubTitle: "Sử dụng khóa API 302.AI tùy chỉnh",
+          Title: "KhÃ³a API 302.AI",
+          SubTitle: "Sá»­ dá»¥ng khÃ³a API 302.AI tÃ¹y chá»‰nh",
           Placeholder: "302.AI API Key",
         },
         Endpoint: {
-          Title: "Địa chỉ giao diện",
-          SubTitle: "Ví dụ:",
+          Title: "Äá»‹a chá»‰ giao diá»‡n",
+          SubTitle: "VÃ­ dá»¥:",
         },
       },
       CustomModel: {
-        Title: "Tên mô hình tùy chỉnh",
+        Title: "TÃªn mÃ´ hÃ¬nh tÃ¹y chá»‰nh",
         SubTitle:
-          "Thêm tùy chọn mô hình tùy chỉnh, sử dụng dấu phẩy để phân cách",
+          "ThÃªm tÃ¹y chá»n mÃ´ hÃ¬nh tÃ¹y chá»‰nh, sá»­ dá»¥ng dáº¥u pháº©y Ä‘á»ƒ phÃ¢n cÃ¡ch",
       },
     },
 
-    Model: "Mô hình (model)",
+    Model: "MÃ´ hÃ¬nh (model)",
     CompressModel: {
-      Title: "Mô hình nén",
-      SubTitle: "Mô hình được sử dụng để nén lịch sử",
+      Title: "MÃ´ hÃ¬nh nÃ©n",
+      SubTitle: "MÃ´ hÃ¬nh Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ nÃ©n lá»‹ch sá»­",
     },
     Temperature: {
-      Title: "Độ ngẫu nhiên (temperature)",
-      SubTitle: "Giá trị càng lớn, câu trả lời càng ngẫu nhiên",
+      Title: "Äá»™ ngáº«u nhiÃªn (temperature)",
+      SubTitle: "GiÃ¡ trá»‹ cÃ ng lá»›n, cÃ¢u tráº£ lá»i cÃ ng ngáº«u nhiÃªn",
     },
     TopP: {
-      Title: "Lấy mẫu hạt nhân (top_p)",
-      SubTitle: "Tương tự như độ ngẫu nhiên, nhưng không thay đổi cùng một lúc",
+      Title: "Láº¥y máº«u háº¡t nhÃ¢n (top_p)",
+      SubTitle: "TÆ°Æ¡ng tá»± nhÆ° Ä‘á»™ ngáº«u nhiÃªn, nhÆ°ng khÃ´ng thay Ä‘á»•i cÃ¹ng má»™t lÃºc",
     },
     MaxTokens: {
-      Title: "Giới hạn phản hồi (max_tokens)",
-      SubTitle: "Số Token tối đa cho mỗi tương tác",
+      Title: "Giá»›i háº¡n pháº£n há»“i (max_tokens)",
+      SubTitle: "Sá»‘ Token tá»‘i Ä‘a cho má»—i tÆ°Æ¡ng tÃ¡c",
     },
     PresencePenalty: {
-      Title: "Độ mới của chủ đề (presence_penalty)",
+      Title: "Äá»™ má»›i cá»§a chá»§ Ä‘á» (presence_penalty)",
       SubTitle:
-        "Giá trị càng lớn, khả năng mở rộng đến các chủ đề mới càng cao",
+        "GiÃ¡ trá»‹ cÃ ng lá»›n, kháº£ nÄƒng má»Ÿ rá»™ng Ä‘áº¿n cÃ¡c chá»§ Ä‘á» má»›i cÃ ng cao",
     },
     FrequencyPenalty: {
-      Title: "Hình phạt tần suất (frequency_penalty)",
-      SubTitle: "Giá trị càng lớn, khả năng giảm từ ngữ lặp lại càng cao",
+      Title: "HÃ¬nh pháº¡t táº§n suáº¥t (frequency_penalty)",
+      SubTitle: "GiÃ¡ trá»‹ cÃ ng lá»›n, kháº£ nÄƒng giáº£m tá»« ngá»¯ láº·p láº¡i cÃ ng cao",
     },
   },
   Store: {
-    DefaultTopic: "Trò chuyện mới",
-    BotHello: "Có thể giúp gì cho bạn?",
-    Error: "Đã xảy ra lỗi, vui lòng thử lại sau",
+    DefaultTopic: "TrÃ² chuyá»‡n má»›i",
+    BotHello: "CÃ³ thá»ƒ giÃºp gÃ¬ cho báº¡n?",
+    Error: "ÄÃ£ xáº£y ra lá»—i, vui lÃ²ng thá»­ láº¡i sau",
     Prompt: {
       History: (content: string) =>
-        "Đây là tóm tắt cuộc trò chuyện lịch sử như tiền đề: " + content,
+        "ÄÃ¢y lÃ  tÃ³m táº¯t cuá»™c trÃ² chuyá»‡n lá»‹ch sá»­ nhÆ° tiá»n Ä‘á»: " + content,
       Topic:
-        'Sử dụng bốn đến năm từ để trả lại chủ đề tóm tắt của câu này, không giải thích, không dấu câu, không từ cảm thán, không văn bản thừa, không in đậm, nếu không có chủ đề, hãy trả lại "Tán gẫu"',
+        'Sá»­ dá»¥ng bá»‘n Ä‘áº¿n nÄƒm tá»« Ä‘á»ƒ tráº£ láº¡i chá»§ Ä‘á» tÃ³m táº¯t cá»§a cÃ¢u nÃ y, khÃ´ng giáº£i thÃ­ch, khÃ´ng dáº¥u cÃ¢u, khÃ´ng tá»« cáº£m thÃ¡n, khÃ´ng vÄƒn báº£n thá»«a, khÃ´ng in Ä‘áº­m, náº¿u khÃ´ng cÃ³ chá»§ Ä‘á», hÃ£y tráº£ láº¡i "TÃ¡n gáº«u"',
       Summarize:
-        "Tóm tắt nội dung cuộc trò chuyện một cách ngắn gọn, dùng làm gợi ý ngữ cảnh cho các lần sau, giữ trong vòng 200 từ",
+        "TÃ³m táº¯t ná»™i dung cuá»™c trÃ² chuyá»‡n má»™t cÃ¡ch ngáº¯n gá»n, dÃ¹ng lÃ m gá»£i Ã½ ngá»¯ cáº£nh cho cÃ¡c láº§n sau, giá»¯ trong vÃ²ng 200 tá»«",
     },
   },
   Copy: {
-    Success: "Đã sao chép vào clipboard",
-    Failed: "Sao chép thất bại, vui lòng cấp quyền clipboard",
+    Success: "ÄÃ£ sao chÃ©p vÃ o clipboard",
+    Failed: "Sao chÃ©p tháº¥t báº¡i, vui lÃ²ng cáº¥p quyá»n clipboard",
   },
   Download: {
-    Success: "Nội dung đã được tải xuống thư mục của bạn.",
-    Failed: "Tải xuống thất bại.",
+    Success: "Ná»™i dung Ä‘Ã£ Ä‘Æ°á»£c táº£i xuá»‘ng thÆ° má»¥c cá»§a báº¡n.",
+    Failed: "Táº£i xuá»‘ng tháº¥t báº¡i.",
   },
   Context: {
-    Toast: (x: any) => `Bao gồm ${x} lệnh gợi ý đã định sẵn`,
-    Edit: "Cài đặt cuộc trò chuyện hiện tại",
-    Add: "Thêm một cuộc trò chuyện",
-    Clear: "Ngữ cảnh đã được xóa",
-    Revert: "Khôi phục ngữ cảnh",
+    Toast: (x: any) => `Bao gá»“m ${x} lá»‡nh gá»£i Ã½ Ä‘Ã£ Ä‘á»‹nh sáºµn`,
+    Edit: "CÃ i Ä‘áº·t cuá»™c trÃ² chuyá»‡n hiá»‡n táº¡i",
+    Add: "ThÃªm má»™t cuá»™c trÃ² chuyá»‡n",
+    Clear: "Ngá»¯ cáº£nh Ä‘Ã£ Ä‘Æ°á»£c xÃ³a",
+    Revert: "KhÃ´i phá»¥c ngá»¯ cáº£nh",
   },
   Plugin: {
     Name: "Plugin",
   },
   FineTuned: {
-    Sysmessage: "Bạn là một trợ lý",
+    Sysmessage: "Báº¡n lÃ  má»™t trá»£ lÃ½",
   },
   SearchChat: {
-    Name: "Tìm kiếm",
+    Name: "TÃ¬m kiáº¿m",
     Page: {
-      Title: "Tìm kiếm lịch sử trò chuyện",
-      Search: "Nhập từ khóa tìm kiếm",
-      NoResult: "Không tìm thấy kết quả",
-      NoData: "Không có dữ liệu",
-      Loading: "Đang tải",
+      Title: "TÃ¬m kiáº¿m lá»‹ch sá»­ trÃ² chuyá»‡n",
+      Search: "Nháº­p tá»« khÃ³a tÃ¬m kiáº¿m",
+      NoResult: "KhÃ´ng tÃ¬m tháº¥y káº¿t quáº£",
+      NoData: "KhÃ´ng cÃ³ dá»¯ liá»‡u",
+      Loading: "Äang táº£i",
 
-      SubTitle: (count: number) => `Tìm thấy ${count} kết quả`,
+      SubTitle: (count: number) => `TÃ¬m tháº¥y ${count} káº¿t quáº£`,
     },
     Item: {
       View: "Xem",
     },
   },
   Mask: {
-    Name: "Mặt nạ",
+    Name: "Máº·t náº¡",
     Page: {
-      Title: "Mặt nạ vai trò đã định sẵn",
-      SubTitle: (count: number) => `${count} định nghĩa vai trò đã định sẵn`,
-      Search: "Tìm kiếm mặt nạ vai trò",
-      Create: "Tạo mới",
+      Title: "Máº·t náº¡ vai trÃ² Ä‘Ã£ Ä‘á»‹nh sáºµn",
+      SubTitle: (count: number) => `${count} Ä‘á»‹nh nghÄ©a vai trÃ² Ä‘Ã£ Ä‘á»‹nh sáºµn`,
+      Search: "TÃ¬m kiáº¿m máº·t náº¡ vai trÃ²",
+      Create: "Táº¡o má»›i",
     },
     Item: {
-      Info: (count: number) => `Bao gồm ${count} cuộc trò chuyện đã định sẵn`,
-      Chat: "Trò chuyện",
+      Info: (count: number) => `Bao gá»“m ${count} cuá»™c trÃ² chuyá»‡n Ä‘Ã£ Ä‘á»‹nh sáºµn`,
+      Chat: "TrÃ² chuyá»‡n",
       View: "Xem",
-      Edit: "Chỉnh sửa",
-      Delete: "Xóa",
-      DeleteConfirm: "Xác nhận xóa?",
+      Edit: "Chá»‰nh sá»­a",
+      Delete: "XÃ³a",
+      DeleteConfirm: "XÃ¡c nháº­n xÃ³a?",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Chỉnh sửa mặt nạ định sẵn ${readonly ? "(chỉ đọc)" : ""}`,
-      Download: "Tải xuống mặt nạ",
-      Clone: "Nhân bản mặt nạ",
+        `Chá»‰nh sá»­a máº·t náº¡ Ä‘á»‹nh sáºµn ${readonly ? "(chá»‰ Ä‘á»c)" : ""}`,
+      Download: "Táº£i xuá»‘ng máº·t náº¡",
+      Clone: "NhÃ¢n báº£n máº·t náº¡",
     },
     Config: {
-      Avatar: "Hình đại diện vai trò",
-      Name: "Tên vai trò",
+      Avatar: "HÃ¬nh Ä‘áº¡i diá»‡n vai trÃ²",
+      Name: "TÃªn vai trÃ²",
       Sync: {
-        Title: "Sử dụng cài đặt toàn cục",
+        Title: "Sá»­ dá»¥ng cÃ i Ä‘áº·t toÃ n cá»¥c",
         SubTitle:
-          "Cuộc trò chuyện hiện tại có sử dụng cài đặt mô hình toàn cục không",
+          "Cuá»™c trÃ² chuyá»‡n hiá»‡n táº¡i cÃ³ sá»­ dá»¥ng cÃ i Ä‘áº·t mÃ´ hÃ¬nh toÃ n cá»¥c khÃ´ng",
         Confirm:
-          "Cài đặt tùy chỉnh của cuộc trò chuyện hiện tại sẽ bị ghi đè tự động, xác nhận bật cài đặt toàn cục?",
+          "CÃ i Ä‘áº·t tÃ¹y chá»‰nh cá»§a cuá»™c trÃ² chuyá»‡n hiá»‡n táº¡i sáº½ bá»‹ ghi Ä‘Ã¨ tá»± Ä‘á»™ng, xÃ¡c nháº­n báº­t cÃ i Ä‘áº·t toÃ n cá»¥c?",
       },
       HideContext: {
-        Title: "Ẩn cuộc trò chuyện đã định sẵn",
+        Title: "áº¨n cuá»™c trÃ² chuyá»‡n Ä‘Ã£ Ä‘á»‹nh sáºµn",
         SubTitle:
-          "Sau khi ẩn, cuộc trò chuyện đã định sẵn sẽ không xuất hiện trong giao diện trò chuyện",
+          "Sau khi áº©n, cuá»™c trÃ² chuyá»‡n Ä‘Ã£ Ä‘á»‹nh sáºµn sáº½ khÃ´ng xuáº¥t hiá»‡n trong giao diá»‡n trÃ² chuyá»‡n",
       },
       Share: {
-        Title: "Chia sẻ mặt nạ này",
-        SubTitle: "Tạo liên kết trực tiếp đến mặt nạ này",
-        Action: "Sao chép liên kết",
+        Title: "Chia sáº» máº·t náº¡ nÃ y",
+        SubTitle: "Táº¡o liÃªn káº¿t trá»±c tiáº¿p Ä‘áº¿n máº·t náº¡ nÃ y",
+        Action: "Sao chÃ©p liÃªn káº¿t",
       },
     },
   },
   NewChat: {
-    Return: "Trở lại",
-    Skip: "Bắt đầu ngay",
-    NotShow: "Không hiển thị nữa",
+    Return: "Trá»Ÿ láº¡i",
+    Skip: "Báº¯t Ä‘áº§u ngay",
+    NotShow: "KhÃ´ng hiá»ƒn thá»‹ ná»¯a",
     ConfirmNoShow:
-      "Xác nhận vô hiệu hóa? Sau khi vô hiệu hóa, bạn có thể bật lại bất cứ lúc nào trong cài đặt.",
-    Title: "Chọn một mặt nạ",
-    SubTitle: "Bắt đầu ngay, va chạm với suy nghĩ của linh hồn đứng sau mặt nạ",
-    More: "Xem tất cả",
+      "XÃ¡c nháº­n vÃ´ hiá»‡u hÃ³a? Sau khi vÃ´ hiá»‡u hÃ³a, báº¡n cÃ³ thá»ƒ báº­t láº¡i báº¥t cá»© lÃºc nÃ o trong cÃ i Ä‘áº·t.",
+    Title: "Chá»n má»™t máº·t náº¡",
+    SubTitle: "Báº¯t Ä‘áº§u ngay, va cháº¡m vá»›i suy nghÄ© cá»§a linh há»“n Ä‘á»©ng sau máº·t náº¡",
+    More: "Xem táº¥t cáº£",
   },
 
   URLCommand: {
-    Code: "Phát hiện mã truy cập trong liên kết, có tự động điền không?",
+    Code: "PhÃ¡t hiá»‡n mÃ£ truy cáº­p trong liÃªn káº¿t, cÃ³ tá»± Ä‘á»™ng Ä‘iá»n khÃ´ng?",
     Settings:
-      "Phát hiện cài đặt định sẵn trong liên kết, có tự động điền không?",
+      "PhÃ¡t hiá»‡n cÃ i Ä‘áº·t Ä‘á»‹nh sáºµn trong liÃªn káº¿t, cÃ³ tá»± Ä‘á»™ng Ä‘iá»n khÃ´ng?",
   },
 
   UI: {
-    Confirm: "Xác nhận",
-    Cancel: "Hủy",
-    Close: "Đóng",
-    Create: "Tạo mới",
-    Edit: "Chỉnh sửa",
-    Export: "Xuất",
-    Import: "Nhập",
-    Sync: "Đồng bộ",
-    Config: "Cấu hình",
+    Confirm: "XÃ¡c nháº­n",
+    Cancel: "Há»§y",
+    Close: "ÄÃ³ng",
+    Create: "Táº¡o má»›i",
+    Edit: "Chá»‰nh sá»­a",
+    Export: "Xuáº¥t",
+    Import: "Nháº­p",
+    Sync: "Äá»“ng bá»™",
+    Config: "Cáº¥u hÃ¬nh",
   },
   Exporter: {
     Description: {
-      Title: "Chỉ tin nhắn sau khi xóa ngữ cảnh mới được hiển thị",
+      Title: "Chá»‰ tin nháº¯n sau khi xÃ³a ngá»¯ cáº£nh má»›i Ä‘Æ°á»£c hiá»ƒn thá»‹",
     },
-    Model: "Mô hình",
-    Messages: "Tin nhắn",
-    Topic: "Chủ đề",
-    Time: "Thời gian",
+    Model: "MÃ´ hÃ¬nh",
+    Messages: "Tin nháº¯n",
+    Topic: "Chá»§ Ä‘á»",
+    Time: "Thá»i gian",
   },
 };
 
 export default vi;
+

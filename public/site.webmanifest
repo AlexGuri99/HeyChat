@@ -1,6 +1,6 @@
-{
-  "name": "NextChat",
-  "short_name": "NextChat",
+﻿{
+  "name": "HeyChat",
+  "short_name": "HeyChat",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -18,3 +18,4 @@
   "background_color": "#ffffff",
   "display": "standalone"
 }
+

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
+﻿import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
 
 import styles from "./home.module.scss";
 
@@ -234,7 +234,7 @@ export function SideBar(props: { className?: string }) {
   const [mcpEnabled, setMcpEnabled] = useState(false);
 
   useEffect(() => {
-    // 检查 MCP 是否启用
+    // æ£€æŸ¥ MCP æ˜¯å¦å¯ç”¨
     const checkMcpStatus = async () => {
       const enabled = await isMcpEnabled();
       setMcpEnabled(enabled);
@@ -250,7 +250,7 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
+        title="HeyChat"
         subTitle="Build your own AI assistant."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
@@ -366,3 +366,4 @@ export function SideBar(props: { className?: string }) {
     </SideBarContainer>
   );
 }
+

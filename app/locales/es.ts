@@ -1,34 +1,34 @@
-import { SubmitKey } from "../store/config";
+﻿import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 const isApp = !!getClientConfig()?.isApp;
 
 const es: PartialLocaleType = {
-  WIP: "En construcción...",
+  WIP: "En construcciÃ³n...",
   Error: {
     Unauthorized: isApp
-      ? `😆 La conversación encontró algunos problemas, no te preocupes:
-    \\ 1️⃣ Si deseas comenzar sin configuración, [haz clic aquí para empezar a chatear inmediatamente 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ Si deseas usar tus propios recursos de OpenAI, haz clic [aquí](/#/settings) para modificar la configuración ⚙️`
-      : `😆 La conversación encontró algunos problemas, no te preocupes:
-    \ 1️⃣ Si deseas comenzar sin configuración, [haz clic aquí para empezar a chatear inmediatamente 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ Si estás utilizando una versión de implementación privada, haz clic [aquí](/#/auth) para ingresar la clave de acceso 🔑
-    \ 3️⃣ Si deseas usar tus propios recursos de OpenAI, haz clic [aquí](/#/settings) para modificar la configuración ⚙️
+      ? `ðŸ˜† La conversaciÃ³n encontrÃ³ algunos problemas, no te preocupes:
+    \\ 1ï¸âƒ£ Si deseas comenzar sin configuraciÃ³n, [haz clic aquÃ­ para empezar a chatear inmediatamente ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ Si deseas usar tus propios recursos de OpenAI, haz clic [aquÃ­](/#/settings) para modificar la configuraciÃ³n âš™ï¸`
+      : `ðŸ˜† La conversaciÃ³n encontrÃ³ algunos problemas, no te preocupes:
+    \ 1ï¸âƒ£ Si deseas comenzar sin configuraciÃ³n, [haz clic aquÃ­ para empezar a chatear inmediatamente ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ Si estÃ¡s utilizando una versiÃ³n de implementaciÃ³n privada, haz clic [aquÃ­](/#/auth) para ingresar la clave de acceso ðŸ”‘
+    \ 3ï¸âƒ£ Si deseas usar tus propios recursos de OpenAI, haz clic [aquÃ­](/#/settings) para modificar la configuraciÃ³n âš™ï¸
  `,
   },
   Auth: {
-    Title: "Se requiere contraseña",
-    Tips: "El administrador ha habilitado la verificación de contraseña. Introduce el código de acceso a continuación",
+    Title: "Se requiere contraseÃ±a",
+    Tips: "El administrador ha habilitado la verificaciÃ³n de contraseÃ±a. Introduce el cÃ³digo de acceso a continuaciÃ³n",
     SubTips: "O ingresa tu clave API de OpenAI o Google",
-    Input: "Introduce el código de acceso aquí",
+    Input: "Introduce el cÃ³digo de acceso aquÃ­",
     Confirm: "Confirmar",
-    Later: "Más tarde",
+    Later: "MÃ¡s tarde",
     Return: "Regresar",
     SaasTips:
-      "La configuración es demasiado complicada, quiero usarlo de inmediato",
+      "La configuraciÃ³n es demasiado complicada, quiero usarlo de inmediato",
     TopTips:
-      "🥳 Oferta de lanzamiento de NextChat AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los últimos grandes modelos",
+      "ðŸ¥³ Oferta de lanzamiento de HeyChat AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los Ãºltimos grandes modelos",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversaciones`,
@@ -38,8 +38,8 @@ const es: PartialLocaleType = {
     EditMessage: {
       Title: "Editar registro de mensajes",
       Topic: {
-        Title: "Tema de la conversación",
-        SubTitle: "Cambiar el tema de la conversación actual",
+        Title: "Tema de la conversaciÃ³n",
+        SubTitle: "Cambiar el tema de la conversaciÃ³n actual",
       },
     },
     Actions: {
@@ -51,50 +51,50 @@ const es: PartialLocaleType = {
       Retry: "Reintentar",
       Pin: "Fijar",
       PinToastContent:
-        "Se ha fijado 1 conversación a los prompts predeterminados",
+        "Se ha fijado 1 conversaciÃ³n a los prompts predeterminados",
       PinToastAction: "Ver",
       Delete: "Eliminar",
       Edit: "Editar",
-      RefreshTitle: "Actualizar título",
-      RefreshToast: "Se ha enviado la solicitud de actualización del título",
+      RefreshTitle: "Actualizar tÃ­tulo",
+      RefreshToast: "Se ha enviado la solicitud de actualizaciÃ³n del tÃ­tulo",
     },
     Commands: {
-      new: "Nueva conversación",
-      newm: "Nueva conversación desde la máscara",
-      next: "Siguiente conversación",
-      prev: "Conversación anterior",
+      new: "Nueva conversaciÃ³n",
+      newm: "Nueva conversaciÃ³n desde la mÃ¡scara",
+      next: "Siguiente conversaciÃ³n",
+      prev: "ConversaciÃ³n anterior",
       clear: "Limpiar contexto",
-      del: "Eliminar conversación",
+      del: "Eliminar conversaciÃ³n",
     },
     InputActions: {
       Stop: "Detener respuesta",
-      ToBottom: "Ir al más reciente",
+      ToBottom: "Ir al mÃ¡s reciente",
       Theme: {
-        auto: "Tema automático",
+        auto: "Tema automÃ¡tico",
         light: "Modo claro",
         dark: "Modo oscuro",
       },
-      Prompt: "Comandos rápidos",
-      Masks: "Todas las máscaras",
+      Prompt: "Comandos rÃ¡pidos",
+      Masks: "Todas las mÃ¡scaras",
       Clear: "Limpiar chat",
-      Settings: "Configuración de conversación",
+      Settings: "ConfiguraciÃ³n de conversaciÃ³n",
       UploadImage: "Subir imagen",
     },
-    Rename: "Renombrar conversación",
-    Typing: "Escribiendo…",
+    Rename: "Renombrar conversaciÃ³n",
+    Typing: "Escribiendoâ€¦",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} para enviar`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter para nueva línea";
+        inputHints += "ï¼ŒShift + Enter para nueva lÃ­nea";
       }
       return (
-        inputHints + "，/ para activar autocompletado，: para activar comandos"
+        inputHints + "ï¼Œ/ para activar autocompletadoï¼Œ: para activar comandos"
       );
     },
     Send: "Enviar",
     Config: {
       Reset: "Borrar memoria",
-      SaveAs: "Guardar como máscara",
+      SaveAs: "Guardar como mÃ¡scara",
     },
     IsContext: "Prompt predeterminado",
   },
@@ -106,12 +106,12 @@ const es: PartialLocaleType = {
     MessageFromYou: "Usuario",
     MessageFromChatGPT: "ChatGPT",
     Format: {
-      Title: "Formato de exportación",
+      Title: "Formato de exportaciÃ³n",
       SubTitle: "Puedes exportar como texto Markdown o imagen PNG",
     },
     IncludeContext: {
-      Title: "Incluir contexto de máscara",
-      SubTitle: "Mostrar contexto de máscara en los mensajes",
+      Title: "Incluir contexto de mÃ¡scara",
+      SubTitle: "Mostrar contexto de mÃ¡scara en los mensajes",
     },
     Steps: {
       Select: "Seleccionar",
@@ -119,33 +119,33 @@ const es: PartialLocaleType = {
     },
     Image: {
       Toast: "Generando captura de pantalla",
-      Modal: "Mantén presionado o haz clic derecho para guardar la imagen",
+      Modal: "MantÃ©n presionado o haz clic derecho para guardar la imagen",
     },
   },
   Select: {
     Search: "Buscar mensajes",
     All: "Seleccionar todo",
-    Latest: "Últimos mensajes",
-    Clear: "Limpiar selección",
+    Latest: "Ãšltimos mensajes",
+    Clear: "Limpiar selecciÃ³n",
   },
   Memory: {
-    Title: "Resumen histórico",
+    Title: "Resumen histÃ³rico",
     EmptyContent:
-      "El contenido de la conversación es demasiado corto para resumir",
-    Send: "Comprimir automáticamente el historial de chat y enviarlo como contexto",
+      "El contenido de la conversaciÃ³n es demasiado corto para resumir",
+    Send: "Comprimir automÃ¡ticamente el historial de chat y enviarlo como contexto",
     Copy: "Copiar resumen",
     Reset: "[no usado]",
-    ResetConfirm: "¿Confirmar para borrar el resumen histórico?",
+    ResetConfirm: "Â¿Confirmar para borrar el resumen histÃ³rico?",
   },
   Home: {
-    NewChat: "Nueva conversación",
-    DeleteChat: "¿Confirmar la eliminación de la conversación seleccionada?",
-    DeleteToast: "Conversación eliminada",
+    NewChat: "Nueva conversaciÃ³n",
+    DeleteChat: "Â¿Confirmar la eliminaciÃ³n de la conversaciÃ³n seleccionada?",
+    DeleteToast: "ConversaciÃ³n eliminada",
     Revert: "Deshacer",
   },
   Settings: {
-    Title: "Configuración",
-    SubTitle: "Todas las opciones de configuración",
+    Title: "ConfiguraciÃ³n",
+    SubTitle: "Todas las opciones de configuraciÃ³n",
 
     Danger: {
       Reset: {
@@ -153,47 +153,47 @@ const es: PartialLocaleType = {
         SubTitle:
           "Restablecer todas las configuraciones a los valores predeterminados",
         Action: "Restablecer ahora",
-        Confirm: "¿Confirmar el restablecimiento de todas las configuraciones?",
+        Confirm: "Â¿Confirmar el restablecimiento de todas las configuraciones?",
       },
       Clear: {
         Title: "Eliminar todos los datos",
-        SubTitle: "Eliminar todos los chats y datos de configuración",
+        SubTitle: "Eliminar todos los chats y datos de configuraciÃ³n",
         Action: "Eliminar ahora",
         Confirm:
-          "¿Confirmar la eliminación de todos los chats y datos de configuración?",
+          "Â¿Confirmar la eliminaciÃ³n de todos los chats y datos de configuraciÃ³n?",
       },
     },
     Lang: {
-      Name: "Language", // ATENCIÓN: si deseas agregar una nueva traducción, por favor no traduzcas este valor, déjalo como `Language`
+      Name: "Language", // ATENCIÃ“N: si deseas agregar una nueva traducciÃ³n, por favor no traduzcas este valor, dÃ©jalo como `Language`
       All: "Todos los idiomas",
     },
     Avatar: "Avatar",
     FontSize: {
-      Title: "Tamaño de fuente",
-      SubTitle: "Tamaño de la fuente del contenido del chat",
+      Title: "TamaÃ±o de fuente",
+      SubTitle: "TamaÃ±o de la fuente del contenido del chat",
     },
     FontFamily: {
       Title: "Fuente del Chat",
       SubTitle:
-        "Fuente del contenido del chat, dejar vacío para aplicar la fuente predeterminada global",
+        "Fuente del contenido del chat, dejar vacÃ­o para aplicar la fuente predeterminada global",
       Placeholder: "Nombre de la Fuente",
     },
     InjectSystemPrompts: {
       Title: "Inyectar mensajes del sistema",
       SubTitle:
-        "Forzar la adición de un mensaje del sistema simulado de ChatGPT al principio de cada lista de mensajes",
+        "Forzar la adiciÃ³n de un mensaje del sistema simulado de ChatGPT al principio de cada lista de mensajes",
     },
     InputTemplate: {
       Title: "Preprocesamiento de entrada del usuario",
-      SubTitle: "El último mensaje del usuario se rellenará en esta plantilla",
+      SubTitle: "El Ãºltimo mensaje del usuario se rellenarÃ¡ en esta plantilla",
     },
 
     Update: {
-      Version: (x: string) => `Versión actual: ${x}`,
-      IsLatest: "Ya estás en la última versión",
+      Version: (x: string) => `VersiÃ³n actual: ${x}`,
+      IsLatest: "Ya estÃ¡s en la Ãºltima versiÃ³n",
       CheckUpdate: "Buscar actualizaciones",
       IsChecking: "Buscando actualizaciones...",
-      FoundUpdate: (x: string) => `Nueva versión encontrada: ${x}`,
+      FoundUpdate: (x: string) => `Nueva versiÃ³n encontrada: ${x}`,
       GoToUpdate: "Ir a actualizar",
     },
     SendKey: "Tecla de enviar",
@@ -205,23 +205,23 @@ const es: PartialLocaleType = {
         "Previsualiza el contenido Markdown en un globo de vista previa",
     },
     AutoGenerateTitle: {
-      Title: "Generar título automáticamente",
-      SubTitle: "Generar un título adecuado basado en el contenido del chat",
+      Title: "Generar tÃ­tulo automÃ¡ticamente",
+      SubTitle: "Generar un tÃ­tulo adecuado basado en el contenido del chat",
     },
     Sync: {
       CloudState: "Datos en la nube",
-      NotSyncYet: "Aún no se ha sincronizado",
-      Success: "Sincronización exitosa",
-      Fail: "Sincronización fallida",
+      NotSyncYet: "AÃºn no se ha sincronizado",
+      Success: "SincronizaciÃ³n exitosa",
+      Fail: "SincronizaciÃ³n fallida",
 
       Config: {
         Modal: {
-          Title: "Configurar sincronización en la nube",
+          Title: "Configurar sincronizaciÃ³n en la nube",
           Check: "Verificar disponibilidad",
         },
         SyncType: {
-          Title: "Tipo de sincronización",
-          SubTitle: "Selecciona el servidor de sincronización preferido",
+          Title: "Tipo de sincronizaciÃ³n",
+          SubTitle: "Selecciona el servidor de sincronizaciÃ³n preferido",
         },
         Proxy: {
           Title: "Habilitar proxy",
@@ -229,14 +229,14 @@ const es: PartialLocaleType = {
             "Debes habilitar el proxy para sincronizar en el navegador y evitar restricciones de CORS",
         },
         ProxyUrl: {
-          Title: "Dirección del proxy",
+          Title: "DirecciÃ³n del proxy",
           SubTitle: "Solo para el proxy CORS incluido en este proyecto",
         },
 
         WebDav: {
-          Endpoint: "Dirección WebDAV",
+          Endpoint: "DirecciÃ³n WebDAV",
           UserName: "Nombre de usuario",
-          Password: "Contraseña",
+          Password: "ContraseÃ±a",
         },
 
         UpStash: {
@@ -248,20 +248,20 @@ const es: PartialLocaleType = {
 
       LocalState: "Datos locales",
       Overview: (overview: any) => {
-        return `${overview.chat} conversaciones, ${overview.message} mensajes, ${overview.prompt} prompts, ${overview.mask} máscaras`;
+        return `${overview.chat} conversaciones, ${overview.message} mensajes, ${overview.prompt} prompts, ${overview.mask} mÃ¡scaras`;
       },
-      ImportFailed: "Importación fallida",
+      ImportFailed: "ImportaciÃ³n fallida",
     },
     Mask: {
       Splash: {
-        Title: "Pantalla de inicio de máscara",
+        Title: "Pantalla de inicio de mÃ¡scara",
         SubTitle:
-          "Mostrar la pantalla de inicio de la máscara al iniciar un nuevo chat",
+          "Mostrar la pantalla de inicio de la mÃ¡scara al iniciar un nuevo chat",
       },
       Builtin: {
-        Title: "Ocultar máscaras integradas",
+        Title: "Ocultar mÃ¡scaras integradas",
         SubTitle:
-          "Ocultar las máscaras integradas en todas las listas de máscaras",
+          "Ocultar las mÃ¡scaras integradas en todas las listas de mÃ¡scaras",
       },
     },
     Prompt: {
@@ -284,13 +284,13 @@ const es: PartialLocaleType = {
       },
     },
     HistoryCount: {
-      Title: "Número de mensajes históricos adjuntos",
-      SubTitle: "Número de mensajes históricos enviados con cada solicitud",
+      Title: "NÃºmero de mensajes histÃ³ricos adjuntos",
+      SubTitle: "NÃºmero de mensajes histÃ³ricos enviados con cada solicitud",
     },
     CompressThreshold: {
-      Title: "Umbral de compresión de mensajes históricos",
+      Title: "Umbral de compresiÃ³n de mensajes histÃ³ricos",
       SubTitle:
-        "Cuando los mensajes históricos no comprimidos superan este valor, se realizará la compresión",
+        "Cuando los mensajes histÃ³ricos no comprimidos superan este valor, se realizarÃ¡ la compresiÃ³n",
     },
 
     Usage: {
@@ -298,29 +298,29 @@ const es: PartialLocaleType = {
       SubTitle(used: any, total: any) {
         return `Saldo usado este mes: $${used}, total suscrito: $${total}`;
       },
-      IsChecking: "Verificando…",
+      IsChecking: "Verificandoâ€¦",
       Check: "Revisar de nuevo",
       NoAccess:
-        "Introduce la clave API o la contraseña de acceso para ver el saldo",
+        "Introduce la clave API o la contraseÃ±a de acceso para ver el saldo",
     },
 
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
+        Title: "Use HeyChat AI",
         Label: "(The most cost-effective solution)",
         SubTitle:
-          "Officially maintained by NextChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
+          "Officially maintained by HeyChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
         ChatNow: "Chat Now",
       },
 
       AccessCode: {
-        Title: "Contraseña de acceso",
+        Title: "ContraseÃ±a de acceso",
         SubTitle: "El administrador ha habilitado el acceso encriptado",
-        Placeholder: "Introduce la contraseña de acceso",
+        Placeholder: "Introduce la contraseÃ±a de acceso",
       },
       CustomEndpoint: {
         Title: "Interfaz personalizada",
-        SubTitle: "¿Usar servicios personalizados de Azure u OpenAI?",
+        SubTitle: "Â¿Usar servicios personalizados de Azure u OpenAI?",
       },
       Provider: {
         Title: "Proveedor de modelos",
@@ -330,67 +330,67 @@ const es: PartialLocaleType = {
         ApiKey: {
           Title: "Clave API",
           SubTitle:
-            "Usa una clave API de OpenAI personalizada para omitir la restricción de acceso por contraseña",
+            "Usa una clave API de OpenAI personalizada para omitir la restricciÃ³n de acceso por contraseÃ±a",
           Placeholder: "Clave API de OpenAI",
         },
 
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle:
-            "Debe incluir http(s):// además de la dirección predeterminada",
+            "Debe incluir http(s):// ademÃ¡s de la direcciÃ³n predeterminada",
         },
       },
       Azure: {
         ApiKey: {
           Title: "Clave de interfaz",
           SubTitle:
-            "Usa una clave de Azure personalizada para omitir la restricción de acceso por contraseña",
+            "Usa una clave de Azure personalizada para omitir la restricciÃ³n de acceso por contraseÃ±a",
           Placeholder: "Clave API de Azure",
         },
 
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
 
         ApiVerion: {
-          Title: "Versión de la interfaz (versión de api de azure)",
-          SubTitle: "Selecciona una versión específica",
+          Title: "VersiÃ³n de la interfaz (versiÃ³n de api de azure)",
+          SubTitle: "Selecciona una versiÃ³n especÃ­fica",
         },
       },
       Anthropic: {
         ApiKey: {
           Title: "Clave de interfaz",
           SubTitle:
-            "Usa una clave de Anthropic personalizada para omitir la restricción de acceso por contraseña",
+            "Usa una clave de Anthropic personalizada para omitir la restricciÃ³n de acceso por contraseÃ±a",
           Placeholder: "Clave API de Anthropic",
         },
 
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
 
         ApiVerion: {
-          Title: "Versión de la interfaz (versión de claude api)",
-          SubTitle: "Selecciona una versión específica de la API",
+          Title: "VersiÃ³n de la interfaz (versiÃ³n de claude api)",
+          SubTitle: "Selecciona una versiÃ³n especÃ­fica de la API",
         },
       },
       Google: {
         ApiKey: {
           Title: "Clave API",
-          SubTitle: "Obtén tu clave API de Google AI",
+          SubTitle: "ObtÃ©n tu clave API de Google AI",
           Placeholder: "Introduce tu clave API de Google AI Studio",
         },
 
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
 
         ApiVersion: {
-          Title: "Versión de la API (solo para gemini-pro)",
-          SubTitle: "Selecciona una versión específica de la API",
+          Title: "VersiÃ³n de la API (solo para gemini-pro)",
+          SubTitle: "Selecciona una versiÃ³n especÃ­fica de la API",
         },
         GoogleSafetySettings: {
           Title: "Nivel de filtrado de seguridad de Google",
@@ -409,9 +409,9 @@ const es: PartialLocaleType = {
           Placeholder: "Clave secreta de Baidu",
         },
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle:
-            "No admite personalización, dirígete a .env para configurarlo",
+            "No admite personalizaciÃ³n, dirÃ­gete a .env para configurarlo",
         },
       },
       ByteDance: {
@@ -421,7 +421,7 @@ const es: PartialLocaleType = {
           Placeholder: "Clave API de ByteDance",
         },
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
       },
@@ -432,7 +432,7 @@ const es: PartialLocaleType = {
           Placeholder: "Clave API de Alibaba Cloud",
         },
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
       },
@@ -443,7 +443,7 @@ const es: PartialLocaleType = {
           Placeholder: "Clave API de 302.AI",
         },
         Endpoint: {
-          Title: "Dirección del endpoint",
+          Title: "DirecciÃ³n del endpoint",
           SubTitle: "Ejemplo:",
         },
       },
@@ -456,43 +456,43 @@ const es: PartialLocaleType = {
 
     Model: "Modelo (model)",
     CompressModel: {
-      Title: "Modelo de compresión",
+      Title: "Modelo de compresiÃ³n",
       SubTitle: "Modelo utilizado para comprimir el historial",
     },
     Temperature: {
       Title: "Aleatoriedad (temperature)",
-      SubTitle: "Cuanto mayor sea el valor, más aleatorio será el resultado",
+      SubTitle: "Cuanto mayor sea el valor, mÃ¡s aleatorio serÃ¡ el resultado",
     },
     TopP: {
-      Title: "Muestreo por núcleo (top_p)",
+      Title: "Muestreo por nÃºcleo (top_p)",
       SubTitle: "Similar a la aleatoriedad, pero no cambies ambos a la vez",
     },
     MaxTokens: {
-      Title: "Límite de tokens por respuesta (max_tokens)",
-      SubTitle: "Número máximo de tokens utilizados en una sola interacción",
+      Title: "LÃ­mite de tokens por respuesta (max_tokens)",
+      SubTitle: "NÃºmero mÃ¡ximo de tokens utilizados en una sola interacciÃ³n",
     },
     PresencePenalty: {
       Title: "Novedad de temas (presence_penalty)",
       SubTitle:
-        "Cuanto mayor sea el valor, más probable es que se amplíen a nuevos temas",
+        "Cuanto mayor sea el valor, mÃ¡s probable es que se amplÃ­en a nuevos temas",
     },
     FrequencyPenalty: {
-      Title: "Penalización de frecuencia (frequency_penalty)",
+      Title: "PenalizaciÃ³n de frecuencia (frequency_penalty)",
       SubTitle:
-        "Cuanto mayor sea el valor, más probable es que se reduzcan las palabras repetidas",
+        "Cuanto mayor sea el valor, mÃ¡s probable es que se reduzcan las palabras repetidas",
     },
   },
   Store: {
     DefaultTopic: "Nuevo chat",
-    BotHello: "¿En qué puedo ayudarte?",
-    Error: "Hubo un error, inténtalo de nuevo más tarde",
+    BotHello: "Â¿En quÃ© puedo ayudarte?",
+    Error: "Hubo un error, intÃ©ntalo de nuevo mÃ¡s tarde",
     Prompt: {
       History: (content: string) =>
-        "Este es un resumen del chat histórico como referencia: " + content,
+        "Este es un resumen del chat histÃ³rico como referencia: " + content,
       Topic:
-        "Devuelve un tema breve de esta frase en cuatro a cinco palabras, sin explicación, sin puntuación, sin muletillas, sin texto adicional, sin negritas. Si no hay tema, devuelve 'charlas casuales'",
+        "Devuelve un tema breve de esta frase en cuatro a cinco palabras, sin explicaciÃ³n, sin puntuaciÃ³n, sin muletillas, sin texto adicional, sin negritas. Si no hay tema, devuelve 'charlas casuales'",
       Summarize:
-        "Resume brevemente el contenido de la conversación para usar como un prompt de contexto, manteniéndolo dentro de 200 palabras",
+        "Resume brevemente el contenido de la conversaciÃ³n para usar como un prompt de contexto, manteniÃ©ndolo dentro de 200 palabras",
     },
   },
   Copy: {
@@ -505,8 +505,8 @@ const es: PartialLocaleType = {
   },
   Context: {
     Toast: (x: any) => `Contiene ${x} prompts predefinidos`,
-    Edit: "Configuración del chat actual",
-    Add: "Agregar una conversación",
+    Edit: "ConfiguraciÃ³n del chat actual",
+    Add: "Agregar una conversaciÃ³n",
     Clear: "Contexto borrado",
     Revert: "Restaurar contexto",
   },
@@ -520,7 +520,7 @@ const es: PartialLocaleType = {
     Name: "Buscar",
     Page: {
       Title: "Buscar en el historial de chat",
-      Search: "Ingrese la palabra clave de búsqueda",
+      Search: "Ingrese la palabra clave de bÃºsqueda",
       NoResult: "No se encontraron resultados",
       NoData: "Sin datos",
       Loading: "Cargando",
@@ -532,11 +532,11 @@ const es: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Máscara",
+    Name: "MÃ¡scara",
     Page: {
-      Title: "Máscaras de rol predefinidas",
+      Title: "MÃ¡scaras de rol predefinidas",
       SubTitle: (count: number) => `${count} definiciones de rol predefinidas`,
-      Search: "Buscar máscara de rol",
+      Search: "Buscar mÃ¡scara de rol",
       Create: "Crear nuevo",
     },
     Item: {
@@ -545,11 +545,11 @@ const es: PartialLocaleType = {
       View: "Ver",
       Edit: "Editar",
       Delete: "Eliminar",
-      DeleteConfirm: "¿Confirmar eliminación?",
+      DeleteConfirm: "Â¿Confirmar eliminaciÃ³n?",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Editar máscara predefinida ${readonly ? "（solo lectura）" : ""}`,
+        `Editar mÃ¡scara predefinida ${readonly ? "ï¼ˆsolo lecturaï¼‰" : ""}`,
       Download: "Descargar predefinido",
       Clone: "Clonar predefinido",
     },
@@ -557,20 +557,20 @@ const es: PartialLocaleType = {
       Avatar: "Avatar del rol",
       Name: "Nombre del rol",
       Sync: {
-        Title: "Usar configuración global",
+        Title: "Usar configuraciÃ³n global",
         SubTitle:
-          "¿Usar la configuración global del modelo para la conversación actual?",
+          "Â¿Usar la configuraciÃ³n global del modelo para la conversaciÃ³n actual?",
         Confirm:
-          "La configuración personalizada de la conversación actual se sobrescribirá automáticamente, ¿confirmar habilitar la configuración global?",
+          "La configuraciÃ³n personalizada de la conversaciÃ³n actual se sobrescribirÃ¡ automÃ¡ticamente, Â¿confirmar habilitar la configuraciÃ³n global?",
       },
       HideContext: {
         Title: "Ocultar conversaciones predefinidas",
         SubTitle:
-          "Las conversaciones predefinidas ocultas no aparecerán en la interfaz de chat",
+          "Las conversaciones predefinidas ocultas no aparecerÃ¡n en la interfaz de chat",
       },
       Share: {
-        Title: "Compartir esta máscara",
-        SubTitle: "Generar un enlace directo a esta máscara",
+        Title: "Compartir esta mÃ¡scara",
+        SubTitle: "Generar un enlace directo a esta mÃ¡scara",
         Action: "Copiar enlace",
       },
     },
@@ -578,18 +578,18 @@ const es: PartialLocaleType = {
   NewChat: {
     Return: "Regresar",
     Skip: "Comenzar ahora",
-    NotShow: "No mostrar más",
+    NotShow: "No mostrar mÃ¡s",
     ConfirmNoShow:
-      "¿Confirmar desactivación? Puedes reactivar en la configuración en cualquier momento.",
-    Title: "Selecciona una máscara",
-    SubTitle: "Comienza ahora y colisiona con la mente detrás de la máscara",
+      "Â¿Confirmar desactivaciÃ³n? Puedes reactivar en la configuraciÃ³n en cualquier momento.",
+    Title: "Selecciona una mÃ¡scara",
+    SubTitle: "Comienza ahora y colisiona con la mente detrÃ¡s de la mÃ¡scara",
     More: "Ver todo",
   },
 
   URLCommand: {
-    Code: "Detectado un código de acceso en el enlace, ¿deseas autocompletarlo?",
+    Code: "Detectado un cÃ³digo de acceso en el enlace, Â¿deseas autocompletarlo?",
     Settings:
-      "Detectada configuración predefinida en el enlace, ¿deseas autocompletarla?",
+      "Detectada configuraciÃ³n predefinida en el enlace, Â¿deseas autocompletarla?",
   },
 
   UI: {
@@ -605,7 +605,7 @@ const es: PartialLocaleType = {
   },
   Exporter: {
     Description: {
-      Title: "Solo se mostrarán los mensajes después de borrar el contexto",
+      Title: "Solo se mostrarÃ¡n los mensajes despuÃ©s de borrar el contexto",
     },
     Model: "Modelo",
     Messages: "Mensajes",
@@ -615,3 +615,4 @@ const es: PartialLocaleType = {
 };
 
 export default es;
+

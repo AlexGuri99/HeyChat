@@ -1,4 +1,4 @@
-import { getClientConfig } from "../config/client";
+﻿import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import { LocaleType } from "./index";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
@@ -9,13 +9,13 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Oops, there's an issue. No worries:
-     \\ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \\ 2️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️`
-      : `😆 Oops, there's an issue. Let's fix it:
-     \ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \ 2️⃣ Using a private setup? [Click here](/#/auth) to enter your key 🔑
-     \ 3️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️
+      ? `ðŸ˜† Oops, there's an issue. No worries:
+     \\ 1ï¸âƒ£ New here? [Click to start chatting now ðŸš€](${SAAS_CHAT_UTM_URL})
+     \\ 2ï¸âƒ£ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings âš™ï¸`
+      : `ðŸ˜† Oops, there's an issue. Let's fix it:
+     \ 1ï¸âƒ£ New here? [Click to start chatting now ðŸš€](${SAAS_CHAT_UTM_URL})
+     \ 2ï¸âƒ£ Using a private setup? [Click here](/#/auth) to enter your key ðŸ”‘
+     \ 3ï¸âƒ£ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings âš™ï¸
      `,
   },
   Auth: {
@@ -28,7 +28,7 @@ const en: LocaleType = {
     Later: "Later",
     SaasTips: "Too Complex, Use Immediately Now",
     TopTips:
-      "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
+      "ðŸ¥³ HeyChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -84,7 +84,7 @@ const en: LocaleType = {
       UploadImage: "Upload Images",
     },
     Rename: "Rename Chat",
-    Typing: "Typing…",
+    Typing: "Typingâ€¦",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} to send`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -262,7 +262,7 @@ const en: LocaleType = {
 
       LocalState: "Local Data",
       Overview: (overview: any) => {
-        return `${overview.chat} chats，${overview.message} messages，${overview.prompt} prompts，${overview.mask} masks`;
+        return `${overview.chat} chatsï¼Œ${overview.message} messagesï¼Œ${overview.prompt} promptsï¼Œ${overview.mask} masks`;
       },
       ImportFailed: "Failed to import from file",
     },
@@ -315,10 +315,10 @@ const en: LocaleType = {
     },
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
+        Title: "Use HeyChat AI",
         Label: " (Most Cost-Effective Option)",
         SubTitle:
-          "Maintained by NextChat, zero setup needed, unlock OpenAI o1, GPT-4o," +
+          "Maintained by HeyChat, zero setup needed, unlock OpenAI o1, GPT-4o," +
           " Claude-3.5 and more",
         ChatNow: "Start Now",
       },
@@ -788,7 +788,7 @@ const en: LocaleType = {
     SubTitle: "Chat with the Soul behind the Mask",
     More: "Find More",
     NotShow: "Never Show Again",
-    ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
+    ConfirmNoShow: "Confirm to disableï¼ŸYou can enable it in settings later.",
   },
 
   UI: {
@@ -873,3 +873,4 @@ const en: LocaleType = {
 };
 
 export default en;
+

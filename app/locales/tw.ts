@@ -1,437 +1,437 @@
-import { getClientConfig } from "../config/client";
+﻿import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 const isApp = !!getClientConfig()?.isApp;
 
 const tw = {
-  WIP: "此功能仍在開發中……",
+  WIP: "æ­¤åŠŸèƒ½ä»åœ¨é–‹ç™¼ä¸­â€¦â€¦",
   Error: {
     Unauthorized: isApp
-      ? `😆 對話遇到了一些問題，不用慌:
-    \\ 1️⃣ 想要無須設定開箱即用，[點選這裡立刻開啟對話 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ 如果你想消耗自己的 OpenAI 資源，點選[這裡](/#/settings)修改設定 ⚙️`
-      : `😆 對話遇到了一些問題，不用慌:
-    \ 1️⃣ 想要無須設定開箱即用，[點選這裡立刻開啟對話 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ 如果你正在使用私有部署版本，點選[這裡](/#/auth)輸入存取金鑰 🔑
-    \ 3️⃣ 如果你想消耗自己的 OpenAI 資源，點選[這裡](/#/settings)修改設定 ⚙️
+      ? `ðŸ˜† å°è©±é‡åˆ°äº†ä¸€äº›å•é¡Œï¼Œä¸ç”¨æ…Œ:
+    \\ 1ï¸âƒ£ æƒ³è¦ç„¡é ˆè¨­å®šé–‹ç®±å³ç”¨ï¼Œ[é»žé¸é€™è£¡ç«‹åˆ»é–‹å•Ÿå°è©± ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ å¦‚æžœä½ æƒ³æ¶ˆè€—è‡ªå·±çš„ OpenAI è³‡æºï¼Œé»žé¸[é€™è£¡](/#/settings)ä¿®æ”¹è¨­å®š âš™ï¸`
+      : `ðŸ˜† å°è©±é‡åˆ°äº†ä¸€äº›å•é¡Œï¼Œä¸ç”¨æ…Œ:
+    \ 1ï¸âƒ£ æƒ³è¦ç„¡é ˆè¨­å®šé–‹ç®±å³ç”¨ï¼Œ[é»žé¸é€™è£¡ç«‹åˆ»é–‹å•Ÿå°è©± ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ å¦‚æžœä½ æ­£åœ¨ä½¿ç”¨ç§æœ‰éƒ¨ç½²ç‰ˆæœ¬ï¼Œé»žé¸[é€™è£¡](/#/auth)è¼¸å…¥å­˜å–é‡‘é‘° ðŸ”‘
+    \ 3ï¸âƒ£ å¦‚æžœä½ æƒ³æ¶ˆè€—è‡ªå·±çš„ OpenAI è³‡æºï¼Œé»žé¸[é€™è£¡](/#/settings)ä¿®æ”¹è¨­å®š âš™ï¸
  `,
   },
 
   Auth: {
-    Title: "需要密碼",
-    Tips: "管理員開啟了密碼驗證，請在下方填入存取密碼",
-    SubTips: "或者輸入你的 OpenAI 或 Google API 金鑰",
-    Input: "在此處填寫存取密碼",
-    Confirm: "確認",
-    Later: "稍候再說",
-    Return: "返回",
-    SaasTips: "設定太麻煩，想要立即使用",
+    Title: "éœ€è¦å¯†ç¢¼",
+    Tips: "ç®¡ç†å“¡é–‹å•Ÿäº†å¯†ç¢¼é©—è­‰ï¼Œè«‹åœ¨ä¸‹æ–¹å¡«å…¥å­˜å–å¯†ç¢¼",
+    SubTips: "æˆ–è€…è¼¸å…¥ä½ çš„ OpenAI æˆ– Google API é‡‘é‘°",
+    Input: "åœ¨æ­¤è™•å¡«å¯«å­˜å–å¯†ç¢¼",
+    Confirm: "ç¢ºèª",
+    Later: "ç¨å€™å†èªª",
+    Return: "è¿”å›ž",
+    SaasTips: "è¨­å®šå¤ªéº»ç…©ï¼Œæƒ³è¦ç«‹å³ä½¿ç”¨",
     TopTips:
-      "🥳 NextChat AI 首發優惠，立刻解鎖 OpenAI o1, GPT-4o, Claude-3.5 等最新的大型語言模型",
+      "ðŸ¥³ HeyChat AI é¦–ç™¼å„ªæƒ ï¼Œç«‹åˆ»è§£éŽ– OpenAI o1, GPT-4o, Claude-3.5 ç­‰æœ€æ–°çš„å¤§åž‹èªžè¨€æ¨¡åž‹",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} 則對話`,
+    ChatItemCount: (count: number) => `${count} å‰‡å°è©±`,
   },
   Chat: {
-    SubTitle: (count: number) => `您已經與 ChatGPT 進行了 ${count} 則對話`,
+    SubTitle: (count: number) => `æ‚¨å·²ç¶“èˆ‡ ChatGPT é€²è¡Œäº† ${count} å‰‡å°è©±`,
     EditMessage: {
-      Title: "編輯訊息記錄",
+      Title: "ç·¨è¼¯è¨Šæ¯è¨˜éŒ„",
       Topic: {
-        Title: "聊天主題",
-        SubTitle: "更改目前聊天主題",
+        Title: "èŠå¤©ä¸»é¡Œ",
+        SubTitle: "æ›´æ”¹ç›®å‰èŠå¤©ä¸»é¡Œ",
       },
     },
     Actions: {
-      ChatList: "檢視訊息列表",
-      CompressedHistory: "檢視壓縮後的歷史 Prompt",
-      Export: "匯出聊天紀錄",
-      Copy: "複製",
-      Stop: "停止",
-      Retry: "重試",
-      Pin: "固定",
-      PinToastContent: "已將 1 條對話固定至預設提示詞",
-      PinToastAction: "檢視",
-      Delete: "刪除",
-      Edit: "編輯",
-      RefreshTitle: "重新整理標題",
-      RefreshToast: "已傳送重新整理標題請求",
+      ChatList: "æª¢è¦–è¨Šæ¯åˆ—è¡¨",
+      CompressedHistory: "æª¢è¦–å£“ç¸®å¾Œçš„æ­·å² Prompt",
+      Export: "åŒ¯å‡ºèŠå¤©ç´€éŒ„",
+      Copy: "è¤‡è£½",
+      Stop: "åœæ­¢",
+      Retry: "é‡è©¦",
+      Pin: "å›ºå®š",
+      PinToastContent: "å·²å°‡ 1 æ¢å°è©±å›ºå®šè‡³é è¨­æç¤ºè©ž",
+      PinToastAction: "æª¢è¦–",
+      Delete: "åˆªé™¤",
+      Edit: "ç·¨è¼¯",
+      RefreshTitle: "é‡æ–°æ•´ç†æ¨™é¡Œ",
+      RefreshToast: "å·²å‚³é€é‡æ–°æ•´ç†æ¨™é¡Œè«‹æ±‚",
     },
     Commands: {
-      new: "新建聊天",
-      newm: "從角色範本新建聊天",
-      next: "下一個聊天",
-      prev: "上一個聊天",
-      clear: "清除上下文",
-      del: "刪除聊天",
+      new: "æ–°å»ºèŠå¤©",
+      newm: "å¾žè§’è‰²ç¯„æœ¬æ–°å»ºèŠå¤©",
+      next: "ä¸‹ä¸€å€‹èŠå¤©",
+      prev: "ä¸Šä¸€å€‹èŠå¤©",
+      clear: "æ¸…é™¤ä¸Šä¸‹æ–‡",
+      del: "åˆªé™¤èŠå¤©",
     },
     InputActions: {
-      Stop: "停止回應",
-      ToBottom: "移至最新",
+      Stop: "åœæ­¢å›žæ‡‰",
+      ToBottom: "ç§»è‡³æœ€æ–°",
       Theme: {
-        auto: "自動主題",
-        light: "亮色模式",
-        dark: "深色模式",
+        auto: "è‡ªå‹•ä¸»é¡Œ",
+        light: "äº®è‰²æ¨¡å¼",
+        dark: "æ·±è‰²æ¨¡å¼",
       },
-      Prompt: "快捷指令",
-      Masks: "所有角色範本",
-      Clear: "清除聊天",
-      Settings: "對話設定",
-      UploadImage: "上傳圖片",
+      Prompt: "å¿«æ·æŒ‡ä»¤",
+      Masks: "æ‰€æœ‰è§’è‰²ç¯„æœ¬",
+      Clear: "æ¸…é™¤èŠå¤©",
+      Settings: "å°è©±è¨­å®š",
+      UploadImage: "ä¸Šå‚³åœ–ç‰‡",
     },
-    Rename: "重新命名對話",
-    Typing: "正在輸入…",
+    Rename: "é‡æ–°å‘½åå°è©±",
+    Typing: "æ­£åœ¨è¼¸å…¥â€¦",
     Input: (submitKey: string) => {
-      var inputHints = `輸入訊息後，按下 ${submitKey} 鍵即可傳送`;
+      var inputHints = `è¼¸å…¥è¨Šæ¯å¾Œï¼ŒæŒ‰ä¸‹ ${submitKey} éµå³å¯å‚³é€`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter 鍵換行";
+        inputHints += "ï¼ŒShift + Enter éµæ›è¡Œ";
       }
       return inputHints;
     },
-    Send: "傳送",
+    Send: "å‚³é€",
     Config: {
-      Reset: "重設",
-      SaveAs: "另存新檔",
+      Reset: "é‡è¨­",
+      SaveAs: "å¦å­˜æ–°æª”",
     },
-    IsContext: "預設提示詞",
+    IsContext: "é è¨­æç¤ºè©ž",
     ShortcutKey: {
-      Title: "鍵盤快捷方式",
-      newChat: "開啟新聊天",
-      focusInput: "聚焦輸入框",
-      copyLastMessage: "複製最後一個回覆",
-      copyLastCode: "複製最後一個程式碼區塊",
-      showShortcutKey: "顯示快捷方式",
-      clearContext: "清除上下文",
+      Title: "éµç›¤å¿«æ·æ–¹å¼",
+      newChat: "é–‹å•Ÿæ–°èŠå¤©",
+      focusInput: "èšç„¦è¼¸å…¥æ¡†",
+      copyLastMessage: "è¤‡è£½æœ€å¾Œä¸€å€‹å›žè¦†",
+      copyLastCode: "è¤‡è£½æœ€å¾Œä¸€å€‹ç¨‹å¼ç¢¼å€å¡Š",
+      showShortcutKey: "é¡¯ç¤ºå¿«æ·æ–¹å¼",
+      clearContext: "æ¸…é™¤ä¸Šä¸‹æ–‡",
     },
   },
   Export: {
-    Title: "將聊天記錄匯出為 Markdown",
-    Copy: "複製全部",
-    Download: "下載檔案",
-    Share: "分享到 ShareGPT",
-    MessageFromYou: "來自您的訊息",
-    MessageFromChatGPT: "來自 ChatGPT 的訊息",
+    Title: "å°‡èŠå¤©è¨˜éŒ„åŒ¯å‡ºç‚º Markdown",
+    Copy: "è¤‡è£½å…¨éƒ¨",
+    Download: "ä¸‹è¼‰æª”æ¡ˆ",
+    Share: "åˆ†äº«åˆ° ShareGPT",
+    MessageFromYou: "ä¾†è‡ªæ‚¨çš„è¨Šæ¯",
+    MessageFromChatGPT: "ä¾†è‡ª ChatGPT çš„è¨Šæ¯",
     Format: {
-      Title: "匯出格式",
-      SubTitle: "可以匯出 Markdown 文字檔或者 PNG 圖片",
+      Title: "åŒ¯å‡ºæ ¼å¼",
+      SubTitle: "å¯ä»¥åŒ¯å‡º Markdown æ–‡å­—æª”æˆ–è€… PNG åœ–ç‰‡",
     },
     IncludeContext: {
-      Title: "包含角色範本上下文",
-      SubTitle: "是否在訊息中顯示角色範本上下文",
+      Title: "åŒ…å«è§’è‰²ç¯„æœ¬ä¸Šä¸‹æ–‡",
+      SubTitle: "æ˜¯å¦åœ¨è¨Šæ¯ä¸­é¡¯ç¤ºè§’è‰²ç¯„æœ¬ä¸Šä¸‹æ–‡",
     },
     Steps: {
-      Select: "選取",
-      Preview: "預覽",
+      Select: "é¸å–",
+      Preview: "é è¦½",
     },
     Image: {
-      Toast: "正在產生截圖",
-      Modal: "長按或按右鍵儲存圖片",
+      Toast: "æ­£åœ¨ç”¢ç”Ÿæˆªåœ–",
+      Modal: "é•·æŒ‰æˆ–æŒ‰å³éµå„²å­˜åœ–ç‰‡",
     },
   },
   Select: {
-    Search: "查詢訊息",
-    All: "選取全部",
-    Latest: "最近幾條",
-    Clear: "清除選取",
+    Search: "æŸ¥è©¢è¨Šæ¯",
+    All: "é¸å–å…¨éƒ¨",
+    Latest: "æœ€è¿‘å¹¾æ¢",
+    Clear: "æ¸…é™¤é¸å–",
   },
   Memory: {
-    Title: "上下文記憶 Prompt",
-    EmptyContent: "尚未記憶",
-    Copy: "複製全部",
-    Send: "傳送記憶",
-    Reset: "重設對話",
-    ResetConfirm: "重設後將清除目前對話記錄以及歷史記憶，確認重設？",
+    Title: "ä¸Šä¸‹æ–‡è¨˜æ†¶ Prompt",
+    EmptyContent: "å°šæœªè¨˜æ†¶",
+    Copy: "è¤‡è£½å…¨éƒ¨",
+    Send: "å‚³é€è¨˜æ†¶",
+    Reset: "é‡è¨­å°è©±",
+    ResetConfirm: "é‡è¨­å¾Œå°‡æ¸…é™¤ç›®å‰å°è©±è¨˜éŒ„ä»¥åŠæ­·å²è¨˜æ†¶ï¼Œç¢ºèªé‡è¨­ï¼Ÿ",
   },
   Home: {
-    NewChat: "開新對話",
-    DeleteChat: "確定要刪除選取的對話嗎？",
-    DeleteToast: "已刪除對話",
-    Revert: "撤銷",
+    NewChat: "é–‹æ–°å°è©±",
+    DeleteChat: "ç¢ºå®šè¦åˆªé™¤é¸å–çš„å°è©±å—Žï¼Ÿ",
+    DeleteToast: "å·²åˆªé™¤å°è©±",
+    Revert: "æ’¤éŠ·",
   },
   Settings: {
-    Title: "設定",
-    SubTitle: "設定選項",
+    Title: "è¨­å®š",
+    SubTitle: "è¨­å®šé¸é …",
 
     Danger: {
       Reset: {
-        Title: "重設所有設定",
-        SubTitle: "重設所有設定項回預設值",
-        Action: "立即重設",
-        Confirm: "確認重設所有設定？",
+        Title: "é‡è¨­æ‰€æœ‰è¨­å®š",
+        SubTitle: "é‡è¨­æ‰€æœ‰è¨­å®šé …å›žé è¨­å€¼",
+        Action: "ç«‹å³é‡è¨­",
+        Confirm: "ç¢ºèªé‡è¨­æ‰€æœ‰è¨­å®šï¼Ÿ",
       },
       Clear: {
-        Title: "清除所有資料",
-        SubTitle: "清除所有聊天、設定資料",
-        Action: "立即清除",
-        Confirm: "確認清除所有聊天、設定資料？",
+        Title: "æ¸…é™¤æ‰€æœ‰è³‡æ–™",
+        SubTitle: "æ¸…é™¤æ‰€æœ‰èŠå¤©ã€è¨­å®šè³‡æ–™",
+        Action: "ç«‹å³æ¸…é™¤",
+        Confirm: "ç¢ºèªæ¸…é™¤æ‰€æœ‰èŠå¤©ã€è¨­å®šè³‡æ–™ï¼Ÿ",
       },
     },
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
-      All: "所有語言",
+      All: "æ‰€æœ‰èªžè¨€",
     },
-    Avatar: "大頭貼",
+    Avatar: "å¤§é ­è²¼",
     FontSize: {
-      Title: "字型大小",
-      SubTitle: "聊天內容的字型大小",
+      Title: "å­—åž‹å¤§å°",
+      SubTitle: "èŠå¤©å…§å®¹çš„å­—åž‹å¤§å°",
     },
     FontFamily: {
-      Title: "聊天字型",
-      SubTitle: "聊天內容的字型，若留空則套用全域預設字型",
-      Placeholder: "字型名稱",
+      Title: "èŠå¤©å­—åž‹",
+      SubTitle: "èŠå¤©å…§å®¹çš„å­—åž‹ï¼Œè‹¥ç•™ç©ºå‰‡å¥—ç”¨å…¨åŸŸé è¨­å­—åž‹",
+      Placeholder: "å­—åž‹åç¨±",
     },
     InjectSystemPrompts: {
-      Title: "匯入系統提示",
-      SubTitle: "強制在每個請求的訊息列表開頭新增一個模擬 ChatGPT 的系統提示",
+      Title: "åŒ¯å…¥ç³»çµ±æç¤º",
+      SubTitle: "å¼·åˆ¶åœ¨æ¯å€‹è«‹æ±‚çš„è¨Šæ¯åˆ—è¡¨é–‹é ­æ–°å¢žä¸€å€‹æ¨¡æ“¬ ChatGPT çš„ç³»çµ±æç¤º",
     },
     InputTemplate: {
-      Title: "使用者輸入預處理",
-      SubTitle: "使用者最新的一則訊息會填充到此範本",
+      Title: "ä½¿ç”¨è€…è¼¸å…¥é è™•ç†",
+      SubTitle: "ä½¿ç”¨è€…æœ€æ–°çš„ä¸€å‰‡è¨Šæ¯æœƒå¡«å……åˆ°æ­¤ç¯„æœ¬",
     },
 
     Update: {
-      Version: (x: string) => `目前版本：${x}`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "檢查更新",
-      IsChecking: "正在檢查更新...",
-      FoundUpdate: (x: string) => `發現新版本：${x}`,
-      GoToUpdate: "前往更新",
+      Version: (x: string) => `ç›®å‰ç‰ˆæœ¬ï¼š${x}`,
+      IsLatest: "å·²æ˜¯æœ€æ–°ç‰ˆæœ¬",
+      CheckUpdate: "æª¢æŸ¥æ›´æ–°",
+      IsChecking: "æ­£åœ¨æª¢æŸ¥æ›´æ–°...",
+      FoundUpdate: (x: string) => `ç™¼ç¾æ–°ç‰ˆæœ¬ï¼š${x}`,
+      GoToUpdate: "å‰å¾€æ›´æ–°",
     },
-    SendKey: "傳送鍵",
-    Theme: "主題",
-    TightBorder: "緊湊邊框",
+    SendKey: "å‚³é€éµ",
+    Theme: "ä¸»é¡Œ",
+    TightBorder: "ç·Šæ¹Šé‚Šæ¡†",
     SendPreviewBubble: {
-      Title: "預覽氣泡",
-      SubTitle: "在預覽氣泡中預覽 Markdown 內容",
+      Title: "é è¦½æ°£æ³¡",
+      SubTitle: "åœ¨é è¦½æ°£æ³¡ä¸­é è¦½ Markdown å…§å®¹",
     },
     AutoGenerateTitle: {
-      Title: "自動產生標題",
-      SubTitle: "根據對話內容產生合適的標題",
+      Title: "è‡ªå‹•ç”¢ç”Ÿæ¨™é¡Œ",
+      SubTitle: "æ ¹æ“šå°è©±å…§å®¹ç”¢ç”Ÿåˆé©çš„æ¨™é¡Œ",
     },
     Sync: {
-      CloudState: "雲端資料",
-      NotSyncYet: "還沒有進行過同步",
-      Success: "同步成功",
-      Fail: "同步失敗",
+      CloudState: "é›²ç«¯è³‡æ–™",
+      NotSyncYet: "é‚„æ²’æœ‰é€²è¡ŒéŽåŒæ­¥",
+      Success: "åŒæ­¥æˆåŠŸ",
+      Fail: "åŒæ­¥å¤±æ•—",
 
       Config: {
         Modal: {
-          Title: "設定雲端同步",
-          Check: "檢查可用性",
+          Title: "è¨­å®šé›²ç«¯åŒæ­¥",
+          Check: "æª¢æŸ¥å¯ç”¨æ€§",
         },
         SyncType: {
-          Title: "同步類型",
-          SubTitle: "選擇偏好的同步伺服器",
+          Title: "åŒæ­¥é¡žåž‹",
+          SubTitle: "é¸æ“‡åå¥½çš„åŒæ­¥ä¼ºæœå™¨",
         },
         Proxy: {
-          Title: "啟用代理伺服器",
-          SubTitle: "在瀏覽器中同步時，啟用代理伺服器以避免跨域限制",
+          Title: "å•Ÿç”¨ä»£ç†ä¼ºæœå™¨",
+          SubTitle: "åœ¨ç€è¦½å™¨ä¸­åŒæ­¥æ™‚ï¼Œå•Ÿç”¨ä»£ç†ä¼ºæœå™¨ä»¥é¿å…è·¨åŸŸé™åˆ¶",
         },
         ProxyUrl: {
-          Title: "代理伺服器位置",
-          SubTitle: "僅適用於本專案內建的跨域代理",
+          Title: "ä»£ç†ä¼ºæœå™¨ä½ç½®",
+          SubTitle: "åƒ…é©ç”¨æ–¼æœ¬å°ˆæ¡ˆå…§å»ºçš„è·¨åŸŸä»£ç†",
         },
 
         WebDav: {
-          Endpoint: "WebDAV 位置",
-          UserName: "使用者名稱",
-          Password: "密碼",
+          Endpoint: "WebDAV ä½ç½®",
+          UserName: "ä½¿ç”¨è€…åç¨±",
+          Password: "å¯†ç¢¼",
         },
 
         UpStash: {
           Endpoint: "UpStash Redis REST Url",
-          UserName: "備份名稱",
+          UserName: "å‚™ä»½åç¨±",
           Password: "UpStash Redis REST Token",
         },
       },
 
-      LocalState: "本機資料",
+      LocalState: "æœ¬æ©Ÿè³‡æ–™",
       Overview: (overview: any) => {
-        return `${overview.chat} 次對話，${overview.message} 則訊息，${overview.prompt} 條提示詞，${overview.mask} 個角色範本`;
+        return `${overview.chat} æ¬¡å°è©±ï¼Œ${overview.message} å‰‡è¨Šæ¯ï¼Œ${overview.prompt} æ¢æç¤ºè©žï¼Œ${overview.mask} å€‹è§’è‰²ç¯„æœ¬`;
       },
-      ImportFailed: "匯入失敗",
+      ImportFailed: "åŒ¯å…¥å¤±æ•—",
     },
     Mask: {
       Splash: {
-        Title: "角色範本啟動頁面",
-        SubTitle: "新增聊天時，呈現角色範本啟動頁面",
+        Title: "è§’è‰²ç¯„æœ¬å•Ÿå‹•é é¢",
+        SubTitle: "æ–°å¢žèŠå¤©æ™‚ï¼Œå‘ˆç¾è§’è‰²ç¯„æœ¬å•Ÿå‹•é é¢",
       },
       Builtin: {
-        Title: "隱藏內建角色範本",
-        SubTitle: "在所有角色範本列表中隱藏內建角色範本",
+        Title: "éš±è—å…§å»ºè§’è‰²ç¯„æœ¬",
+        SubTitle: "åœ¨æ‰€æœ‰è§’è‰²ç¯„æœ¬åˆ—è¡¨ä¸­éš±è—å…§å»ºè§’è‰²ç¯„æœ¬",
       },
     },
     Prompt: {
       Disable: {
-        Title: "停用提示詞自動補齊",
-        SubTitle: "在輸入框開頭輸入 / 即可觸發自動補齊",
+        Title: "åœç”¨æç¤ºè©žè‡ªå‹•è£œé½Š",
+        SubTitle: "åœ¨è¼¸å…¥æ¡†é–‹é ­è¼¸å…¥ / å³å¯è§¸ç™¼è‡ªå‹•è£œé½Š",
       },
-      List: "自訂提示詞列表",
+      List: "è‡ªè¨‚æç¤ºè©žåˆ—è¡¨",
       ListCount: (builtin: number, custom: number) =>
-        `內建 ${builtin} 條，使用者自訂 ${custom} 條`,
-      Edit: "編輯",
+        `å…§å»º ${builtin} æ¢ï¼Œä½¿ç”¨è€…è‡ªè¨‚ ${custom} æ¢`,
+      Edit: "ç·¨è¼¯",
       Modal: {
-        Title: "提示詞列表",
-        Add: "新增一則",
-        Search: "搜尋提示詞",
+        Title: "æç¤ºè©žåˆ—è¡¨",
+        Add: "æ–°å¢žä¸€å‰‡",
+        Search: "æœå°‹æç¤ºè©ž",
       },
       EditModal: {
-        Title: "編輯提示詞",
+        Title: "ç·¨è¼¯æç¤ºè©ž",
       },
     },
     HistoryCount: {
-      Title: "附帶歷史訊息數",
-      SubTitle: "每次請求附帶的歷史訊息數",
+      Title: "é™„å¸¶æ­·å²è¨Šæ¯æ•¸",
+      SubTitle: "æ¯æ¬¡è«‹æ±‚é™„å¸¶çš„æ­·å²è¨Šæ¯æ•¸",
     },
     CompressThreshold: {
-      Title: "歷史訊息長度壓縮閾值",
-      SubTitle: "當未壓縮的歷史訊息超過該值時，將進行壓縮",
+      Title: "æ­·å²è¨Šæ¯é•·åº¦å£“ç¸®é–¾å€¼",
+      SubTitle: "ç•¶æœªå£“ç¸®çš„æ­·å²è¨Šæ¯è¶…éŽè©²å€¼æ™‚ï¼Œå°‡é€²è¡Œå£“ç¸®",
     },
 
     Usage: {
-      Title: "帳戶餘額",
+      Title: "å¸³æˆ¶é¤˜é¡",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，訂閱總額 $${total}`;
+        return `æœ¬æœˆå·²ä½¿ç”¨ $${used}ï¼Œè¨‚é–±ç¸½é¡ $${total}`;
       },
-      IsChecking: "正在檢查…",
-      Check: "重新檢查",
-      NoAccess: "輸入 API Key 檢視餘額",
+      IsChecking: "æ­£åœ¨æª¢æŸ¥â€¦",
+      Check: "é‡æ–°æª¢æŸ¥",
+      NoAccess: "è¼¸å…¥ API Key æª¢è¦–é¤˜é¡",
     },
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
-        Label: "(性價比最高的方案)",
+        Title: "ä½¿ç”¨ HeyChat AI",
+        Label: "(æ€§åƒ¹æ¯”æœ€é«˜çš„æ–¹æ¡ˆ)",
         SubTitle:
-          "由 NextChat 官方維護，無須設定開箱即用，支援 OpenAI o1、GPT-4o、Claude-3.5 等最新的大型語言模型",
-        ChatNow: "立刻開始對話",
+          "ç”± HeyChat å®˜æ–¹ç¶­è­·ï¼Œç„¡é ˆè¨­å®šé–‹ç®±å³ç”¨ï¼Œæ”¯æ´ OpenAI o1ã€GPT-4oã€Claude-3.5 ç­‰æœ€æ–°çš„å¤§åž‹èªžè¨€æ¨¡åž‹",
+        ChatNow: "ç«‹åˆ»é–‹å§‹å°è©±",
       },
 
       AccessCode: {
-        Title: "存取密碼",
-        SubTitle: "管理員已開啟加密存取",
-        Placeholder: "請輸入存取密碼",
+        Title: "å­˜å–å¯†ç¢¼",
+        SubTitle: "ç®¡ç†å“¡å·²é–‹å•ŸåŠ å¯†å­˜å–",
+        Placeholder: "è«‹è¼¸å…¥å­˜å–å¯†ç¢¼",
       },
       CustomEndpoint: {
-        Title: "自訂 API 端點 (Endpoint)",
-        SubTitle: "是否使用自訂 Azure 或 OpenAI 服務",
+        Title: "è‡ªè¨‚ API ç«¯é»ž (Endpoint)",
+        SubTitle: "æ˜¯å¦ä½¿ç”¨è‡ªè¨‚ Azure æˆ– OpenAI æœå‹™",
       },
       Provider: {
-        Title: "模型供應商",
-        SubTitle: "切換不同的服務供應商",
+        Title: "æ¨¡åž‹ä¾›æ‡‰å•†",
+        SubTitle: "åˆ‡æ›ä¸åŒçš„æœå‹™ä¾›æ‡‰å•†",
       },
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自訂 OpenAI Key 繞過密碼存取限制",
+          SubTitle: "ä½¿ç”¨è‡ªè¨‚ OpenAI Key ç¹žéŽå¯†ç¢¼å­˜å–é™åˆ¶",
           Placeholder: "OpenAI API Key",
         },
 
         Endpoint: {
-          Title: "API 端點 (Endpoint) 位址",
-          SubTitle: "除預設位址外，必須包含 http(s)://",
+          Title: "API ç«¯é»ž (Endpoint) ä½å€",
+          SubTitle: "é™¤é è¨­ä½å€å¤–ï¼Œå¿…é ˆåŒ…å« http(s)://",
         },
       },
       Azure: {
         ApiKey: {
-          Title: "API 金鑰",
-          SubTitle: "使用自訂 Azure Key 繞過密碼存取限制",
+          Title: "API é‡‘é‘°",
+          SubTitle: "ä½¿ç”¨è‡ªè¨‚ Azure Key ç¹žéŽå¯†ç¢¼å­˜å–é™åˆ¶",
           Placeholder: "Azure API Key",
         },
 
         Endpoint: {
-          Title: "API 端點 (Endpoint) 位址",
-          SubTitle: "範例：",
+          Title: "API ç«¯é»ž (Endpoint) ä½å€",
+          SubTitle: "ç¯„ä¾‹ï¼š",
         },
 
         ApiVerion: {
-          Title: "API 版本 (azure api version)",
-          SubTitle: "指定一個特定的 API 版本",
+          Title: "API ç‰ˆæœ¬ (azure api version)",
+          SubTitle: "æŒ‡å®šä¸€å€‹ç‰¹å®šçš„ API ç‰ˆæœ¬",
         },
       },
       Anthropic: {
         ApiKey: {
-          Title: "API 金鑰",
-          SubTitle: "從 Anthropic AI 取得您的 API 金鑰",
+          Title: "API é‡‘é‘°",
+          SubTitle: "å¾ž Anthropic AI å–å¾—æ‚¨çš„ API é‡‘é‘°",
           Placeholder: "Anthropic API Key",
         },
 
         Endpoint: {
-          Title: "端點位址",
-          SubTitle: "範例：",
+          Title: "ç«¯é»žä½å€",
+          SubTitle: "ç¯„ä¾‹ï¼š",
         },
 
         ApiVerion: {
-          Title: "API 版本 (claude api version)",
-          SubTitle: "指定一個特定的 API 版本",
+          Title: "API ç‰ˆæœ¬ (claude api version)",
+          SubTitle: "æŒ‡å®šä¸€å€‹ç‰¹å®šçš„ API ç‰ˆæœ¬",
         },
       },
       Google: {
         ApiKey: {
-          Title: "API 金鑰",
-          SubTitle: "從 Google AI 取得您的 API 金鑰",
-          Placeholder: "輸入您的 Google AI Studio API 金鑰",
+          Title: "API é‡‘é‘°",
+          SubTitle: "å¾ž Google AI å–å¾—æ‚¨çš„ API é‡‘é‘°",
+          Placeholder: "è¼¸å…¥æ‚¨çš„ Google AI Studio API é‡‘é‘°",
         },
 
         Endpoint: {
-          Title: "端點位址",
-          SubTitle: "範例：",
+          Title: "ç«¯é»žä½å€",
+          SubTitle: "ç¯„ä¾‹ï¼š",
         },
 
         ApiVersion: {
-          Title: "API 版本（僅適用於 gemini-pro）",
-          SubTitle: "選擇一個特定的 API 版本",
+          Title: "API ç‰ˆæœ¬ï¼ˆåƒ…é©ç”¨æ–¼ gemini-proï¼‰",
+          SubTitle: "é¸æ“‡ä¸€å€‹ç‰¹å®šçš„ API ç‰ˆæœ¬",
         },
       },
       AI302: {
         ApiKey: {
-          Title: "API 金鑰",
-          SubTitle: "使用自訂 302.AI API 金鑰",
-          Placeholder: "302.AI API 金鑰",
+          Title: "API é‡‘é‘°",
+          SubTitle: "ä½¿ç”¨è‡ªè¨‚ 302.AI API é‡‘é‘°",
+          Placeholder: "302.AI API é‡‘é‘°",
         },
         Endpoint: {
-          Title: "端點位址",
-          SubTitle: "範例：",
+          Title: "ç«¯é»žä½å€",
+          SubTitle: "ç¯„ä¾‹ï¼š",
         },
       },
       CustomModel: {
-        Title: "自訂模型名稱",
-        SubTitle: "增加自訂模型可選擇項目，使用英文逗號隔開",
+        Title: "è‡ªè¨‚æ¨¡åž‹åç¨±",
+        SubTitle: "å¢žåŠ è‡ªè¨‚æ¨¡åž‹å¯é¸æ“‡é …ç›®ï¼Œä½¿ç”¨è‹±æ–‡é€—è™Ÿéš”é–‹",
       },
     },
 
-    Model: "模型 (model)",
+    Model: "æ¨¡åž‹ (model)",
     CompressModel: {
-      Title: "壓縮模型",
-      SubTitle: "用於壓縮歷史記錄的模型",
+      Title: "å£“ç¸®æ¨¡åž‹",
+      SubTitle: "ç”¨æ–¼å£“ç¸®æ­·å²è¨˜éŒ„çš„æ¨¡åž‹",
     },
     Temperature: {
-      Title: "隨機性 (temperature)",
-      SubTitle: "值越大，回應越隨機",
+      Title: "éš¨æ©Ÿæ€§ (temperature)",
+      SubTitle: "å€¼è¶Šå¤§ï¼Œå›žæ‡‰è¶Šéš¨æ©Ÿ",
     },
     TopP: {
-      Title: "核心採樣 (top_p)",
-      SubTitle: "與隨機性類似，但不要和隨機性一起更改",
+      Title: "æ ¸å¿ƒæŽ¡æ¨£ (top_p)",
+      SubTitle: "èˆ‡éš¨æ©Ÿæ€§é¡žä¼¼ï¼Œä½†ä¸è¦å’Œéš¨æ©Ÿæ€§ä¸€èµ·æ›´æ”¹",
     },
     MaxTokens: {
-      Title: "單次回應限制 (max_tokens)",
-      SubTitle: "單次互動所用的最大 Token 數",
+      Title: "å–®æ¬¡å›žæ‡‰é™åˆ¶ (max_tokens)",
+      SubTitle: "å–®æ¬¡äº’å‹•æ‰€ç”¨çš„æœ€å¤§ Token æ•¸",
     },
     PresencePenalty: {
-      Title: "話題新穎度 (presence_penalty)",
-      SubTitle: "值越大，越有可能拓展到新話題",
+      Title: "è©±é¡Œæ–°ç©Žåº¦ (presence_penalty)",
+      SubTitle: "å€¼è¶Šå¤§ï¼Œè¶Šæœ‰å¯èƒ½æ‹“å±•åˆ°æ–°è©±é¡Œ",
     },
     FrequencyPenalty: {
-      Title: "頻率懲罰度 (frequency_penalty)",
-      SubTitle: "值越大，越有可能降低重複字詞",
+      Title: "é »çŽ‡æ‡²ç½°åº¦ (frequency_penalty)",
+      SubTitle: "å€¼è¶Šå¤§ï¼Œè¶Šæœ‰å¯èƒ½é™ä½Žé‡è¤‡å­—è©ž",
     },
   },
   Store: {
-    DefaultTopic: "新的對話",
-    BotHello: "請問需要我的協助嗎？",
-    Error: "出錯了，請稍後再嘗試",
+    DefaultTopic: "æ–°çš„å°è©±",
+    BotHello: "è«‹å•éœ€è¦æˆ‘çš„å”åŠ©å—Žï¼Ÿ",
+    Error: "å‡ºéŒ¯äº†ï¼Œè«‹ç¨å¾Œå†å˜—è©¦",
     Prompt: {
       History: (content: string) =>
-        "這是 AI 與使用者的歷史聊天總結，作為前情提要：" + content,
+        "é€™æ˜¯ AI èˆ‡ä½¿ç”¨è€…çš„æ­·å²èŠå¤©ç¸½çµï¼Œä½œç‚ºå‰æƒ…æè¦ï¼š" + content,
       Topic:
         "Use the language used by the user (e.g. en for english conversation, zh-hant for chinese conversation, etc.) to generate a title (at most 6 words) summarizing our conversation without any lead-in, quotation marks, preamble like 'Title:', direct text copies, single-word replies, quotation marks, translations, or brackets. Remove enclosing quotation marks. The title should make third-party grasp the essence of the conversation in first sight.",
       Summarize:
@@ -439,110 +439,110 @@ const tw = {
     },
   },
   Copy: {
-    Success: "已複製到剪貼簿中",
-    Failed: "複製失敗，請賦予剪貼簿權限",
+    Success: "å·²è¤‡è£½åˆ°å‰ªè²¼ç°¿ä¸­",
+    Failed: "è¤‡è£½å¤±æ•—ï¼Œè«‹è³¦äºˆå‰ªè²¼ç°¿æ¬Šé™",
   },
   Download: {
-    Success: "內容已下載到您的目錄。",
-    Failed: "下載失敗。",
+    Success: "å…§å®¹å·²ä¸‹è¼‰åˆ°æ‚¨çš„ç›®éŒ„ã€‚",
+    Failed: "ä¸‹è¼‰å¤±æ•—ã€‚",
   },
   Context: {
-    Toast: (x: any) => `已設定 ${x} 條前置上下文`,
-    Edit: "前置上下文和歷史記憶",
-    Add: "新增一則",
-    Clear: "上下文已清除",
-    Revert: "恢復上下文",
+    Toast: (x: any) => `å·²è¨­å®š ${x} æ¢å‰ç½®ä¸Šä¸‹æ–‡`,
+    Edit: "å‰ç½®ä¸Šä¸‹æ–‡å’Œæ­·å²è¨˜æ†¶",
+    Add: "æ–°å¢žä¸€å‰‡",
+    Clear: "ä¸Šä¸‹æ–‡å·²æ¸…é™¤",
+    Revert: "æ¢å¾©ä¸Šä¸‹æ–‡",
   },
-  Plugin: { Name: "外掛" },
-  FineTuned: { Sysmessage: "你是一個助手" },
+  Plugin: { Name: "å¤–æŽ›" },
+  FineTuned: { Sysmessage: "ä½ æ˜¯ä¸€å€‹åŠ©æ‰‹" },
   Mask: {
-    Name: "角色範本",
+    Name: "è§’è‰²ç¯„æœ¬",
     Page: {
-      Title: "預設角色角色範本",
-      SubTitle: (count: number) => `${count} 個預設角色定義`,
-      Search: "搜尋角色角色範本",
-      Create: "新增",
+      Title: "é è¨­è§’è‰²è§’è‰²ç¯„æœ¬",
+      SubTitle: (count: number) => `${count} å€‹é è¨­è§’è‰²å®šç¾©`,
+      Search: "æœå°‹è§’è‰²è§’è‰²ç¯„æœ¬",
+      Create: "æ–°å¢ž",
     },
     Item: {
-      Info: (count: number) => `包含 ${count} 條預設對話`,
-      Chat: "對話",
-      View: "檢視",
-      Edit: "編輯",
-      Delete: "刪除",
-      DeleteConfirm: "確認刪除？",
+      Info: (count: number) => `åŒ…å« ${count} æ¢é è¨­å°è©±`,
+      Chat: "å°è©±",
+      View: "æª¢è¦–",
+      Edit: "ç·¨è¼¯",
+      Delete: "åˆªé™¤",
+      DeleteConfirm: "ç¢ºèªåˆªé™¤ï¼Ÿ",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `編輯預設角色範本 ${readonly ? "（唯讀）" : ""}`,
-      Download: "下載預設值",
-      Clone: "以此預設值建立副本",
+        `ç·¨è¼¯é è¨­è§’è‰²ç¯„æœ¬ ${readonly ? "ï¼ˆå”¯è®€ï¼‰" : ""}`,
+      Download: "ä¸‹è¼‰é è¨­å€¼",
+      Clone: "ä»¥æ­¤é è¨­å€¼å»ºç«‹å‰¯æœ¬",
     },
     Config: {
-      Avatar: "角色頭像",
-      Name: "角色名稱",
+      Avatar: "è§’è‰²é ­åƒ",
+      Name: "è§’è‰²åç¨±",
       Sync: {
-        Title: "使用全域設定",
-        SubTitle: "目前對話是否使用全域模型設定",
-        Confirm: "目前對話的自訂設定將會被自動覆蓋，確認啟用全域設定？",
+        Title: "ä½¿ç”¨å…¨åŸŸè¨­å®š",
+        SubTitle: "ç›®å‰å°è©±æ˜¯å¦ä½¿ç”¨å…¨åŸŸæ¨¡åž‹è¨­å®š",
+        Confirm: "ç›®å‰å°è©±çš„è‡ªè¨‚è¨­å®šå°‡æœƒè¢«è‡ªå‹•è¦†è“‹ï¼Œç¢ºèªå•Ÿç”¨å…¨åŸŸè¨­å®šï¼Ÿ",
       },
       HideContext: {
-        Title: "隱藏預設對話",
-        SubTitle: "隱藏後預設對話不會出現在聊天介面",
+        Title: "éš±è—é è¨­å°è©±",
+        SubTitle: "éš±è—å¾Œé è¨­å°è©±ä¸æœƒå‡ºç¾åœ¨èŠå¤©ä»‹é¢",
       },
       Share: {
-        Title: "分享此角色範本",
-        SubTitle: "產生此角色範本的直達連結",
-        Action: "複製連結",
+        Title: "åˆ†äº«æ­¤è§’è‰²ç¯„æœ¬",
+        SubTitle: "ç”¢ç”Ÿæ­¤è§’è‰²ç¯„æœ¬çš„ç›´é”é€£çµ",
+        Action: "è¤‡è£½é€£çµ",
       },
     },
   },
   SearchChat: {
-    Name: "搜尋聊天記錄",
+    Name: "æœå°‹èŠå¤©è¨˜éŒ„",
     Page: {
-      Title: "搜尋聊天記錄",
-      Search: "輸入搜尋關鍵詞",
-      NoResult: "沒有找到結果",
-      NoData: "沒有資料",
-      Loading: "載入中",
+      Title: "æœå°‹èŠå¤©è¨˜éŒ„",
+      Search: "è¼¸å…¥æœå°‹é—œéµè©ž",
+      NoResult: "æ²’æœ‰æ‰¾åˆ°çµæžœ",
+      NoData: "æ²’æœ‰è³‡æ–™",
+      Loading: "è¼‰å…¥ä¸­",
 
-      SubTitle: (count: number) => `找到 ${count} 條結果`,
+      SubTitle: (count: number) => `æ‰¾åˆ° ${count} æ¢çµæžœ`,
     },
     Item: {
-      View: "檢視",
+      View: "æª¢è¦–",
     },
   },
   NewChat: {
-    Return: "返回",
-    Skip: "跳過",
-    NotShow: "不再顯示",
-    ConfirmNoShow: "確認停用？停用後可以隨時在設定中重新啟用。",
-    Title: "挑選一個角色範本",
-    SubTitle: "現在開始，與角色範本背後的靈魂思維碰撞",
-    More: "搜尋更多",
+    Return: "è¿”å›ž",
+    Skip: "è·³éŽ",
+    NotShow: "ä¸å†é¡¯ç¤º",
+    ConfirmNoShow: "ç¢ºèªåœç”¨ï¼Ÿåœç”¨å¾Œå¯ä»¥éš¨æ™‚åœ¨è¨­å®šä¸­é‡æ–°å•Ÿç”¨ã€‚",
+    Title: "æŒ‘é¸ä¸€å€‹è§’è‰²ç¯„æœ¬",
+    SubTitle: "ç¾åœ¨é–‹å§‹ï¼Œèˆ‡è§’è‰²ç¯„æœ¬èƒŒå¾Œçš„éˆé­‚æ€ç¶­ç¢°æ’ž",
+    More: "æœå°‹æ›´å¤š",
   },
   URLCommand: {
-    Code: "偵測到連結中已經包含存取密碼，是否自動填入？",
-    Settings: "偵測到連結中包含了預設設定，是否自動填入？",
+    Code: "åµæ¸¬åˆ°é€£çµä¸­å·²ç¶“åŒ…å«å­˜å–å¯†ç¢¼ï¼Œæ˜¯å¦è‡ªå‹•å¡«å…¥ï¼Ÿ",
+    Settings: "åµæ¸¬åˆ°é€£çµä¸­åŒ…å«äº†é è¨­è¨­å®šï¼Œæ˜¯å¦è‡ªå‹•å¡«å…¥ï¼Ÿ",
   },
   UI: {
-    Confirm: "確認",
-    Cancel: "取消",
-    Close: "關閉",
-    Create: "新增",
-    Edit: "編輯",
-    Export: "匯出",
-    Import: "匯入",
-    Sync: "同步",
-    Config: "設定",
+    Confirm: "ç¢ºèª",
+    Cancel: "å–æ¶ˆ",
+    Close: "é—œé–‰",
+    Create: "æ–°å¢ž",
+    Edit: "ç·¨è¼¯",
+    Export: "åŒ¯å‡º",
+    Import: "åŒ¯å…¥",
+    Sync: "åŒæ­¥",
+    Config: "è¨­å®š",
   },
   Exporter: {
     Description: {
-      Title: "只有清除上下文之後的訊息會被顯示",
+      Title: "åªæœ‰æ¸…é™¤ä¸Šä¸‹æ–‡ä¹‹å¾Œçš„è¨Šæ¯æœƒè¢«é¡¯ç¤º",
     },
-    Model: "模型",
-    Messages: "訊息",
-    Topic: "主題",
-    Time: "時間",
+    Model: "æ¨¡åž‹",
+    Messages: "è¨Šæ¯",
+    Topic: "ä¸»é¡Œ",
+    Time: "æ™‚é–“",
   },
 };
 
@@ -557,3 +557,4 @@ export type PartialLocaleType = DeepPartial<typeof tw>;
 
 export default tw;
 // Translated by @chunkiuuu, feel free the submit new pr if there are typo/incorrect translations :D
+

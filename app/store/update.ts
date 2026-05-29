@@ -1,4 +1,4 @@
-import {
+﻿import {
   FETCH_COMMIT_URL,
   FETCH_TAG_URL,
   ModelProvider,
@@ -105,7 +105,7 @@ export const useUpdateStore = createPersistStore(
                       if (version === remoteId) {
                         // Show a notification using Tauri
                         window.__TAURI__?.notification.sendNotification({
-                          title: "NextChat",
+                          title: "HeyChat",
                           body: `${Locale.Settings.Update.IsLatest}`,
                           icon: `${ChatGptIcon.src}`,
                           sound: "Default",
@@ -115,7 +115,7 @@ export const useUpdateStore = createPersistStore(
                           Locale.Settings.Update.FoundUpdate(`${remoteId}`);
                         // Show a notification for the new version using Tauri
                         window.__TAURI__?.notification.sendNotification({
-                          title: "NextChat",
+                          title: "HeyChat",
                           body: updateMessage,
                           icon: `${ChatGptIcon.src}`,
                           sound: "Default",
@@ -162,3 +162,4 @@ export const useUpdateStore = createPersistStore(
     version: 1,
   },
 );
+

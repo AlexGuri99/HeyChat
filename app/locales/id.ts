@@ -1,4 +1,4 @@
-import { SubmitKey } from "../store/config";
+﻿import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
@@ -8,13 +8,13 @@ const id: PartialLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Percakapan mengalami beberapa masalah, tidak perlu khawatir:
-   \\ 1️⃣ Jika Anda ingin memulai tanpa konfigurasi, [klik di sini untuk mulai mengobrol segera 🚀](${SAAS_CHAT_UTM_URL})
-   \\ 2️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️`
-      : `😆 Percakapan mengalami beberapa masalah, tidak perlu khawatir:
-   \ 1️⃣ Jika Anda ingin memulai tanpa konfigurasi, [klik di sini untuk mulai mengobrol segera 🚀](${SAAS_CHAT_UTM_URL})
-   \ 2️⃣ Jika Anda menggunakan versi penyebaran pribadi, klik [di sini](/#/auth) untuk memasukkan kunci akses 🔑
-   \ 3️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️
+      ? `ðŸ˜† Percakapan mengalami beberapa masalah, tidak perlu khawatir:
+   \\ 1ï¸âƒ£ Jika Anda ingin memulai tanpa konfigurasi, [klik di sini untuk mulai mengobrol segera ðŸš€](${SAAS_CHAT_UTM_URL})
+   \\ 2ï¸âƒ£ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan âš™ï¸`
+      : `ðŸ˜† Percakapan mengalami beberapa masalah, tidak perlu khawatir:
+   \ 1ï¸âƒ£ Jika Anda ingin memulai tanpa konfigurasi, [klik di sini untuk mulai mengobrol segera ðŸš€](${SAAS_CHAT_UTM_URL})
+   \ 2ï¸âƒ£ Jika Anda menggunakan versi penyebaran pribadi, klik [di sini](/#/auth) untuk memasukkan kunci akses ðŸ”‘
+   \ 3ï¸âƒ£ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan âš™ï¸
 `,
   },
   Auth: {
@@ -27,7 +27,7 @@ const id: PartialLocaleType = {
     Return: "Kembali",
     SaasTips: "Konfigurasi terlalu rumit, saya ingin menggunakannya segera",
     TopTips:
-      "🥳 Penawaran Peluncuran NextChat AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
+      "ðŸ¥³ Penawaran Peluncuran HeyChat AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} percakapan`,
@@ -79,13 +79,13 @@ const id: PartialLocaleType = {
       UploadImage: "Unggah Gambar",
     },
     Rename: "Ganti Nama Obrolan",
-    Typing: "Sedang Mengetik…",
+    Typing: "Sedang Mengetikâ€¦",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} kirim`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter untuk baris baru";
+        inputHints += "ï¼ŒShift + Enter untuk baris baru";
       }
-      return inputHints + "，/ untuk melengkapi, : untuk memicu perintah";
+      return inputHints + "ï¼Œ/ untuk melengkapi, : untuk memicu perintah";
     },
     Send: "Kirim",
     Config: {
@@ -289,17 +289,17 @@ const id: PartialLocaleType = {
       SubTitle(used: any, total: any) {
         return `Digunakan bulan ini $${used}, total langganan $${total}`;
       },
-      IsChecking: "Sedang memeriksa…",
+      IsChecking: "Sedang memeriksaâ€¦",
       Check: "Periksa Lagi",
       NoAccess: "Masukkan API Key atau kata sandi akses untuk melihat saldo",
     },
 
     Access: {
       SaasStart: {
-        Title: "Gunakan NextChat AI",
+        Title: "Gunakan HeyChat AI",
         Label: "(Solusi paling hemat biaya)",
         SubTitle:
-          "Dikelola secara resmi oleh NextChat, siap digunakan tanpa konfigurasi, mendukung model besar terbaru seperti OpenAI o1, GPT-4o, dan Claude-3.5",
+          "Dikelola secara resmi oleh HeyChat, siap digunakan tanpa konfigurasi, mendukung model besar terbaru seperti OpenAI o1, GPT-4o, dan Claude-3.5",
         ChatNow: "Chat Sekarang",
       },
 
@@ -604,3 +604,4 @@ const id: PartialLocaleType = {
 };
 
 export default id;
+

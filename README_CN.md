@@ -1,16 +1,16 @@
-<div align="center">
+﻿<div align="center">
 
-<a href='#企业版'>
+<a href='#ä¼ä¸šç‰ˆ'>
   <img src="./docs/images/ent.svg" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat</h1>
+<h1 align="center">HeyChat</h1>
 
-一键免费部署你的私人 ChatGPT 网页应用，支持 Claude, GPT4 & Gemini Pro 模型。
+ä¸€é”®å…è´¹éƒ¨ç½²ä½ çš„ç§äºº ChatGPT ç½‘é¡µåº”ç”¨ï¼Œæ”¯æŒ Claude, GPT4 & Gemini Pro æ¨¡åž‹ã€‚
 
-[NextChatAI](https://nextchat.club?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
+[HeyChatAI](https://HeyChat.club?utm_source=readme) / [ä¼ä¸šç‰ˆ](#%E4%BC%81%E4%B8%9A%E7%89%88) / [æ¼”ç¤º Demo](https://chat-gpt-next-web.vercel.app/) / [åé¦ˆ Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [åŠ å…¥ Discord](https://discord.gg/zrhvHCr79N)
 
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=HeyChat&repository-name=HeyChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 </div>
 
@@ -20,261 +20,261 @@
   <img src="https://github.com/user-attachments/assets/d8c0c513-1e18-4d3b-a2a9-ff3696aec0d4" width="100%" alt="icon"/>
 </a>
 
-[302.AI](https://302.ai/) 是一个按需付费的AI应用平台，提供市面上最全的AI API和AI在线应用。
+[302.AI](https://302.ai/) æ˜¯ä¸€ä¸ªæŒ‰éœ€ä»˜è´¹çš„AIåº”ç”¨å¹³å°ï¼Œæä¾›å¸‚é¢ä¸Šæœ€å…¨çš„AI APIå’ŒAIåœ¨çº¿åº”ç”¨ã€‚
 
-## 企业版
+## ä¼ä¸šç‰ˆ
 
-满足您公司私有化部署和定制需求
+æ»¡è¶³æ‚¨å…¬å¸ç§æœ‰åŒ–éƒ¨ç½²å’Œå®šåˆ¶éœ€æ±‚
 
-- **品牌定制**：企业量身定制 VI/UI，与企业品牌形象无缝契合
-- **资源集成**：由企业管理人员统一配置和管理数十种 AI 资源，团队成员开箱即用
-- **权限管理**：成员权限、资源权限、知识库权限层级分明，企业级 Admin Panel 统一控制
-- **知识接入**：企业内部知识库与 AI 能力相结合，比通用 AI 更贴近企业自身业务需求
-- **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
-- **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
-- **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
+- **å“ç‰Œå®šåˆ¶**ï¼šä¼ä¸šé‡èº«å®šåˆ¶ VI/UIï¼Œä¸Žä¼ä¸šå“ç‰Œå½¢è±¡æ— ç¼å¥‘åˆ
+- **èµ„æºé›†æˆ**ï¼šç”±ä¼ä¸šç®¡ç†äººå‘˜ç»Ÿä¸€é…ç½®å’Œç®¡ç†æ•°åç§ AI èµ„æºï¼Œå›¢é˜Ÿæˆå‘˜å¼€ç®±å³ç”¨
+- **æƒé™ç®¡ç†**ï¼šæˆå‘˜æƒé™ã€èµ„æºæƒé™ã€çŸ¥è¯†åº“æƒé™å±‚çº§åˆ†æ˜Žï¼Œä¼ä¸šçº§ Admin Panel ç»Ÿä¸€æŽ§åˆ¶
+- **çŸ¥è¯†æŽ¥å…¥**ï¼šä¼ä¸šå†…éƒ¨çŸ¥è¯†åº“ä¸Ž AI èƒ½åŠ›ç›¸ç»“åˆï¼Œæ¯”é€šç”¨ AI æ›´è´´è¿‘ä¼ä¸šè‡ªèº«ä¸šåŠ¡éœ€æ±‚
+- **å®‰å…¨å®¡è®¡**ï¼šè‡ªåŠ¨æ‹¦æˆªæ•æ„Ÿæé—®ï¼Œæ”¯æŒè¿½æº¯å…¨éƒ¨åŽ†å²å¯¹è¯è®°å½•ï¼Œè®© AI ä¹Ÿèƒ½éµå¾ªä¼ä¸šä¿¡æ¯å®‰å…¨è§„èŒƒ
+- **ç§æœ‰éƒ¨ç½²**ï¼šä¼ä¸šçº§ç§æœ‰éƒ¨ç½²ï¼Œæ”¯æŒå„ç±»ä¸»æµç§æœ‰äº‘éƒ¨ç½²ï¼Œç¡®ä¿æ•°æ®å®‰å…¨å’Œéšç§ä¿æŠ¤
+- **æŒç»­æ›´æ–°**ï¼šæä¾›å¤šæ¨¡æ€ã€æ™ºèƒ½ä½“ç­‰å‰æ²¿èƒ½åŠ›æŒç»­æ›´æ–°å‡çº§æœåŠ¡ï¼Œå¸¸ç”¨å¸¸æ–°ã€æŒç»­å…ˆè¿›
 
-企业版咨询: **business@nextchat.dev**
+ä¼ä¸šç‰ˆå’¨è¯¢: **business@HeyChat.dev**
 
 <img width="300" src="https://github.com/user-attachments/assets/bb29a11d-ff75-48a8-b1f8-d2d7238cf987">
 
-## 开始使用
+## å¼€å§‹ä½¿ç”¨
 
-1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
-3. 部署完毕后，即可开始使用；
-4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
+1. å‡†å¤‡å¥½ä½ çš„ [OpenAI API Key](https://platform.openai.com/account/api-keys);
+2. ç‚¹å‡»å³ä¾§æŒ‰é’®å¼€å§‹éƒ¨ç½²ï¼š
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)ï¼Œç›´æŽ¥ä½¿ç”¨ Github è´¦å·ç™»å½•å³å¯ï¼Œè®°å¾—åœ¨çŽ¯å¢ƒå˜é‡é¡µå¡«å…¥ API Key å’Œ[é¡µé¢è®¿é—®å¯†ç ](#é…ç½®é¡µé¢è®¿é—®å¯†ç ) CODEï¼›
+3. éƒ¨ç½²å®Œæ¯•åŽï¼Œå³å¯å¼€å§‹ä½¿ç”¨ï¼›
+4. ï¼ˆå¯é€‰ï¼‰[ç»‘å®šè‡ªå®šä¹‰åŸŸå](https://vercel.com/docs/concepts/projects/domains/add-a-domain)ï¼šVercel åˆ†é…çš„åŸŸå DNS åœ¨æŸäº›åŒºåŸŸè¢«æ±¡æŸ“äº†ï¼Œç»‘å®šè‡ªå®šä¹‰åŸŸåå³å¯ç›´è¿žã€‚
 
 <div align="center">
    
-![主界面](./docs/images/cover.png)
+![ä¸»ç•Œé¢](./docs/images/cover.png)
 
 </div>
 
-## 保持更新
+## ä¿æŒæ›´æ–°
 
-如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。
-推荐你按照下列步骤重新部署：
+å¦‚æžœä½ æŒ‰ç…§ä¸Šè¿°æ­¥éª¤ä¸€é”®éƒ¨ç½²äº†è‡ªå·±çš„é¡¹ç›®ï¼Œå¯èƒ½ä¼šå‘çŽ°æ€»æ˜¯æç¤ºâ€œå­˜åœ¨æ›´æ–°â€çš„é—®é¢˜ï¼Œè¿™æ˜¯ç”±äºŽ Vercel ä¼šé»˜è®¤ä¸ºä½ åˆ›å»ºä¸€ä¸ªæ–°é¡¹ç›®è€Œä¸æ˜¯ fork æœ¬é¡¹ç›®ï¼Œè¿™ä¼šå¯¼è‡´æ— æ³•æ­£ç¡®åœ°æ£€æµ‹æ›´æ–°ã€‚
+æŽ¨èä½ æŒ‰ç…§ä¸‹åˆ—æ­¥éª¤é‡æ–°éƒ¨ç½²ï¼š
 
-- 删除掉原先的仓库；
-- 使用页面右上角的 fork 按钮，fork 本项目；
-- 在 Vercel 重新选择并部署，[请查看详细教程](./docs/vercel-cn.md#如何新建项目)。
+- åˆ é™¤æŽ‰åŽŸå…ˆçš„ä»“åº“ï¼›
+- ä½¿ç”¨é¡µé¢å³ä¸Šè§’çš„ fork æŒ‰é’®ï¼Œfork æœ¬é¡¹ç›®ï¼›
+- åœ¨ Vercel é‡æ–°é€‰æ‹©å¹¶éƒ¨ç½²ï¼Œ[è¯·æŸ¥çœ‹è¯¦ç»†æ•™ç¨‹](./docs/vercel-cn.md#å¦‚ä½•æ–°å»ºé¡¹ç›®)ã€‚
 
-### 打开自动更新
+### æ‰“å¼€è‡ªåŠ¨æ›´æ–°
 
-> 如果你遇到了 Upstream Sync 执行错误，请[手动 Sync Fork 一次](./README_CN.md#手动更新代码)！
+> å¦‚æžœä½ é‡åˆ°äº† Upstream Sync æ‰§è¡Œé”™è¯¯ï¼Œè¯·[æ‰‹åŠ¨ Sync Fork ä¸€æ¬¡](./README_CN.md#æ‰‹åŠ¨æ›´æ–°ä»£ç )ï¼
 
-当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
+å½“ä½  fork é¡¹ç›®ä¹‹åŽï¼Œç”±äºŽ Github çš„é™åˆ¶ï¼Œéœ€è¦æ‰‹åŠ¨åŽ»ä½  fork åŽçš„é¡¹ç›®çš„ Actions é¡µé¢å¯ç”¨ Workflowsï¼Œå¹¶å¯ç”¨ Upstream Sync Actionï¼Œå¯ç”¨ä¹‹åŽå³å¯å¼€å¯æ¯å°æ—¶å®šæ—¶è‡ªåŠ¨æ›´æ–°ï¼š
 
-![自动更新](./docs/images/enable-actions.jpg)
+![è‡ªåŠ¨æ›´æ–°](./docs/images/enable-actions.jpg)
 
-![启用自动更新](./docs/images/enable-actions-sync.jpg)
+![å¯ç”¨è‡ªåŠ¨æ›´æ–°](./docs/images/enable-actions-sync.jpg)
 
-### 手动更新代码
+### æ‰‹åŠ¨æ›´æ–°ä»£ç 
 
-如果你想让手动立即更新，可以查看 [Github 的文档](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) 了解如何让 fork 的项目与上游代码同步。
+å¦‚æžœä½ æƒ³è®©æ‰‹åŠ¨ç«‹å³æ›´æ–°ï¼Œå¯ä»¥æŸ¥çœ‹ [Github çš„æ–‡æ¡£](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) äº†è§£å¦‚ä½•è®© fork çš„é¡¹ç›®ä¸Žä¸Šæ¸¸ä»£ç åŒæ­¥ã€‚
 
-你可以 star/watch 本项目或者 follow 作者来及时获得新功能更新通知。
+ä½ å¯ä»¥ star/watch æœ¬é¡¹ç›®æˆ–è€… follow ä½œè€…æ¥åŠæ—¶èŽ·å¾—æ–°åŠŸèƒ½æ›´æ–°é€šçŸ¥ã€‚
 
-## 配置页面访问密码
+## é…ç½®é¡µé¢è®¿é—®å¯†ç 
 
-> 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
+> é…ç½®å¯†ç åŽï¼Œç”¨æˆ·éœ€è¦åœ¨è®¾ç½®é¡µæ‰‹åŠ¨å¡«å†™è®¿é—®ç æ‰å¯ä»¥æ­£å¸¸èŠå¤©ï¼Œå¦åˆ™ä¼šé€šè¿‡æ¶ˆæ¯æç¤ºæœªæŽˆæƒçŠ¶æ€ã€‚
 
-> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)。
+> **è­¦å‘Š**ï¼šè¯·åŠ¡å¿…å°†å¯†ç çš„ä½æ•°è®¾ç½®å¾—è¶³å¤Ÿé•¿ï¼Œæœ€å¥½ 7 ä½ä»¥ä¸Šï¼Œå¦åˆ™[ä¼šè¢«çˆ†ç ´](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)ã€‚
 
-本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
+æœ¬é¡¹ç›®æä¾›æœ‰é™çš„æƒé™æŽ§åˆ¶åŠŸèƒ½ï¼Œè¯·åœ¨ Vercel é¡¹ç›®æŽ§åˆ¶é¢æ¿çš„çŽ¯å¢ƒå˜é‡é¡µå¢žåŠ åä¸º `CODE` çš„çŽ¯å¢ƒå˜é‡ï¼Œå€¼ä¸ºç”¨è‹±æ–‡é€—å·åˆ†éš”çš„è‡ªå®šä¹‰å¯†ç ï¼š
 
 ```
 code1,code2,code3
 ```
 
-增加或修改该环境变量后，请**重新部署**项目使改动生效。
+å¢žåŠ æˆ–ä¿®æ”¹è¯¥çŽ¯å¢ƒå˜é‡åŽï¼Œè¯·**é‡æ–°éƒ¨ç½²**é¡¹ç›®ä½¿æ”¹åŠ¨ç”Ÿæ•ˆã€‚
 
-## 环境变量
+## çŽ¯å¢ƒå˜é‡
 
-> 本项目大多数配置项都通过环境变量来设置，教程：[如何修改 Vercel 环境变量](./docs/vercel-cn.md)。
+> æœ¬é¡¹ç›®å¤§å¤šæ•°é…ç½®é¡¹éƒ½é€šè¿‡çŽ¯å¢ƒå˜é‡æ¥è®¾ç½®ï¼Œæ•™ç¨‹ï¼š[å¦‚ä½•ä¿®æ”¹ Vercel çŽ¯å¢ƒå˜é‡](./docs/vercel-cn.md)ã€‚
 
-### `OPENAI_API_KEY` （必填项）
+### `OPENAI_API_KEY` ï¼ˆå¿…å¡«é¡¹ï¼‰
 
-OpenAI 密钥，你在 openai 账户页面申请的 api key，使用英文逗号隔开多个 key，这样可以随机轮询这些 key。
+OpenAI å¯†é’¥ï¼Œä½ åœ¨ openai è´¦æˆ·é¡µé¢ç”³è¯·çš„ api keyï¼Œä½¿ç”¨è‹±æ–‡é€—å·éš”å¼€å¤šä¸ª keyï¼Œè¿™æ ·å¯ä»¥éšæœºè½®è¯¢è¿™äº› keyã€‚
 
-### `CODE` （可选）
+### `CODE` ï¼ˆå¯é€‰ï¼‰
 
-访问密码，可选，可以使用逗号隔开多个密码。
+è®¿é—®å¯†ç ï¼Œå¯é€‰ï¼Œå¯ä»¥ä½¿ç”¨é€—å·éš”å¼€å¤šä¸ªå¯†ç ã€‚
 
-**警告**：如果不填写此项，则任何人都可以直接使用你部署后的网站，可能会导致你的 token 被急速消耗完毕，建议填写此选项。
+**è­¦å‘Š**ï¼šå¦‚æžœä¸å¡«å†™æ­¤é¡¹ï¼Œåˆ™ä»»ä½•äººéƒ½å¯ä»¥ç›´æŽ¥ä½¿ç”¨ä½ éƒ¨ç½²åŽçš„ç½‘ç«™ï¼Œå¯èƒ½ä¼šå¯¼è‡´ä½ çš„ token è¢«æ€¥é€Ÿæ¶ˆè€—å®Œæ¯•ï¼Œå»ºè®®å¡«å†™æ­¤é€‰é¡¹ã€‚
 
-### `BASE_URL` （可选）
+### `BASE_URL` ï¼ˆå¯é€‰ï¼‰
 
 > Default: `https://api.openai.com`
 
 > Examples: `http://your-openai-proxy.com`
 
-OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填写此选项。
+OpenAI æŽ¥å£ä»£ç† URLï¼Œå¦‚æžœä½ æ‰‹åŠ¨é…ç½®äº† openai æŽ¥å£ä»£ç†ï¼Œè¯·å¡«å†™æ­¤é€‰é¡¹ã€‚
 
-> 如果遇到 ssl 证书问题，请将 `BASE_URL` 的协议设置为 http。
+> å¦‚æžœé‡åˆ° ssl è¯ä¹¦é—®é¢˜ï¼Œè¯·å°† `BASE_URL` çš„åè®®è®¾ç½®ä¸º httpã€‚
 
-### `OPENAI_ORG_ID` （可选）
+### `OPENAI_ORG_ID` ï¼ˆå¯é€‰ï¼‰
 
-指定 OpenAI 中的组织 ID。
+æŒ‡å®š OpenAI ä¸­çš„ç»„ç»‡ IDã€‚
 
-### `AZURE_URL` （可选）
+### `AZURE_URL` ï¼ˆå¯é€‰ï¼‰
 
-> 形如：https://{azure-resource-url}/openai
+> å½¢å¦‚ï¼šhttps://{azure-resource-url}/openai
 
-Azure 部署地址。
+Azure éƒ¨ç½²åœ°å€ã€‚
 
-### `AZURE_API_KEY` （可选）
+### `AZURE_API_KEY` ï¼ˆå¯é€‰ï¼‰
 
-Azure 密钥。
+Azure å¯†é’¥ã€‚
 
-### `AZURE_API_VERSION` （可选）
+### `AZURE_API_VERSION` ï¼ˆå¯é€‰ï¼‰
 
-Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)。
+Azure Api ç‰ˆæœ¬ï¼Œä½ å¯ä»¥åœ¨è¿™é‡Œæ‰¾åˆ°ï¼š[Azure æ–‡æ¡£](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)ã€‚
 
-### `GOOGLE_API_KEY` (可选)
+### `GOOGLE_API_KEY` (å¯é€‰)
 
-Google Gemini Pro 密钥.
+Google Gemini Pro å¯†é’¥.
 
-### `GOOGLE_URL` (可选)
+### `GOOGLE_URL` (å¯é€‰)
 
 Google Gemini Pro Api Url.
 
-### `ANTHROPIC_API_KEY` (可选)
+### `ANTHROPIC_API_KEY` (å¯é€‰)
 
 anthropic claude Api Key.
 
-### `ANTHROPIC_API_VERSION` (可选)
+### `ANTHROPIC_API_VERSION` (å¯é€‰)
 
 anthropic claude Api version.
 
-### `ANTHROPIC_URL` (可选)
+### `ANTHROPIC_URL` (å¯é€‰)
 
 anthropic claude Api Url.
 
-### `BAIDU_API_KEY` (可选)
+### `BAIDU_API_KEY` (å¯é€‰)
 
 Baidu Api Key.
 
-### `BAIDU_SECRET_KEY` (可选)
+### `BAIDU_SECRET_KEY` (å¯é€‰)
 
 Baidu Secret Key.
 
-### `BAIDU_URL` (可选)
+### `BAIDU_URL` (å¯é€‰)
 
 Baidu Api Url.
 
-### `BYTEDANCE_API_KEY` (可选)
+### `BYTEDANCE_API_KEY` (å¯é€‰)
 
 ByteDance Api Key.
 
-### `BYTEDANCE_URL` (可选)
+### `BYTEDANCE_URL` (å¯é€‰)
 
 ByteDance Api Url.
 
-### `ALIBABA_API_KEY` (可选)
+### `ALIBABA_API_KEY` (å¯é€‰)
 
-阿里云（千问）Api Key.
+é˜¿é‡Œäº‘ï¼ˆåƒé—®ï¼‰Api Key.
 
-### `ALIBABA_URL` (可选)
+### `ALIBABA_URL` (å¯é€‰)
 
-阿里云（千问）Api Url.
+é˜¿é‡Œäº‘ï¼ˆåƒé—®ï¼‰Api Url.
 
-### `IFLYTEK_URL` (可选)
+### `IFLYTEK_URL` (å¯é€‰)
 
-讯飞星火Api Url.
+è®¯é£žæ˜Ÿç«Api Url.
 
-### `IFLYTEK_API_KEY` (可选)
+### `IFLYTEK_API_KEY` (å¯é€‰)
 
-讯飞星火Api Key.
+è®¯é£žæ˜Ÿç«Api Key.
 
-### `IFLYTEK_API_SECRET` (可选)
+### `IFLYTEK_API_SECRET` (å¯é€‰)
 
-讯飞星火Api Secret.
+è®¯é£žæ˜Ÿç«Api Secret.
 
-### `CHATGLM_API_KEY` (可选)
+### `CHATGLM_API_KEY` (å¯é€‰)
 
 ChatGLM Api Key.
 
-### `CHATGLM_URL` (可选)
+### `CHATGLM_URL` (å¯é€‰)
 
 ChatGLM Api Url.
 
-### `DEEPSEEK_API_KEY` (可选)
+### `DEEPSEEK_API_KEY` (å¯é€‰)
 
 DeepSeek Api Key.
 
-### `DEEPSEEK_URL` (可选)
+### `DEEPSEEK_URL` (å¯é€‰)
 
 DeepSeek Api Url.
 
-### `HIDE_USER_API_KEY` （可选）
+### `HIDE_USER_API_KEY` ï¼ˆå¯é€‰ï¼‰
 
-如果你不想让用户自行填入 API Key，将此环境变量设置为 1 即可。
+å¦‚æžœä½ ä¸æƒ³è®©ç”¨æˆ·è‡ªè¡Œå¡«å…¥ API Keyï¼Œå°†æ­¤çŽ¯å¢ƒå˜é‡è®¾ç½®ä¸º 1 å³å¯ã€‚
 
-### `DISABLE_GPT4` （可选）
+### `DISABLE_GPT4` ï¼ˆå¯é€‰ï¼‰
 
-如果你不想让用户使用 GPT-4，将此环境变量设置为 1 即可。
+å¦‚æžœä½ ä¸æƒ³è®©ç”¨æˆ·ä½¿ç”¨ GPT-4ï¼Œå°†æ­¤çŽ¯å¢ƒå˜é‡è®¾ç½®ä¸º 1 å³å¯ã€‚
 
-### `ENABLE_BALANCE_QUERY` （可选）
+### `ENABLE_BALANCE_QUERY` ï¼ˆå¯é€‰ï¼‰
 
-如果你想启用余额查询功能，将此环境变量设置为 1 即可。
+å¦‚æžœä½ æƒ³å¯ç”¨ä½™é¢æŸ¥è¯¢åŠŸèƒ½ï¼Œå°†æ­¤çŽ¯å¢ƒå˜é‡è®¾ç½®ä¸º 1 å³å¯ã€‚
 
-### `DISABLE_FAST_LINK` （可选）
+### `DISABLE_FAST_LINK` ï¼ˆå¯é€‰ï¼‰
 
-如果你想禁用从链接解析预制设置，将此环境变量设置为 1 即可。
+å¦‚æžœä½ æƒ³ç¦ç”¨ä»Žé“¾æŽ¥è§£æžé¢„åˆ¶è®¾ç½®ï¼Œå°†æ­¤çŽ¯å¢ƒå˜é‡è®¾ç½®ä¸º 1 å³å¯ã€‚
 
-### `WHITE_WEBDAV_ENDPOINTS` (可选)
+### `WHITE_WEBDAV_ENDPOINTS` (å¯é€‰)
 
-如果你想增加允许访问的webdav服务地址，可以使用该选项，格式要求：
+å¦‚æžœä½ æƒ³å¢žåŠ å…è®¸è®¿é—®çš„webdavæœåŠ¡åœ°å€ï¼Œå¯ä»¥ä½¿ç”¨è¯¥é€‰é¡¹ï¼Œæ ¼å¼è¦æ±‚ï¼š
 
-- 每一个地址必须是一个完整的 endpoint
+- æ¯ä¸€ä¸ªåœ°å€å¿…é¡»æ˜¯ä¸€ä¸ªå®Œæ•´çš„ endpoint
   > `https://xxxx/xxx`
-- 多个地址以`,`相连
+- å¤šä¸ªåœ°å€ä»¥`,`ç›¸è¿ž
 
-### `CUSTOM_MODELS` （可选）
+### `CUSTOM_MODELS` ï¼ˆå¯é€‰ï¼‰
 
-> 示例：`+qwen-7b-chat,+glm-6b,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` 表示增加 `qwen-7b-chat` 和 `glm-6b` 到模型列表，而从列表中删除 `gpt-3.5-turbo`，并将 `gpt-4-1106-preview` 模型名字展示为 `gpt-4-turbo`。
-> 如果你想先禁用所有模型，再启用指定模型，可以使用 `-all,+gpt-3.5-turbo`，则表示仅启用 `gpt-3.5-turbo`
+> ç¤ºä¾‹ï¼š`+qwen-7b-chat,+glm-6b,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` è¡¨ç¤ºå¢žåŠ  `qwen-7b-chat` å’Œ `glm-6b` åˆ°æ¨¡åž‹åˆ—è¡¨ï¼Œè€Œä»Žåˆ—è¡¨ä¸­åˆ é™¤ `gpt-3.5-turbo`ï¼Œå¹¶å°† `gpt-4-1106-preview` æ¨¡åž‹åå­—å±•ç¤ºä¸º `gpt-4-turbo`ã€‚
+> å¦‚æžœä½ æƒ³å…ˆç¦ç”¨æ‰€æœ‰æ¨¡åž‹ï¼Œå†å¯ç”¨æŒ‡å®šæ¨¡åž‹ï¼Œå¯ä»¥ä½¿ç”¨ `-all,+gpt-3.5-turbo`ï¼Œåˆ™è¡¨ç¤ºä»…å¯ç”¨ `gpt-3.5-turbo`
 
-用来控制模型列表，使用 `+` 增加一个模型，使用 `-` 来隐藏一个模型，使用 `模型名=展示名` 来自定义模型的展示名，用英文逗号隔开。
+ç”¨æ¥æŽ§åˆ¶æ¨¡åž‹åˆ—è¡¨ï¼Œä½¿ç”¨ `+` å¢žåŠ ä¸€ä¸ªæ¨¡åž‹ï¼Œä½¿ç”¨ `-` æ¥éšè—ä¸€ä¸ªæ¨¡åž‹ï¼Œä½¿ç”¨ `æ¨¡åž‹å=å±•ç¤ºå` æ¥è‡ªå®šä¹‰æ¨¡åž‹çš„å±•ç¤ºåï¼Œç”¨è‹±æ–‡é€—å·éš”å¼€ã€‚
 
-在Azure的模式下，支持使用`modelName@Azure=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+åœ¨Azureçš„æ¨¡å¼ä¸‹ï¼Œæ”¯æŒä½¿ç”¨`modelName@Azure=deploymentName`çš„æ–¹å¼é…ç½®æ¨¡åž‹åç§°å’Œéƒ¨ç½²åç§°(deploy-name)
 
-> 示例：`+gpt-3.5-turbo@Azure=gpt35`这个配置会在模型列表显示一个`gpt35(Azure)`的选项。
-> 如果你只能使用Azure模式，那么设置 `-all,+gpt-3.5-turbo@Azure=gpt35` 则可以让对话的默认使用 `gpt35(Azure)`
+> ç¤ºä¾‹ï¼š`+gpt-3.5-turbo@Azure=gpt35`è¿™ä¸ªé…ç½®ä¼šåœ¨æ¨¡åž‹åˆ—è¡¨æ˜¾ç¤ºä¸€ä¸ª`gpt35(Azure)`çš„é€‰é¡¹ã€‚
+> å¦‚æžœä½ åªèƒ½ä½¿ç”¨Azureæ¨¡å¼ï¼Œé‚£ä¹ˆè®¾ç½® `-all,+gpt-3.5-turbo@Azure=gpt35` åˆ™å¯ä»¥è®©å¯¹è¯çš„é»˜è®¤ä½¿ç”¨ `gpt35(Azure)`
 
-在ByteDance的模式下，支持使用`modelName@bytedance=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+åœ¨ByteDanceçš„æ¨¡å¼ä¸‹ï¼Œæ”¯æŒä½¿ç”¨`modelName@bytedance=deploymentName`çš„æ–¹å¼é…ç½®æ¨¡åž‹åç§°å’Œéƒ¨ç½²åç§°(deploy-name)
 
-> 示例: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx`这个配置会在模型列表显示一个`Doubao-lite-4k(ByteDance)`的选项
+> ç¤ºä¾‹: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx`è¿™ä¸ªé…ç½®ä¼šåœ¨æ¨¡åž‹åˆ—è¡¨æ˜¾ç¤ºä¸€ä¸ª`Doubao-lite-4k(ByteDance)`çš„é€‰é¡¹
 
-### `DEFAULT_MODEL` （可选）
+### `DEFAULT_MODEL` ï¼ˆå¯é€‰ï¼‰
 
-更改默认模型
+æ›´æ”¹é»˜è®¤æ¨¡åž‹
 
-### `VISION_MODELS` (可选)
+### `VISION_MODELS` (å¯é€‰)
 
-> 默认值：空
-> 示例：`gpt-4-vision,claude-3-opus,my-custom-model` 表示为这些模型添加视觉能力，作为对默认模式匹配的补充（默认会检测包含"vision"、"claude-3"、"gemini-1.5"等关键词的模型）。
+> é»˜è®¤å€¼ï¼šç©º
+> ç¤ºä¾‹ï¼š`gpt-4-vision,claude-3-opus,my-custom-model` è¡¨ç¤ºä¸ºè¿™äº›æ¨¡åž‹æ·»åŠ è§†è§‰èƒ½åŠ›ï¼Œä½œä¸ºå¯¹é»˜è®¤æ¨¡å¼åŒ¹é…çš„è¡¥å……ï¼ˆé»˜è®¤ä¼šæ£€æµ‹åŒ…å«"vision"ã€"claude-3"ã€"gemini-1.5"ç­‰å…³é”®è¯çš„æ¨¡åž‹ï¼‰ã€‚
 
-在默认模式匹配之外，添加更多具有视觉能力的模型。多个模型用逗号分隔。
+åœ¨é»˜è®¤æ¨¡å¼åŒ¹é…ä¹‹å¤–ï¼Œæ·»åŠ æ›´å¤šå…·æœ‰è§†è§‰èƒ½åŠ›çš„æ¨¡åž‹ã€‚å¤šä¸ªæ¨¡åž‹ç”¨é€—å·åˆ†éš”ã€‚
 
-### `DEFAULT_INPUT_TEMPLATE` （可选）
+### `DEFAULT_INPUT_TEMPLATE` ï¼ˆå¯é€‰ï¼‰
 
-自定义默认的 template，用于初始化『设置』中的『用户输入预处理』配置项
+è‡ªå®šä¹‰é»˜è®¤çš„ templateï¼Œç”¨äºŽåˆå§‹åŒ–ã€Žè®¾ç½®ã€ä¸­çš„ã€Žç”¨æˆ·è¾“å…¥é¢„å¤„ç†ã€é…ç½®é¡¹
 
 ### `STABILITY_API_KEY` (optional)
 
-Stability API密钥
+Stability APIå¯†é’¥
 
 ### `STABILITY_URL` (optional)
 
-自定义的Stability API请求地址
+è‡ªå®šä¹‰çš„Stability APIè¯·æ±‚åœ°å€
 
 ### `ENABLE_MCP` (optional)
 
-启用MCP（Model Context Protocol）功能
+å¯ç”¨MCPï¼ˆModel Context Protocolï¼‰åŠŸèƒ½
 
 ### `SILICONFLOW_API_KEY` (optional)
 
@@ -292,101 +292,102 @@ SiliconFlow API URL.
 
 302.AI API URL.
 
-## 开发
+## å¼€å‘
 
-点击下方按钮，开始二次开发：
+ç‚¹å‡»ä¸‹æ–¹æŒ‰é’®ï¼Œå¼€å§‹äºŒæ¬¡å¼€å‘ï¼š
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
+åœ¨å¼€å§‹å†™ä»£ç ä¹‹å‰ï¼Œéœ€è¦åœ¨é¡¹ç›®æ ¹ç›®å½•æ–°å»ºä¸€ä¸ª `.env.local` æ–‡ä»¶ï¼Œé‡Œé¢å¡«å…¥çŽ¯å¢ƒå˜é‡ï¼š
 
 ```
 OPENAI_API_KEY=<your api key here>
 
-# 中国大陆用户，可以使用本项目自带的代理进行开发，你也可以自由选择其他代理地址
+# ä¸­å›½å¤§é™†ç”¨æˆ·ï¼Œå¯ä»¥ä½¿ç”¨æœ¬é¡¹ç›®è‡ªå¸¦çš„ä»£ç†è¿›è¡Œå¼€å‘ï¼Œä½ ä¹Ÿå¯ä»¥è‡ªç”±é€‰æ‹©å…¶ä»–ä»£ç†åœ°å€
 BASE_URL=https://b.nextweb.fun/api/proxy
 ```
 
-### 本地开发
+### æœ¬åœ°å¼€å‘
 
-1. 安装 nodejs 18 和 yarn，具体细节请询问 ChatGPT；
-2. 执行 `yarn install && yarn dev` 即可。⚠️ 注意：此命令仅用于本地开发，不要用于部署！
-3. 如果你想本地部署，请使用 `yarn install && yarn build && yarn start` 命令，你可以配合 pm2 来守护进程，防止被杀死，详情询问 ChatGPT。
+1. å®‰è£… nodejs 18 å’Œ yarnï¼Œå…·ä½“ç»†èŠ‚è¯·è¯¢é—® ChatGPTï¼›
+2. æ‰§è¡Œ `yarn install && yarn dev` å³å¯ã€‚âš ï¸ æ³¨æ„ï¼šæ­¤å‘½ä»¤ä»…ç”¨äºŽæœ¬åœ°å¼€å‘ï¼Œä¸è¦ç”¨äºŽéƒ¨ç½²ï¼
+3. å¦‚æžœä½ æƒ³æœ¬åœ°éƒ¨ç½²ï¼Œè¯·ä½¿ç”¨ `yarn install && yarn build && yarn start` å‘½ä»¤ï¼Œä½ å¯ä»¥é…åˆ pm2 æ¥å®ˆæŠ¤è¿›ç¨‹ï¼Œé˜²æ­¢è¢«æ€æ­»ï¼Œè¯¦æƒ…è¯¢é—® ChatGPTã€‚
 
-## 部署
+## éƒ¨ç½²
 
-### 宝塔面板部署
+### å®å¡”é¢æ¿éƒ¨ç½²
 
-> [简体中文 > 如何通过宝塔一键部署](./docs/bt-cn.md)
+> [ç®€ä½“ä¸­æ–‡ > å¦‚ä½•é€šè¿‡å®å¡”ä¸€é”®éƒ¨ç½²](./docs/bt-cn.md)
 
-### 容器部署 （推荐）
+### å®¹å™¨éƒ¨ç½² ï¼ˆæŽ¨èï¼‰
 
-> Docker 版本需要在 20 及其以上，否则会提示找不到镜像。
+> Docker ç‰ˆæœ¬éœ€è¦åœ¨ 20 åŠå…¶ä»¥ä¸Šï¼Œå¦åˆ™ä¼šæç¤ºæ‰¾ä¸åˆ°é•œåƒã€‚
 
-> ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
+> âš ï¸ æ³¨æ„ï¼šdocker ç‰ˆæœ¬åœ¨å¤§å¤šæ•°æ—¶é—´éƒ½ä¼šè½åŽæœ€æ–°çš„ç‰ˆæœ¬ 1 åˆ° 2 å¤©ï¼Œæ‰€ä»¥éƒ¨ç½²åŽä¼šæŒç»­å‡ºçŽ°â€œå­˜åœ¨æ›´æ–°â€çš„æç¤ºï¼Œå±žäºŽæ­£å¸¸çŽ°è±¡ã€‚
 
 ```shell
 docker pull yidadaa/chatgpt-next-web
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=页面访问密码 \
+   -e CODE=é¡µé¢è®¿é—®å¯†ç  \
    yidadaa/chatgpt-next-web
 ```
 
-你也可以指定 proxy：
+ä½ ä¹Ÿå¯ä»¥æŒ‡å®š proxyï¼š
 
 ```shell
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=页面访问密码 \
+   -e CODE=é¡µé¢è®¿é—®å¯†ç  \
    --net=host \
    -e PROXY_URL=http://127.0.0.1:7890 \
    yidadaa/chatgpt-next-web
 ```
 
-如需启用 MCP 功能，可以使用：
+å¦‚éœ€å¯ç”¨ MCP åŠŸèƒ½ï¼Œå¯ä»¥ä½¿ç”¨ï¼š
 
 ```shell
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=页面访问密码 \
+   -e CODE=é¡µé¢è®¿é—®å¯†ç  \
    -e ENABLE_MCP=true \
    yidadaa/chatgpt-next-web
 ```
 
-如果你的本地代理需要账号密码，可以使用：
+å¦‚æžœä½ çš„æœ¬åœ°ä»£ç†éœ€è¦è´¦å·å¯†ç ï¼Œå¯ä»¥ä½¿ç”¨ï¼š
 
 ```shell
 -e PROXY_URL="http://127.0.0.1:7890 user password"
 ```
 
-如果你需要指定其他环境变量，请自行在上述命令中增加 `-e 环境变量=环境变量值` 来指定。
+å¦‚æžœä½ éœ€è¦æŒ‡å®šå…¶ä»–çŽ¯å¢ƒå˜é‡ï¼Œè¯·è‡ªè¡Œåœ¨ä¸Šè¿°å‘½ä»¤ä¸­å¢žåŠ  `-e çŽ¯å¢ƒå˜é‡=çŽ¯å¢ƒå˜é‡å€¼` æ¥æŒ‡å®šã€‚
 
-### 本地部署
+### æœ¬åœ°éƒ¨ç½²
 
-在控制台运行下方命令：
+åœ¨æŽ§åˆ¶å°è¿è¡Œä¸‹æ–¹å‘½ä»¤ï¼š
 
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
+âš ï¸ æ³¨æ„ï¼šå¦‚æžœä½ å®‰è£…è¿‡ç¨‹ä¸­é‡åˆ°äº†é—®é¢˜ï¼Œè¯·ä½¿ç”¨ docker éƒ¨ç½²ã€‚
 
-## 鸣谢
+## é¸£è°¢
 
-### 捐赠者
+### æèµ è€…
 
-> 见英文版。
+> è§è‹±æ–‡ç‰ˆã€‚
 
-### 贡献者
+### è´¡çŒ®è€…
 
-[见项目贡献者列表](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
+[è§é¡¹ç›®è´¡çŒ®è€…åˆ—è¡¨](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
 
-### 相关项目
+### ç›¸å…³é¡¹ç›®
 
-- [one-api](https://github.com/songquanpeng/one-api): 一站式大模型额度管理平台，支持市面上所有主流大语言模型
+- [one-api](https://github.com/songquanpeng/one-api): ä¸€ç«™å¼å¤§æ¨¡åž‹é¢åº¦ç®¡ç†å¹³å°ï¼Œæ”¯æŒå¸‚é¢ä¸Šæ‰€æœ‰ä¸»æµå¤§è¯­è¨€æ¨¡åž‹
 
-## 开源协议
+## å¼€æºåè®®
 
 [MIT](https://opensource.org/license/mit/)
+

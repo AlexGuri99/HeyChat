@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-page-custom-font */
+﻿/* eslint-disable @next/next/no-page-custom-font */
 import "./styles/globals.scss";
 import "./styles/markdown.scss";
 import "./styles/highlight.scss";
@@ -9,10 +9,10 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { getServerSideConfig } from "./config/server";
 
 export const metadata: Metadata = {
-  title: "NextChat",
+  title: "HeyChat",
   description: "Your personal ChatGPT Chat Bot.",
   appleWebApp: {
-    title: "NextChat",
+    title: "HeyChat",
     statusBarStyle: "default",
   },
 };
@@ -70,3 +70,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+

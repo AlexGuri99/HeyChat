@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
     "beforeBuildCommand": "yarn export",
@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "NextChat",
+    "productName": "HeyChat",
     "version": "2.16.1"
   },
   "tauri": {
@@ -73,7 +73,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.yida.chatgpt.next.web",
-      "longDescription": "NextChat is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
+      "longDescription": "HeyChat is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -82,7 +82,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "NextChat App",
+      "shortDescription": "HeyChat App",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -110,7 +110,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "NextChat",
+        "title": "HeyChat",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"
@@ -118,3 +118,4 @@
     ]
   }
 }
+

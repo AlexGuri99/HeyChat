@@ -1,601 +1,601 @@
-import { SubmitKey } from "../store/config";
+﻿import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 const isApp = !!getClientConfig()?.isApp;
 
 const tr: PartialLocaleType = {
-  WIP: "Çalışma devam ediyor...",
+  WIP: "Ã‡alÄ±ÅŸma devam ediyor...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Sohbet bazı sorunlarla karşılaştı, endişelenmeyin:
-    \\ 1️⃣ Eğer sıfır yapılandırma ile başlamak istiyorsanız, [buraya tıklayarak hemen sohbete başlayın 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️`
-      : `😆 Sohbet bazı sorunlarla karşılaştı, endişelenmeyin:
-    \ 1️⃣ Eğer sıfır yapılandırma ile başlamak istiyorsanız, [buraya tıklayarak hemen sohbete başlayın 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ Eğer özel dağıtım sürümü kullanıyorsanız, [buraya tıklayarak](/#/auth) erişim anahtarını girin 🔑
-    \ 3️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️
+      ? `ðŸ˜† Sohbet bazÄ± sorunlarla karÅŸÄ±laÅŸtÄ±, endiÅŸelenmeyin:
+    \\ 1ï¸âƒ£ EÄŸer sÄ±fÄ±r yapÄ±landÄ±rma ile baÅŸlamak istiyorsanÄ±z, [buraya tÄ±klayarak hemen sohbete baÅŸlayÄ±n ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ Kendi OpenAI kaynaklarÄ±nÄ±zÄ± kullanmak istiyorsanÄ±z, [buraya tÄ±klayarak](/#/settings) ayarlarÄ± deÄŸiÅŸtirin âš™ï¸`
+      : `ðŸ˜† Sohbet bazÄ± sorunlarla karÅŸÄ±laÅŸtÄ±, endiÅŸelenmeyin:
+    \ 1ï¸âƒ£ EÄŸer sÄ±fÄ±r yapÄ±landÄ±rma ile baÅŸlamak istiyorsanÄ±z, [buraya tÄ±klayarak hemen sohbete baÅŸlayÄ±n ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ EÄŸer Ã¶zel daÄŸÄ±tÄ±m sÃ¼rÃ¼mÃ¼ kullanÄ±yorsanÄ±z, [buraya tÄ±klayarak](/#/auth) eriÅŸim anahtarÄ±nÄ± girin ðŸ”‘
+    \ 3ï¸âƒ£ Kendi OpenAI kaynaklarÄ±nÄ±zÄ± kullanmak istiyorsanÄ±z, [buraya tÄ±klayarak](/#/settings) ayarlarÄ± deÄŸiÅŸtirin âš™ï¸
  `,
   },
   Auth: {
-    Title: "Şifre Gerekli",
-    Tips: "Yönetici şifre doğrulamasını etkinleştirdi, lütfen aşağıya erişim kodunu girin",
-    SubTips: "Veya OpenAI veya Google API anahtarınızı girin",
-    Input: "Erişim kodunu buraya girin",
+    Title: "Åžifre Gerekli",
+    Tips: "YÃ¶netici ÅŸifre doÄŸrulamasÄ±nÄ± etkinleÅŸtirdi, lÃ¼tfen aÅŸaÄŸÄ±ya eriÅŸim kodunu girin",
+    SubTips: "Veya OpenAI veya Google API anahtarÄ±nÄ±zÄ± girin",
+    Input: "EriÅŸim kodunu buraya girin",
     Confirm: "Onayla",
     Later: "Sonra",
     Return: "Geri",
-    SaasTips: "Ayarlar çok karmaşık, hemen kullanmak istiyorum",
+    SaasTips: "Ayarlar Ã§ok karmaÅŸÄ±k, hemen kullanmak istiyorum",
     TopTips:
-      "🥳 NextChat AI lansman teklifi, OpenAI o1, GPT-4o, Claude-3.5 ve en son büyük modelleri şimdi açın",
+      "ðŸ¥³ HeyChat AI lansman teklifi, OpenAI o1, GPT-4o, Claude-3.5 ve en son bÃ¼yÃ¼k modelleri ÅŸimdi aÃ§Ä±n",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} konuşma`,
+    ChatItemCount: (count: number) => `${count} konuÅŸma`,
   },
   Chat: {
-    SubTitle: (count: number) => `Toplam ${count} konuşma`,
+    SubTitle: (count: number) => `Toplam ${count} konuÅŸma`,
     EditMessage: {
-      Title: "Mesaj Kayıtlarını Düzenle",
+      Title: "Mesaj KayÄ±tlarÄ±nÄ± DÃ¼zenle",
       Topic: {
         Title: "Sohbet Konusu",
-        SubTitle: "Geçerli sohbet konusunu değiştir",
+        SubTitle: "GeÃ§erli sohbet konusunu deÄŸiÅŸtir",
       },
     },
     Actions: {
       ChatList: "Mesaj listesine bak",
-      CompressedHistory: "Sıkıştırılmış geçmişi gör",
-      Export: "Sohbet kayıtlarını dışa aktar",
+      CompressedHistory: "SÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ geÃ§miÅŸi gÃ¶r",
+      Export: "Sohbet kayÄ±tlarÄ±nÄ± dÄ±ÅŸa aktar",
       Copy: "Kopyala",
       Stop: "Durdur",
       Retry: "Yeniden dene",
-      Pin: "Sabitlenmiş",
-      PinToastContent: "1 konuşma varsayılan ifadeye sabitlendi",
-      PinToastAction: "Görünüm",
+      Pin: "SabitlenmiÅŸ",
+      PinToastContent: "1 konuÅŸma varsayÄ±lan ifadeye sabitlendi",
+      PinToastAction: "GÃ¶rÃ¼nÃ¼m",
       Delete: "Sil",
-      Edit: "Düzenle",
-      RefreshTitle: "Başlığı Yenile",
-      RefreshToast: "Başlık yenileme isteği gönderildi",
+      Edit: "DÃ¼zenle",
+      RefreshTitle: "BaÅŸlÄ±ÄŸÄ± Yenile",
+      RefreshToast: "BaÅŸlÄ±k yenileme isteÄŸi gÃ¶nderildi",
     },
     Commands: {
       new: "Yeni sohbet",
-      newm: "Maske ile yeni sohbet oluştur",
+      newm: "Maske ile yeni sohbet oluÅŸtur",
       next: "Sonraki sohbet",
-      prev: "Önceki sohbet",
+      prev: "Ã–nceki sohbet",
       clear: "Konteksti temizle",
       del: "Sohbeti sil",
     },
     InputActions: {
-      Stop: "Yanıtı durdur",
+      Stop: "YanÄ±tÄ± durdur",
       ToBottom: "En alta git",
       Theme: {
         auto: "Otomatik tema",
-        light: "Açık mod",
+        light: "AÃ§Ä±k mod",
         dark: "Koyu mod",
       },
-      Prompt: "Kısayol komutu",
-      Masks: "Tüm maskeler",
+      Prompt: "KÄ±sayol komutu",
+      Masks: "TÃ¼m maskeler",
       Clear: "Sohbeti temizle",
-      Settings: "Sohbet ayarları",
-      UploadImage: "Resim yükle",
+      Settings: "Sohbet ayarlarÄ±",
+      UploadImage: "Resim yÃ¼kle",
     },
-    Rename: "Sohbeti yeniden adlandır",
-    Typing: "Yazıyor…",
+    Rename: "Sohbeti yeniden adlandÄ±r",
+    Typing: "YazÄ±yorâ€¦",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} gönder`;
+      var inputHints = `${submitKey} gÃ¶nder`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += " Shift + Enter satır sonu için";
+        inputHints += " Shift + Enter satÄ±r sonu iÃ§in";
       }
-      return inputHints + " / tamamlama için, : komutlar için";
+      return inputHints + " / tamamlama iÃ§in, : komutlar iÃ§in";
     },
-    Send: "Gönder",
+    Send: "GÃ¶nder",
     Config: {
-      Reset: "Hafızayı temizle",
+      Reset: "HafÄ±zayÄ± temizle",
       SaveAs: "Maske olarak kaydet",
     },
-    IsContext: "Varsayılan ifade",
+    IsContext: "VarsayÄ±lan ifade",
   },
   Export: {
-    Title: "Sohbet kayıtlarını paylaş",
+    Title: "Sohbet kayÄ±tlarÄ±nÄ± paylaÅŸ",
     Copy: "Hepsini kopyala",
-    Download: "Dosyayı indir",
-    Share: "ShareGPT'ye paylaş",
-    MessageFromYou: "Kullanıcı",
+    Download: "DosyayÄ± indir",
+    Share: "ShareGPT'ye paylaÅŸ",
+    MessageFromYou: "KullanÄ±cÄ±",
     MessageFromChatGPT: "ChatGPT",
     Format: {
-      Title: "Dışa aktarma formatı",
-      SubTitle: "Markdown metni veya PNG resmi olarak dışa aktarabilirsiniz",
+      Title: "DÄ±ÅŸa aktarma formatÄ±",
+      SubTitle: "Markdown metni veya PNG resmi olarak dÄ±ÅŸa aktarabilirsiniz",
     },
     IncludeContext: {
-      Title: "Maske bağlamını dahil et",
-      SubTitle: "Mesajlarda maske bağlamını göstermek ister misiniz",
+      Title: "Maske baÄŸlamÄ±nÄ± dahil et",
+      SubTitle: "Mesajlarda maske baÄŸlamÄ±nÄ± gÃ¶stermek ister misiniz",
     },
     Steps: {
-      Select: "Seç",
-      Preview: "Önizleme",
+      Select: "SeÃ§",
+      Preview: "Ã–nizleme",
     },
     Image: {
-      Toast: "Ekran görüntüsü oluşturuluyor",
-      Modal: "Resmi uzun basın veya sağ tıklayın ve kaydedin",
+      Toast: "Ekran gÃ¶rÃ¼ntÃ¼sÃ¼ oluÅŸturuluyor",
+      Modal: "Resmi uzun basÄ±n veya saÄŸ tÄ±klayÄ±n ve kaydedin",
     },
   },
   Select: {
-    Search: "Mesajları ara",
-    All: "Hepsini seç",
-    Latest: "Son birkaç mesaj",
-    Clear: "Seçimi temizle",
+    Search: "MesajlarÄ± ara",
+    All: "Hepsini seÃ§",
+    Latest: "Son birkaÃ§ mesaj",
+    Clear: "SeÃ§imi temizle",
   },
   Memory: {
-    Title: "Geçmiş Özeti",
-    EmptyContent: "Sohbet içeriği çok kısa, özetleme gerek yok",
-    Send: "Sohbet kayıtlarını otomatik olarak sıkıştır ve bağlam olarak gönder",
-    Copy: "Özeti kopyala",
-    Reset: "[kullanılmadı]",
-    ResetConfirm: "Geçmiş özetini temizlemek istediğinize emin misiniz?",
+    Title: "GeÃ§miÅŸ Ã–zeti",
+    EmptyContent: "Sohbet iÃ§eriÄŸi Ã§ok kÄ±sa, Ã¶zetleme gerek yok",
+    Send: "Sohbet kayÄ±tlarÄ±nÄ± otomatik olarak sÄ±kÄ±ÅŸtÄ±r ve baÄŸlam olarak gÃ¶nder",
+    Copy: "Ã–zeti kopyala",
+    Reset: "[kullanÄ±lmadÄ±]",
+    ResetConfirm: "GeÃ§miÅŸ Ã¶zetini temizlemek istediÄŸinize emin misiniz?",
   },
   Home: {
     NewChat: "Yeni sohbet",
-    DeleteChat: "Seçilen sohbeti silmek istediğinize emin misiniz?",
+    DeleteChat: "SeÃ§ilen sohbeti silmek istediÄŸinize emin misiniz?",
     DeleteToast: "Sohbet silindi",
     Revert: "Geri al",
   },
   Settings: {
     Title: "Ayarlar",
-    SubTitle: "Tüm ayar seçenekleri",
+    SubTitle: "TÃ¼m ayar seÃ§enekleri",
 
     Danger: {
       Reset: {
-        Title: "Tüm ayarları sıfırla",
-        SubTitle: "Tüm ayarları varsayılan değerlere sıfırla",
-        Action: "Hemen sıfırla",
-        Confirm: "Tüm ayarları sıfırlamak istediğinizden emin misiniz?",
+        Title: "TÃ¼m ayarlarÄ± sÄ±fÄ±rla",
+        SubTitle: "TÃ¼m ayarlarÄ± varsayÄ±lan deÄŸerlere sÄ±fÄ±rla",
+        Action: "Hemen sÄ±fÄ±rla",
+        Confirm: "TÃ¼m ayarlarÄ± sÄ±fÄ±rlamak istediÄŸinizden emin misiniz?",
       },
       Clear: {
-        Title: "Tüm verileri temizle",
-        SubTitle: "Tüm sohbet ve ayar verilerini temizle",
+        Title: "TÃ¼m verileri temizle",
+        SubTitle: "TÃ¼m sohbet ve ayar verilerini temizle",
         Action: "Hemen temizle",
         Confirm:
-          "Tüm sohbet ve ayar verilerini temizlemek istediğinizden emin misiniz?",
+          "TÃ¼m sohbet ve ayar verilerini temizlemek istediÄŸinizden emin misiniz?",
       },
     },
     Lang: {
-      Name: "Language", // Dikkat: yeni bir çeviri eklemek isterseniz, bu değeri çevirmeyin, `Language` olarak bırakın
-      All: "Tüm diller",
+      Name: "Language", // Dikkat: yeni bir Ã§eviri eklemek isterseniz, bu deÄŸeri Ã§evirmeyin, `Language` olarak bÄ±rakÄ±n
+      All: "TÃ¼m diller",
     },
     Avatar: "Profil Resmi",
     FontSize: {
-      Title: "Yazı Boyutu",
-      SubTitle: "Sohbet içeriğinin yazı boyutu",
+      Title: "YazÄ± Boyutu",
+      SubTitle: "Sohbet iÃ§eriÄŸinin yazÄ± boyutu",
     },
     FontFamily: {
-      Title: "Sohbet Yazı Tipi",
+      Title: "Sohbet YazÄ± Tipi",
       SubTitle:
-        "Sohbet içeriğinin yazı tipi, boş bırakıldığında küresel varsayılan yazı tipi uygulanır",
-      Placeholder: "Yazı Tipi Adı",
+        "Sohbet iÃ§eriÄŸinin yazÄ± tipi, boÅŸ bÄ±rakÄ±ldÄ±ÄŸÄ±nda kÃ¼resel varsayÄ±lan yazÄ± tipi uygulanÄ±r",
+      Placeholder: "YazÄ± Tipi AdÄ±",
     },
     InjectSystemPrompts: {
-      Title: "Sistem Seviyesi İpucu Enjeksiyonu",
-      SubTitle: "Her isteğin başına ChatGPT benzeri bir sistem ipucu ekle",
+      Title: "Sistem Seviyesi Ä°pucu Enjeksiyonu",
+      SubTitle: "Her isteÄŸin baÅŸÄ±na ChatGPT benzeri bir sistem ipucu ekle",
     },
     InputTemplate: {
-      Title: "Kullanıcı Girdisi Ön İşleme",
-      SubTitle: "Kullanıcının en son mesajı bu şablona doldurulur",
+      Title: "KullanÄ±cÄ± Girdisi Ã–n Ä°ÅŸleme",
+      SubTitle: "KullanÄ±cÄ±nÄ±n en son mesajÄ± bu ÅŸablona doldurulur",
     },
 
     Update: {
-      Version: (x: string) => `Mevcut sürüm: ${x}`,
-      IsLatest: "En son sürüm",
-      CheckUpdate: "Güncellemeleri kontrol et",
-      IsChecking: "Güncellemeler kontrol ediliyor...",
-      FoundUpdate: (x: string) => `Yeni sürüm bulundu: ${x}`,
-      GoToUpdate: "Güncellemeye git",
+      Version: (x: string) => `Mevcut sÃ¼rÃ¼m: ${x}`,
+      IsLatest: "En son sÃ¼rÃ¼m",
+      CheckUpdate: "GÃ¼ncellemeleri kontrol et",
+      IsChecking: "GÃ¼ncellemeler kontrol ediliyor...",
+      FoundUpdate: (x: string) => `Yeni sÃ¼rÃ¼m bulundu: ${x}`,
+      GoToUpdate: "GÃ¼ncellemeye git",
     },
-    SendKey: "Gönderme Tuşu",
+    SendKey: "GÃ¶nderme TuÅŸu",
     Theme: "Tema",
-    TightBorder: "Sınır Yok Modu",
+    TightBorder: "SÄ±nÄ±r Yok Modu",
     SendPreviewBubble: {
-      Title: "Önizleme Balonu",
-      SubTitle: "Markdown içeriğini önizleme balonunda görüntüle",
+      Title: "Ã–nizleme Balonu",
+      SubTitle: "Markdown iÃ§eriÄŸini Ã¶nizleme balonunda gÃ¶rÃ¼ntÃ¼le",
     },
     AutoGenerateTitle: {
-      Title: "Başlığı Otomatik Oluştur",
-      SubTitle: "Sohbet içeriğine göre uygun başlık oluştur",
+      Title: "BaÅŸlÄ±ÄŸÄ± Otomatik OluÅŸtur",
+      SubTitle: "Sohbet iÃ§eriÄŸine gÃ¶re uygun baÅŸlÄ±k oluÅŸtur",
     },
     Sync: {
       CloudState: "Bulut Verisi",
-      NotSyncYet: "Henüz senkronize edilmedi",
-      Success: "Senkronizasyon başarılı",
-      Fail: "Senkronizasyon başarısız",
+      NotSyncYet: "HenÃ¼z senkronize edilmedi",
+      Success: "Senkronizasyon baÅŸarÄ±lÄ±",
+      Fail: "Senkronizasyon baÅŸarÄ±sÄ±z",
 
       Config: {
         Modal: {
-          Title: "Bulut Senkronizasyonu Yapılandır",
-          Check: "Kullanılabilirliği kontrol et",
+          Title: "Bulut Senkronizasyonu YapÄ±landÄ±r",
+          Check: "KullanÄ±labilirliÄŸi kontrol et",
         },
         SyncType: {
-          Title: "Senkronizasyon Türü",
-          SubTitle: "Tercih ettiğiniz senkronizasyon sunucusunu seçin",
+          Title: "Senkronizasyon TÃ¼rÃ¼",
+          SubTitle: "Tercih ettiÄŸiniz senkronizasyon sunucusunu seÃ§in",
         },
         Proxy: {
-          Title: "Proxy'yi Etkinleştir",
+          Title: "Proxy'yi EtkinleÅŸtir",
           SubTitle:
-            "Tarayıcıda senkronize ederken proxy'yi etkinleştirin, aksi takdirde çapraz kaynak kısıtlamalarıyla karşılaşabilirsiniz",
+            "TarayÄ±cÄ±da senkronize ederken proxy'yi etkinleÅŸtirin, aksi takdirde Ã§apraz kaynak kÄ±sÄ±tlamalarÄ±yla karÅŸÄ±laÅŸabilirsiniz",
         },
         ProxyUrl: {
           Title: "Proxy Adresi",
-          SubTitle: "Sadece bu projeye ait çapraz kaynak proxy için",
+          SubTitle: "Sadece bu projeye ait Ã§apraz kaynak proxy iÃ§in",
         },
 
         WebDav: {
           Endpoint: "WebDAV Adresi",
-          UserName: "Kullanıcı Adı",
-          Password: "Şifre",
+          UserName: "KullanÄ±cÄ± AdÄ±",
+          Password: "Åžifre",
         },
 
         UpStash: {
           Endpoint: "UpStash Redis REST Url",
-          UserName: "Yedekleme Adı",
+          UserName: "Yedekleme AdÄ±",
           Password: "UpStash Redis REST Token",
         },
       },
 
       LocalState: "Yerel Veri",
       Overview: (overview: any) => {
-        return `${overview.chat} konuşma, ${overview.message} mesaj, ${overview.prompt} ipucu, ${overview.mask} maske`;
+        return `${overview.chat} konuÅŸma, ${overview.message} mesaj, ${overview.prompt} ipucu, ${overview.mask} maske`;
       },
-      ImportFailed: "İçeri aktarma başarısız",
+      ImportFailed: "Ä°Ã§eri aktarma baÅŸarÄ±sÄ±z",
     },
     Mask: {
       Splash: {
-        Title: "Maske Başlangıç Sayfası",
+        Title: "Maske BaÅŸlangÄ±Ã§ SayfasÄ±",
         SubTitle:
-          "Yeni sohbet başlatıldığında maske başlangıç sayfasını göster",
+          "Yeni sohbet baÅŸlatÄ±ldÄ±ÄŸÄ±nda maske baÅŸlangÄ±Ã§ sayfasÄ±nÄ± gÃ¶ster",
       },
       Builtin: {
-        Title: "Yerleşik Maskeleri Gizle",
-        SubTitle: "Tüm maskeler listesindeki yerleşik maskeleri gizle",
+        Title: "YerleÅŸik Maskeleri Gizle",
+        SubTitle: "TÃ¼m maskeler listesindeki yerleÅŸik maskeleri gizle",
       },
     },
     Prompt: {
       Disable: {
-        Title: "İpucu Tamamlamayı Devre Dışı Bırak",
+        Title: "Ä°pucu TamamlamayÄ± Devre DÄ±ÅŸÄ± BÄ±rak",
         SubTitle:
-          "Giriş kutusunun başına / yazarak otomatik tamamlamayı tetikle",
+          "GiriÅŸ kutusunun baÅŸÄ±na / yazarak otomatik tamamlamayÄ± tetikle",
       },
-      List: "Özelleştirilmiş İpucu Listesi",
+      List: "Ã–zelleÅŸtirilmiÅŸ Ä°pucu Listesi",
       ListCount: (builtin: number, custom: number) =>
-        `Yerleşik ${builtin} tane, kullanıcı tanımlı ${custom} tane`,
-      Edit: "Düzenle",
+        `YerleÅŸik ${builtin} tane, kullanÄ±cÄ± tanÄ±mlÄ± ${custom} tane`,
+      Edit: "DÃ¼zenle",
       Modal: {
-        Title: "İpucu Listesi",
+        Title: "Ä°pucu Listesi",
         Add: "Yeni Ekle",
-        Search: "İpucu Ara",
+        Search: "Ä°pucu Ara",
       },
       EditModal: {
-        Title: "İpucu Düzenle",
+        Title: "Ä°pucu DÃ¼zenle",
       },
     },
     HistoryCount: {
-      Title: "Ekli Geçmiş Mesaj Sayısı",
-      SubTitle: "Her istekte taşınan geçmiş mesaj sayısı",
+      Title: "Ekli GeÃ§miÅŸ Mesaj SayÄ±sÄ±",
+      SubTitle: "Her istekte taÅŸÄ±nan geÃ§miÅŸ mesaj sayÄ±sÄ±",
     },
     CompressThreshold: {
-      Title: "Geçmiş Mesaj Uzunluğu Sıkıştırma Eşiği",
+      Title: "GeÃ§miÅŸ Mesaj UzunluÄŸu SÄ±kÄ±ÅŸtÄ±rma EÅŸiÄŸi",
       SubTitle:
-        "Sıkıştırılmamış geçmiş mesaj bu değeri aştığında sıkıştırma yapılır",
+        "SÄ±kÄ±ÅŸtÄ±rÄ±lmamÄ±ÅŸ geÃ§miÅŸ mesaj bu deÄŸeri aÅŸtÄ±ÄŸÄ±nda sÄ±kÄ±ÅŸtÄ±rma yapÄ±lÄ±r",
     },
 
     Usage: {
       Title: "Bakiye Sorgulama",
       SubTitle(used: any, total: any) {
-        return `Bu ay kullanılan $${used}, toplam abonelik ücreti $${total}`;
+        return `Bu ay kullanÄ±lan $${used}, toplam abonelik Ã¼creti $${total}`;
       },
-      IsChecking: "Kontrol ediliyor…",
+      IsChecking: "Kontrol ediliyorâ€¦",
       Check: "Yeniden kontrol et",
       NoAccess:
-        "Bakiye görüntülemek için API Anahtarı veya erişim şifresi girin",
+        "Bakiye gÃ¶rÃ¼ntÃ¼lemek iÃ§in API AnahtarÄ± veya eriÅŸim ÅŸifresi girin",
     },
 
     Access: {
       SaasStart: {
-        Title: "NextChat AI kullanın",
-        Label: "(En maliyet etkin çözüm)",
+        Title: "HeyChat AI kullanÄ±n",
+        Label: "(En maliyet etkin Ã§Ã¶zÃ¼m)",
         SubTitle:
-          "NextChat tarafından resmi olarak yönetilmektedir, yapılandırma olmadan hemen kullanıma hazırdır, OpenAI o1, GPT-4o, Claude-3.5 gibi en son büyük modelleri destekler",
-        ChatNow: "Şimdi sohbet et",
+          "HeyChat tarafÄ±ndan resmi olarak yÃ¶netilmektedir, yapÄ±landÄ±rma olmadan hemen kullanÄ±ma hazÄ±rdÄ±r, OpenAI o1, GPT-4o, Claude-3.5 gibi en son bÃ¼yÃ¼k modelleri destekler",
+        ChatNow: "Åžimdi sohbet et",
       },
 
       AccessCode: {
-        Title: "Erişim Şifresi",
-        SubTitle: "Yönetici şifreli erişimi etkinleştirdi",
-        Placeholder: "Erişim şifrenizi girin",
+        Title: "EriÅŸim Åžifresi",
+        SubTitle: "YÃ¶netici ÅŸifreli eriÅŸimi etkinleÅŸtirdi",
+        Placeholder: "EriÅŸim ÅŸifrenizi girin",
       },
       CustomEndpoint: {
-        Title: "Özelleştirilmiş API",
+        Title: "Ã–zelleÅŸtirilmiÅŸ API",
         SubTitle:
-          "Özelleştirilmiş Azure veya OpenAI hizmeti kullanmak ister misiniz?",
+          "Ã–zelleÅŸtirilmiÅŸ Azure veya OpenAI hizmeti kullanmak ister misiniz?",
       },
       Provider: {
-        Title: "Model Sağlayıcısı",
-        SubTitle: "Farklı sağlayıcılara geçiş yapın",
+        Title: "Model SaÄŸlayÄ±cÄ±sÄ±",
+        SubTitle: "FarklÄ± saÄŸlayÄ±cÄ±lara geÃ§iÅŸ yapÄ±n",
       },
       OpenAI: {
         ApiKey: {
-          Title: "API Anahtarı",
+          Title: "API AnahtarÄ±",
           SubTitle:
-            "Özelleştirilmiş OpenAI Anahtarı kullanarak şifreli erişim kısıtlamalarını atlayın",
-          Placeholder: "OpenAI API Anahtarı",
+            "Ã–zelleÅŸtirilmiÅŸ OpenAI AnahtarÄ± kullanarak ÅŸifreli eriÅŸim kÄ±sÄ±tlamalarÄ±nÄ± atlayÄ±n",
+          Placeholder: "OpenAI API AnahtarÄ±",
         },
 
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Varsayılan adres dışında, http(s):// içermelidir",
+          SubTitle: "VarsayÄ±lan adres dÄ±ÅŸÄ±nda, http(s):// iÃ§ermelidir",
         },
       },
       Azure: {
         ApiKey: {
-          Title: "API Anahtarı",
+          Title: "API AnahtarÄ±",
           SubTitle:
-            "Özelleştirilmiş Azure Anahtarı kullanarak şifreli erişim kısıtlamalarını atlayın",
-          Placeholder: "Azure API Anahtarı",
+            "Ã–zelleÅŸtirilmiÅŸ Azure AnahtarÄ± kullanarak ÅŸifreli eriÅŸim kÄ±sÄ±tlamalarÄ±nÄ± atlayÄ±n",
+          Placeholder: "Azure API AnahtarÄ±",
         },
 
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Örnek:",
+          SubTitle: "Ã–rnek:",
         },
 
         ApiVerion: {
           Title: "API Versiyonu (azure api version)",
-          SubTitle: "Belirli bir versiyonu seçin",
+          SubTitle: "Belirli bir versiyonu seÃ§in",
         },
       },
       Anthropic: {
         ApiKey: {
-          Title: "API Anahtarı",
+          Title: "API AnahtarÄ±",
           SubTitle:
-            "Özelleştirilmiş Anthropic Anahtarı kullanarak şifreli erişim kısıtlamalarını atlayın",
-          Placeholder: "Anthropic API Anahtarı",
+            "Ã–zelleÅŸtirilmiÅŸ Anthropic AnahtarÄ± kullanarak ÅŸifreli eriÅŸim kÄ±sÄ±tlamalarÄ±nÄ± atlayÄ±n",
+          Placeholder: "Anthropic API AnahtarÄ±",
         },
 
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Örnek:",
+          SubTitle: "Ã–rnek:",
         },
 
         ApiVerion: {
           Title: "API Versiyonu (claude api version)",
-          SubTitle: "Belirli bir API versiyonunu seçin",
+          SubTitle: "Belirli bir API versiyonunu seÃ§in",
         },
       },
       Google: {
         ApiKey: {
-          Title: "API Anahtarı",
-          SubTitle: "Google AI'den API Anahtarınızı alın",
-          Placeholder: "Google AI Studio API Anahtarınızı girin",
+          Title: "API AnahtarÄ±",
+          SubTitle: "Google AI'den API AnahtarÄ±nÄ±zÄ± alÄ±n",
+          Placeholder: "Google AI Studio API AnahtarÄ±nÄ±zÄ± girin",
         },
 
         Endpoint: {
-          Title: "Uç Nokta Adresi",
-          SubTitle: "Örnek:",
+          Title: "UÃ§ Nokta Adresi",
+          SubTitle: "Ã–rnek:",
         },
 
         ApiVersion: {
           Title: "API Versiyonu (sadece gemini-pro)",
-          SubTitle: "Belirli bir API versiyonunu seçin",
+          SubTitle: "Belirli bir API versiyonunu seÃ§in",
         },
         GoogleSafetySettings: {
-          Title: "Google Güvenlik Filtreleme Seviyesi",
-          SubTitle: "İçerik filtreleme seviyesini ayarlayın",
+          Title: "Google GÃ¼venlik Filtreleme Seviyesi",
+          SubTitle: "Ä°Ã§erik filtreleme seviyesini ayarlayÄ±n",
         },
       },
       Baidu: {
         ApiKey: {
-          Title: "API Anahtarı",
-          SubTitle: "Özelleştirilmiş Baidu API Anahtarı kullanın",
-          Placeholder: "Baidu API Anahtarı",
+          Title: "API AnahtarÄ±",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ Baidu API AnahtarÄ± kullanÄ±n",
+          Placeholder: "Baidu API AnahtarÄ±",
         },
         SecretKey: {
-          Title: "Secret Anahtarı",
-          SubTitle: "Özelleştirilmiş Baidu Secret Anahtarı kullanın",
-          Placeholder: "Baidu Secret Anahtarı",
+          Title: "Secret AnahtarÄ±",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ Baidu Secret AnahtarÄ± kullanÄ±n",
+          Placeholder: "Baidu Secret AnahtarÄ±",
         },
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Özelleştirilmiş yapılandırma için .env'ye gidin",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ yapÄ±landÄ±rma iÃ§in .env'ye gidin",
         },
       },
       ByteDance: {
         ApiKey: {
-          Title: "API Anahtarı",
-          SubTitle: "Özelleştirilmiş ByteDance API Anahtarı kullanın",
-          Placeholder: "ByteDance API Anahtarı",
+          Title: "API AnahtarÄ±",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ ByteDance API AnahtarÄ± kullanÄ±n",
+          Placeholder: "ByteDance API AnahtarÄ±",
         },
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Örnek:",
+          SubTitle: "Ã–rnek:",
         },
       },
       Alibaba: {
         ApiKey: {
-          Title: "API Anahtarı",
-          SubTitle: "Özelleştirilmiş Alibaba Cloud API Anahtarı kullanın",
-          Placeholder: "Alibaba Cloud API Anahtarı",
+          Title: "API AnahtarÄ±",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ Alibaba Cloud API AnahtarÄ± kullanÄ±n",
+          Placeholder: "Alibaba Cloud API AnahtarÄ±",
         },
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Örnek:",
+          SubTitle: "Ã–rnek:",
         },
       },
       AI302: {
         ApiKey: {
-          Title: "API Anahtarı",
-          SubTitle: "Özelleştirilmiş 302.AI API Anahtarı kullanın",
-          Placeholder: "302.AI API Anahtarı",
+          Title: "API AnahtarÄ±",
+          SubTitle: "Ã–zelleÅŸtirilmiÅŸ 302.AI API AnahtarÄ± kullanÄ±n",
+          Placeholder: "302.AI API AnahtarÄ±",
         },
         Endpoint: {
           Title: "API Adresi",
-          SubTitle: "Örnek:",
+          SubTitle: "Ã–rnek:",
         },
       },
       CustomModel: {
-        Title: "Özelleştirilmiş Model Adı",
+        Title: "Ã–zelleÅŸtirilmiÅŸ Model AdÄ±",
         SubTitle:
-          "Özelleştirilmiş model seçenekleri ekleyin, İngilizce virgül ile ayırın",
+          "Ã–zelleÅŸtirilmiÅŸ model seÃ§enekleri ekleyin, Ä°ngilizce virgÃ¼l ile ayÄ±rÄ±n",
       },
     },
 
     Model: "Model (model)",
     CompressModel: {
-      Title: "Sıkıştırma Modeli",
-      SubTitle: "Geçmişi sıkıştırmak için kullanılan model",
+      Title: "SÄ±kÄ±ÅŸtÄ±rma Modeli",
+      SubTitle: "GeÃ§miÅŸi sÄ±kÄ±ÅŸtÄ±rmak iÃ§in kullanÄ±lan model",
     },
     Temperature: {
       Title: "Rastgelelik (temperature)",
-      SubTitle: "Değer arttıkça yanıt daha rastgele olur",
+      SubTitle: "DeÄŸer arttÄ±kÃ§a yanÄ±t daha rastgele olur",
     },
     TopP: {
-      Title: "Nükleer Örnekleme (top_p)",
+      Title: "NÃ¼kleer Ã–rnekleme (top_p)",
       SubTitle:
-        "Rastgeleliğe benzer, ancak rastgelelik ile birlikte değiştirmeyin",
+        "RastgeleliÄŸe benzer, ancak rastgelelik ile birlikte deÄŸiÅŸtirmeyin",
     },
     MaxTokens: {
-      Title: "Tek Yanıt Limiti (max_tokens)",
-      SubTitle: "Tek etkileşimde kullanılan maksimum Token sayısı",
+      Title: "Tek YanÄ±t Limiti (max_tokens)",
+      SubTitle: "Tek etkileÅŸimde kullanÄ±lan maksimum Token sayÄ±sÄ±",
     },
     PresencePenalty: {
-      Title: "Konu Tazeliği (presence_penalty)",
-      SubTitle: "Değer arttıkça, yeni konulara geçiş olasılığı artar",
+      Title: "Konu TazeliÄŸi (presence_penalty)",
+      SubTitle: "DeÄŸer arttÄ±kÃ§a, yeni konulara geÃ§iÅŸ olasÄ±lÄ±ÄŸÄ± artar",
     },
     FrequencyPenalty: {
-      Title: "Frekans Cezası (frequency_penalty)",
+      Title: "Frekans CezasÄ± (frequency_penalty)",
       SubTitle:
-        "Değer arttıkça, tekrar eden kelimelerin azalması olasılığı artar",
+        "DeÄŸer arttÄ±kÃ§a, tekrar eden kelimelerin azalmasÄ± olasÄ±lÄ±ÄŸÄ± artar",
     },
   },
   Store: {
     DefaultTopic: "Yeni Sohbet",
-    BotHello: "Size nasıl yardımcı olabilirim?",
-    Error: "Bir hata oluştu, lütfen daha sonra tekrar deneyin",
+    BotHello: "Size nasÄ±l yardÄ±mcÄ± olabilirim?",
+    Error: "Bir hata oluÅŸtu, lÃ¼tfen daha sonra tekrar deneyin",
     Prompt: {
-      History: (content: string) => "Bu, geçmiş sohbetin özeti: " + content,
+      History: (content: string) => "Bu, geÃ§miÅŸ sohbetin Ã¶zeti: " + content,
       Topic:
-        "Bu cümlenin dört ila beş kelimelik kısa başlığını doğrudan verin, açıklama yapmayın, noktalama işareti, duygu kelimesi veya fazla metin eklemeyin, kalın yapmayın. Başlık yoksa, doğrudan 'Sohbet' yanıtını verin.",
+        "Bu cÃ¼mlenin dÃ¶rt ila beÅŸ kelimelik kÄ±sa baÅŸlÄ±ÄŸÄ±nÄ± doÄŸrudan verin, aÃ§Ä±klama yapmayÄ±n, noktalama iÅŸareti, duygu kelimesi veya fazla metin eklemeyin, kalÄ±n yapmayÄ±n. BaÅŸlÄ±k yoksa, doÄŸrudan 'Sohbet' yanÄ±tÄ±nÄ± verin.",
       Summarize:
-        "Sohbet içeriğini kısaca özetleyin, bu özet sonraki bağlam ipucu olarak kullanılacaktır, 200 kelime içinde tutun",
+        "Sohbet iÃ§eriÄŸini kÄ±saca Ã¶zetleyin, bu Ã¶zet sonraki baÄŸlam ipucu olarak kullanÄ±lacaktÄ±r, 200 kelime iÃ§inde tutun",
     },
   },
   Copy: {
-    Success: "Panoya yazıldı",
-    Failed: "Kopyalama başarısız, lütfen panoya erişim izni verin",
+    Success: "Panoya yazÄ±ldÄ±",
+    Failed: "Kopyalama baÅŸarÄ±sÄ±z, lÃ¼tfen panoya eriÅŸim izni verin",
   },
   Download: {
-    Success: "İçerik dizininize indirildi.",
-    Failed: "İndirme başarısız.",
+    Success: "Ä°Ã§erik dizininize indirildi.",
+    Failed: "Ä°ndirme baÅŸarÄ±sÄ±z.",
   },
   Context: {
-    Toast: (x: any) => `${x} tane önceden tanımlı ipucu içeriyor`,
-    Edit: "Mevcut sohbet ayarları",
+    Toast: (x: any) => `${x} tane Ã¶nceden tanÄ±mlÄ± ipucu iÃ§eriyor`,
+    Edit: "Mevcut sohbet ayarlarÄ±",
     Add: "Yeni bir sohbet ekle",
-    Clear: "Bağlam temizlendi",
-    Revert: "Bağlamı geri getir",
+    Clear: "BaÄŸlam temizlendi",
+    Revert: "BaÄŸlamÄ± geri getir",
   },
   Plugin: {
     Name: "Eklenti",
   },
   FineTuned: {
-    Sysmessage: "Sen bir asistansın",
+    Sysmessage: "Sen bir asistansÄ±n",
   },
   SearchChat: {
     Name: "Ara",
     Page: {
-      Title: "Sohbet geçmişini ara",
+      Title: "Sohbet geÃ§miÅŸini ara",
       Search: "Arama anahtar kelimelerini girin",
-      NoResult: "Sonuç bulunamadı",
+      NoResult: "SonuÃ§ bulunamadÄ±",
       NoData: "Veri yok",
-      Loading: "Yükleniyor",
+      Loading: "YÃ¼kleniyor",
 
-      SubTitle: (count: number) => `${count} sonuç bulundu`,
+      SubTitle: (count: number) => `${count} sonuÃ§ bulundu`,
     },
     Item: {
-      View: "Görüntüle",
+      View: "GÃ¶rÃ¼ntÃ¼le",
     },
   },
   Mask: {
     Name: "Maske",
     Page: {
-      Title: "Önceden Tanımlı Karakter Maskeleri",
+      Title: "Ã–nceden TanÄ±mlÄ± Karakter Maskeleri",
       SubTitle: (count: number) =>
-        `${count} tane önceden tanımlı karakter tanımı`,
+        `${count} tane Ã¶nceden tanÄ±mlÄ± karakter tanÄ±mÄ±`,
       Search: "Karakter maskesi ara",
-      Create: "Yeni oluştur",
+      Create: "Yeni oluÅŸtur",
     },
     Item: {
-      Info: (count: number) => `${count} tane önceden tanımlı sohbet içeriyor`,
+      Info: (count: number) => `${count} tane Ã¶nceden tanÄ±mlÄ± sohbet iÃ§eriyor`,
       Chat: "Sohbet",
-      View: "Görüntüle",
-      Edit: "Düzenle",
+      View: "GÃ¶rÃ¼ntÃ¼le",
+      Edit: "DÃ¼zenle",
       Delete: "Sil",
-      DeleteConfirm: "Silmek istediğinizden emin misiniz?",
+      DeleteConfirm: "Silmek istediÄŸinizden emin misiniz?",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Önceden Tanımlı Maskeyi Düzenle ${readonly ? " (Salt Okunur)" : ""}`,
-      Download: "Önceden Tanımlı Maskeyi İndir",
-      Clone: "Önceden Tanımlı Maskeyi Kopyala",
+        `Ã–nceden TanÄ±mlÄ± Maskeyi DÃ¼zenle ${readonly ? " (Salt Okunur)" : ""}`,
+      Download: "Ã–nceden TanÄ±mlÄ± Maskeyi Ä°ndir",
+      Clone: "Ã–nceden TanÄ±mlÄ± Maskeyi Kopyala",
     },
     Config: {
       Avatar: "Karakter Profil Resmi",
-      Name: "Karakter Adı",
+      Name: "Karakter AdÄ±",
       Sync: {
-        Title: "Küresel Ayarları Kullan",
-        SubTitle: "Mevcut sohbet küresel model ayarlarını mı kullanacak?",
+        Title: "KÃ¼resel AyarlarÄ± Kullan",
+        SubTitle: "Mevcut sohbet kÃ¼resel model ayarlarÄ±nÄ± mÄ± kullanacak?",
         Confirm:
-          "Mevcut sohbetin özelleştirilmiş ayarları otomatik olarak üzerine yazılacaktır, küresel ayarları etkinleştirmek istediğinizden emin misiniz?",
+          "Mevcut sohbetin Ã¶zelleÅŸtirilmiÅŸ ayarlarÄ± otomatik olarak Ã¼zerine yazÄ±lacaktÄ±r, kÃ¼resel ayarlarÄ± etkinleÅŸtirmek istediÄŸinizden emin misiniz?",
       },
       HideContext: {
-        Title: "Önceden Tanımlı Sohbetleri Gizle",
+        Title: "Ã–nceden TanÄ±mlÄ± Sohbetleri Gizle",
         SubTitle:
-          "Gizlendiğinde, önceden tanımlı sohbetler sohbet ekranında görünmeyecek",
+          "GizlendiÄŸinde, Ã¶nceden tanÄ±mlÄ± sohbetler sohbet ekranÄ±nda gÃ¶rÃ¼nmeyecek",
       },
       Share: {
-        Title: "Bu Maskeyi Paylaş",
-        SubTitle: "Bu maskenin doğrudan bağlantısını oluştur",
-        Action: "Bağlantıyı Kopyala",
+        Title: "Bu Maskeyi PaylaÅŸ",
+        SubTitle: "Bu maskenin doÄŸrudan baÄŸlantÄ±sÄ±nÄ± oluÅŸtur",
+        Action: "BaÄŸlantÄ±yÄ± Kopyala",
       },
     },
   },
   NewChat: {
-    Return: "Geri dön",
-    Skip: "Doğrudan başla",
-    NotShow: "Bir daha gösterme",
+    Return: "Geri dÃ¶n",
+    Skip: "DoÄŸrudan baÅŸla",
+    NotShow: "Bir daha gÃ¶sterme",
     ConfirmNoShow:
-      "Devre dışı bırakmak istediğinizden emin misiniz? Devre dışı bıraktıktan sonra ayarlardan tekrar etkinleştirebilirsiniz.",
-    Title: "Bir Maske Seçin",
+      "Devre dÄ±ÅŸÄ± bÄ±rakmak istediÄŸinizden emin misiniz? Devre dÄ±ÅŸÄ± bÄ±raktÄ±ktan sonra ayarlardan tekrar etkinleÅŸtirebilirsiniz.",
+    Title: "Bir Maske SeÃ§in",
     SubTitle:
-      "Şimdi başlayın ve maskenin arkasındaki zihinle etkileşimde bulunun",
-    More: "Tümünü Gör",
+      "Åžimdi baÅŸlayÄ±n ve maskenin arkasÄ±ndaki zihinle etkileÅŸimde bulunun",
+    More: "TÃ¼mÃ¼nÃ¼ GÃ¶r",
   },
 
   URLCommand: {
-    Code: "Bağlantıda erişim kodu bulundu, otomatik olarak doldurulsun mu?",
+    Code: "BaÄŸlantÄ±da eriÅŸim kodu bulundu, otomatik olarak doldurulsun mu?",
     Settings:
-      "Bağlantıda önceden tanımlı ayarlar bulundu, otomatik olarak doldurulsun mu?",
+      "BaÄŸlantÄ±da Ã¶nceden tanÄ±mlÄ± ayarlar bulundu, otomatik olarak doldurulsun mu?",
   },
 
   UI: {
     Confirm: "Onayla",
-    Cancel: "İptal et",
+    Cancel: "Ä°ptal et",
     Close: "Kapat",
-    Create: "Yeni oluştur",
-    Edit: "Düzenle",
-    Export: "Dışa Aktar",
-    Import: "İçe Aktar",
+    Create: "Yeni oluÅŸtur",
+    Edit: "DÃ¼zenle",
+    Export: "DÄ±ÅŸa Aktar",
+    Import: "Ä°Ã§e Aktar",
     Sync: "Senkronize et",
-    Config: "Yapılandır",
+    Config: "YapÄ±landÄ±r",
   },
   Exporter: {
     Description: {
-      Title: "Sadece bağlam temizlendikten sonraki mesajlar gösterilecektir",
+      Title: "Sadece baÄŸlam temizlendikten sonraki mesajlar gÃ¶sterilecektir",
     },
     Model: "Model",
     Messages: "Mesajlar",
@@ -605,3 +605,4 @@ const tr: PartialLocaleType = {
 };
 
 export default tr;
+

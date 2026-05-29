@@ -1,4 +1,4 @@
-import { SubmitKey } from "../store/config";
+﻿import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
@@ -8,13 +8,13 @@ const it: PartialLocaleType = {
   WIP: "Work in progress...",
   Error: {
     Unauthorized: isApp
-      ? `😆 La conversazione ha incontrato alcuni problemi, non preoccuparti:
-    \\ 1️⃣ Se vuoi iniziare senza configurazione, [clicca qui per iniziare a chattare immediatamente 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️`
-      : `😆 La conversazione ha incontrato alcuni problemi, non preoccuparti:
-    \ 1️⃣ Se vuoi iniziare senza configurazione, [clicca qui per iniziare a chattare immediatamente 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ Se stai utilizzando una versione di distribuzione privata, clicca [qui](/#/auth) per inserire la chiave di accesso 🔑
-    \ 3️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️
+      ? `ðŸ˜† La conversazione ha incontrato alcuni problemi, non preoccuparti:
+    \\ 1ï¸âƒ£ Se vuoi iniziare senza configurazione, [clicca qui per iniziare a chattare immediatamente ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni âš™ï¸`
+      : `ðŸ˜† La conversazione ha incontrato alcuni problemi, non preoccuparti:
+    \ 1ï¸âƒ£ Se vuoi iniziare senza configurazione, [clicca qui per iniziare a chattare immediatamente ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ Se stai utilizzando una versione di distribuzione privata, clicca [qui](/#/auth) per inserire la chiave di accesso ðŸ”‘
+    \ 3ï¸âƒ£ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni âš™ï¸
  `,
   },
   Auth: {
@@ -23,12 +23,12 @@ const it: PartialLocaleType = {
     SubTips: "O inserisci la tua chiave API OpenAI o Google",
     Input: "Inserisci il codice di accesso qui",
     Confirm: "Conferma",
-    Later: "Più tardi",
+    Later: "PiÃ¹ tardi",
     Return: "Ritorna",
     SaasTips:
-      "La configurazione è troppo complicata, voglio usarlo immediatamente",
+      "La configurazione Ã¨ troppo complicata, voglio usarlo immediatamente",
     TopTips:
-      "🥳 Offerta di lancio NextChat AI, sblocca OpenAI o1, GPT-4o, Claude-3.5 e i più recenti modelli di grandi dimensioni",
+      "ðŸ¥³ Offerta di lancio HeyChat AI, sblocca OpenAI o1, GPT-4o, Claude-3.5 e i piÃ¹ recenti modelli di grandi dimensioni",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversazioni`,
@@ -67,7 +67,7 @@ const it: PartialLocaleType = {
     },
     InputActions: {
       Stop: "Interrompi risposta",
-      ToBottom: "Scorri fino al più recente",
+      ToBottom: "Scorri fino al piÃ¹ recente",
       Theme: {
         auto: "Tema automatico",
         light: "Tema chiaro",
@@ -80,15 +80,15 @@ const it: PartialLocaleType = {
       UploadImage: "Carica immagine",
     },
     Rename: "Rinomina conversazione",
-    Typing: "Digitazione in corso…",
+    Typing: "Digitazione in corsoâ€¦",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} per inviare`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "，Shift + Enter per andare a capo";
+        inputHints += "ï¼ŒShift + Enter per andare a capo";
       }
       return (
         inputHints +
-        "，/ per attivare il completamento automatico, : per attivare il comando"
+        "ï¼Œ/ per attivare il completamento automatico, : per attivare il comando"
       );
     },
     Send: "Invia",
@@ -132,7 +132,7 @@ const it: PartialLocaleType = {
   Memory: {
     Title: "Riassunto storico",
     EmptyContent:
-      "Il contenuto della conversazione è troppo breve, nessun riassunto necessario",
+      "Il contenuto della conversazione Ã¨ troppo breve, nessun riassunto necessario",
     Send: "Comprimi automaticamente la cronologia chat e inviala come contesto",
     Copy: "Copia riassunto",
     Reset: "[unused]",
@@ -186,12 +186,12 @@ const it: PartialLocaleType = {
     InputTemplate: {
       Title: "Preprocessing dell'input utente",
       SubTitle:
-        "L'ultimo messaggio dell'utente verrà inserito in questo modello",
+        "L'ultimo messaggio dell'utente verrÃ  inserito in questo modello",
     },
 
     Update: {
       Version: (x: string) => `Versione attuale: ${x}`,
-      IsLatest: "È l'ultima versione",
+      IsLatest: "Ãˆ l'ultima versione",
       CheckUpdate: "Controlla aggiornamenti",
       IsChecking: "Verifica aggiornamenti in corso...",
       FoundUpdate: (x: string) => `Nuova versione trovata: ${x}`,
@@ -199,7 +199,7 @@ const it: PartialLocaleType = {
     },
     SendKey: "Tasto di invio",
     Theme: "Tema",
-    TightBorder: "Modalità senza bordi",
+    TightBorder: "ModalitÃ  senza bordi",
     SendPreviewBubble: {
       Title: "Bolla di anteprima",
       SubTitle: "Anteprima del contenuto Markdown nella bolla di anteprima",
@@ -211,14 +211,14 @@ const it: PartialLocaleType = {
     },
     Sync: {
       CloudState: "Dati cloud",
-      NotSyncYet: "Non è ancora avvenuta alcuna sincronizzazione",
+      NotSyncYet: "Non Ã¨ ancora avvenuta alcuna sincronizzazione",
       Success: "Sincronizzazione riuscita",
       Fail: "Sincronizzazione fallita",
 
       Config: {
         Modal: {
           Title: "Configura sincronizzazione cloud",
-          Check: "Controlla disponibilità",
+          Check: "Controlla disponibilitÃ ",
         },
         SyncType: {
           Title: "Tipo di sincronizzazione",
@@ -227,7 +227,7 @@ const it: PartialLocaleType = {
         Proxy: {
           Title: "Abilita proxy",
           SubTitle:
-            "Durante la sincronizzazione nel browser, è necessario abilitare il proxy per evitare restrizioni CORS",
+            "Durante la sincronizzazione nel browser, Ã¨ necessario abilitare il proxy per evitare restrizioni CORS",
         },
         ProxyUrl: {
           Title: "Indirizzo proxy",
@@ -299,7 +299,7 @@ const it: PartialLocaleType = {
       SubTitle(used: any, total: any) {
         return `Utilizzato questo mese $${used}, totale abbonamento $${total}`;
       },
-      IsChecking: "Verifica in corso…",
+      IsChecking: "Verifica in corsoâ€¦",
       Check: "Verifica di nuovo",
       NoAccess:
         "Inserisci API Key o password di accesso per visualizzare il saldo",
@@ -307,10 +307,10 @@ const it: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Usa NextChat AI",
-        Label: "(La soluzione più conveniente)",
+        Title: "Usa HeyChat AI",
+        Label: "(La soluzione piÃ¹ conveniente)",
         SubTitle:
-          "Mantenuto ufficialmente da NextChat, pronto all'uso senza configurazione, supporta i modelli più recenti come OpenAI o1, GPT-4o e Claude-3.5",
+          "Mantenuto ufficialmente da HeyChat, pronto all'uso senza configurazione, supporta i modelli piÃ¹ recenti come OpenAI o1, GPT-4o e Claude-3.5",
         ChatNow: "Chatta ora",
       },
 
@@ -460,38 +460,38 @@ const it: PartialLocaleType = {
       SubTitle: "Modello utilizzato per comprimere la cronologia",
     },
     Temperature: {
-      Title: "Casualità (temperature)",
-      SubTitle: "Valore più alto, risposte più casuali",
+      Title: "CasualitÃ  (temperature)",
+      SubTitle: "Valore piÃ¹ alto, risposte piÃ¹ casuali",
     },
     TopP: {
       Title: "Campionamento nucleare (top_p)",
       SubTitle:
-        "Simile alla casualità, ma non cambiarlo insieme alla casualità",
+        "Simile alla casualitÃ , ma non cambiarlo insieme alla casualitÃ ",
     },
     MaxTokens: {
       Title: "Limite di token per risposta (max_tokens)",
       SubTitle: "Numero massimo di token per ogni interazione",
     },
     PresencePenalty: {
-      Title: "Novità del tema (presence_penalty)",
+      Title: "NovitÃ  del tema (presence_penalty)",
       SubTitle:
-        "Valore più alto, maggiore possibilità di espandere a nuovi argomenti",
+        "Valore piÃ¹ alto, maggiore possibilitÃ  di espandere a nuovi argomenti",
     },
     FrequencyPenalty: {
-      Title: "Penalità di frequenza (frequency_penalty)",
+      Title: "PenalitÃ  di frequenza (frequency_penalty)",
       SubTitle:
-        "Valore più alto, maggiore possibilità di ridurre le ripetizioni",
+        "Valore piÃ¹ alto, maggiore possibilitÃ  di ridurre le ripetizioni",
     },
   },
   Store: {
     DefaultTopic: "Nuova chat",
     BotHello: "Come posso aiutarti?",
-    Error: "Si è verificato un errore, riprova più tardi",
+    Error: "Si Ã¨ verificato un errore, riprova piÃ¹ tardi",
     Prompt: {
       History: (content: string) =>
-        "Questo è un riassunto della chat storica come contesto: " + content,
+        "Questo Ã¨ un riassunto della chat storica come contesto: " + content,
       Topic:
-        "Riporta il tema di questa frase in modo conciso con quattro o cinque parole, senza spiegazioni, punteggiatura, interiezioni, testo superfluo e senza grassetto. Se non c'è un tema, rispondi direttamente con 'chit-chat'",
+        "Riporta il tema di questa frase in modo conciso con quattro o cinque parole, senza spiegazioni, punteggiatura, interiezioni, testo superfluo e senza grassetto. Se non c'Ã¨ un tema, rispondi direttamente con 'chit-chat'",
       Summarize:
         "Riassumi brevemente il contenuto della conversazione come prompt di contesto per il seguito, mantenendolo entro 200 parole",
     },
@@ -560,7 +560,7 @@ const it: PartialLocaleType = {
       Sync: {
         Title: "Utilizza impostazioni globali",
         SubTitle:
-          "La conversazione attuale utilizzerà le impostazioni globali del modello",
+          "La conversazione attuale utilizzerÃ  le impostazioni globali del modello",
         Confirm:
           "Le impostazioni personalizzate della conversazione attuale verranno sovrascritte automaticamente, confermi l'attivazione delle impostazioni globali?",
       },
@@ -579,7 +579,7 @@ const it: PartialLocaleType = {
   NewChat: {
     Return: "Torna",
     Skip: "Inizia subito",
-    NotShow: "Non mostrare più",
+    NotShow: "Non mostrare piÃ¹",
     ConfirmNoShow:
       "Confermi di disabilitare? Dopo la disabilitazione, puoi riattivare in qualsiasi momento dalle impostazioni.",
     Title: "Scegli una maschera",
@@ -617,3 +617,4 @@ const it: PartialLocaleType = {
 };
 
 export default it;
+

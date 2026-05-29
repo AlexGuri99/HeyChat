@@ -1,4 +1,4 @@
-import { getClientConfig } from "../config/client";
+﻿import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { SAAS_CHAT_UTM_URL } from "@/app/constant";
@@ -6,335 +6,335 @@ import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 
 const isApp = !!getClientConfig()?.isApp;
 const sk: PartialLocaleType = {
-  WIP: "Už čoskoro...",
+  WIP: "UÅ¾ Äoskoro...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Rozhovor narazil na nejaké problémy, nebojte sa:
-    \\ 1️⃣ Ak chcete začať bez konfigurácie, [kliknite sem, aby ste okamžite začali chatovať 🚀](${SAAS_CHAT_UTM_URL})
-    \\ 2️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️`
-      : `😆 Rozhovor narazil na nejaké problémy, nebojte sa:
-    \ 1️⃣ Ak chcete začať bez konfigurácie, [kliknite sem, aby ste okamžite začali chatovať 🚀](${SAAS_CHAT_UTM_URL})
-    \ 2️⃣ Ak používate verziu súkromného nasadenia, kliknite [sem](/#/auth), aby ste zadali prístupový kľúč 🔑
-    \ 3️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️
+      ? `ðŸ˜† Rozhovor narazil na nejakÃ© problÃ©my, nebojte sa:
+    \\ 1ï¸âƒ£ Ak chcete zaÄaÅ¥ bez konfigurÃ¡cie, [kliknite sem, aby ste okamÅ¾ite zaÄali chatovaÅ¥ ðŸš€](${SAAS_CHAT_UTM_URL})
+    \\ 2ï¸âƒ£ Ak chcete pouÅ¾Ã­vaÅ¥ svoje vlastnÃ© zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia âš™ï¸`
+      : `ðŸ˜† Rozhovor narazil na nejakÃ© problÃ©my, nebojte sa:
+    \ 1ï¸âƒ£ Ak chcete zaÄaÅ¥ bez konfigurÃ¡cie, [kliknite sem, aby ste okamÅ¾ite zaÄali chatovaÅ¥ ðŸš€](${SAAS_CHAT_UTM_URL})
+    \ 2ï¸âƒ£ Ak pouÅ¾Ã­vate verziu sÃºkromnÃ©ho nasadenia, kliknite [sem](/#/auth), aby ste zadali prÃ­stupovÃ½ kÄ¾ÃºÄ ðŸ”‘
+    \ 3ï¸âƒ£ Ak chcete pouÅ¾Ã­vaÅ¥ svoje vlastnÃ© zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia âš™ï¸
  `,
   },
   Auth: {
-    Title: "Potrebný prístupový kód",
-    Tips: "Prosím, zadajte prístupový kód nižšie",
-    SubTips: "Alebo zadajte váš OpenAI alebo Google API kľúč",
-    Input: "prístupový kód",
-    Confirm: "Potvrdiť",
-    Later: "Neskôr",
-    Return: "Návrat",
-    SaasTips: "Nastavenie je príliš zložité, chcem to okamžite použiť",
+    Title: "PotrebnÃ½ prÃ­stupovÃ½ kÃ³d",
+    Tips: "ProsÃ­m, zadajte prÃ­stupovÃ½ kÃ³d niÅ¾Å¡ie",
+    SubTips: "Alebo zadajte vÃ¡Å¡ OpenAI alebo Google API kÄ¾ÃºÄ",
+    Input: "prÃ­stupovÃ½ kÃ³d",
+    Confirm: "PotvrdiÅ¥",
+    Later: "NeskÃ´r",
+    Return: "NÃ¡vrat",
+    SaasTips: "Nastavenie je prÃ­liÅ¡ zloÅ¾itÃ©, chcem to okamÅ¾ite pouÅ¾iÅ¥",
     TopTips:
-      "🥳 Uvítacia ponuka NextChat AI, okamžite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovšie veľké modely",
+      "ðŸ¥³ UvÃ­tacia ponuka HeyChat AI, okamÅ¾ite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovÅ¡ie veÄ¾kÃ© modely",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} správ`,
+    ChatItemCount: (count: number) => `${count} sprÃ¡v`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} správ`,
+    SubTitle: (count: number) => `${count} sprÃ¡v`,
     EditMessage: {
-      Title: "Upraviť všetky správy",
+      Title: "UpraviÅ¥ vÅ¡etky sprÃ¡vy",
       Topic: {
-        Title: "Téma",
-        SubTitle: "Zmeniť aktuálnu tému",
+        Title: "TÃ©ma",
+        SubTitle: "ZmeniÅ¥ aktuÃ¡lnu tÃ©mu",
       },
     },
     Actions: {
-      ChatList: "Prejsť na zoznam chatov",
-      CompressedHistory: "Komprimovaná história výziev",
-      Export: "Exportovať všetky správy ako Markdown",
-      Copy: "Kopírovať",
-      Stop: "Zastaviť",
-      Retry: "Skúsiť znova",
-      Pin: "Pripnúť",
-      PinToastContent: "Pripnuté 1 správy do kontextových výziev",
-      PinToastAction: "Zobraziť",
-      Delete: "Vymazať",
-      Edit: "Upraviť",
-      RefreshTitle: "Obnoviť názov",
-      RefreshToast: "Požiadavka na obnovenie názvu bola odoslaná",
+      ChatList: "PrejsÅ¥ na zoznam chatov",
+      CompressedHistory: "KomprimovanÃ¡ histÃ³ria vÃ½ziev",
+      Export: "ExportovaÅ¥ vÅ¡etky sprÃ¡vy ako Markdown",
+      Copy: "KopÃ­rovaÅ¥",
+      Stop: "ZastaviÅ¥",
+      Retry: "SkÃºsiÅ¥ znova",
+      Pin: "PripnÃºÅ¥",
+      PinToastContent: "PripnutÃ© 1 sprÃ¡vy do kontextovÃ½ch vÃ½ziev",
+      PinToastAction: "ZobraziÅ¥",
+      Delete: "VymazaÅ¥",
+      Edit: "UpraviÅ¥",
+      RefreshTitle: "ObnoviÅ¥ nÃ¡zov",
+      RefreshToast: "PoÅ¾iadavka na obnovenie nÃ¡zvu bola odoslanÃ¡",
     },
     Commands: {
-      new: "Začať nový chat",
-      newm: "Začať nový chat s maskou",
-      next: "Ďalší Chat",
-      prev: "Predchádzajúci Chat",
-      clear: "Vymazať kontext",
-      del: "Vymazať Chat",
+      new: "ZaÄaÅ¥ novÃ½ chat",
+      newm: "ZaÄaÅ¥ novÃ½ chat s maskou",
+      next: "ÄŽalÅ¡Ã­ Chat",
+      prev: "PredchÃ¡dzajÃºci Chat",
+      clear: "VymazaÅ¥ kontext",
+      del: "VymazaÅ¥ Chat",
     },
     InputActions: {
-      Stop: "Zastaviť",
-      ToBottom: "Na najnovšie",
+      Stop: "ZastaviÅ¥",
+      ToBottom: "Na najnovÅ¡ie",
       Theme: {
         auto: "Automaticky",
-        light: "Svetlý motív",
-        dark: "Tmavý motív",
+        light: "SvetlÃ½ motÃ­v",
+        dark: "TmavÃ½ motÃ­v",
       },
-      Prompt: "Výzvy",
+      Prompt: "VÃ½zvy",
       Masks: "Masky",
-      Clear: "Vymazať kontext",
+      Clear: "VymazaÅ¥ kontext",
       Settings: "Nastavenia",
     },
-    Rename: "Premenovať Chat",
-    Typing: "Písanie…",
+    Rename: "PremenovaÅ¥ Chat",
+    Typing: "PÃ­sanieâ€¦",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} na odoslanie`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += ", Shift + Enter na zalomenie";
       }
-      return inputHints + ", / na vyhľadávanie výziev, : na použitie príkazov";
+      return inputHints + ", / na vyhÄ¾adÃ¡vanie vÃ½ziev, : na pouÅ¾itie prÃ­kazov";
     },
-    Send: "Odoslať",
+    Send: "OdoslaÅ¥",
     Config: {
-      Reset: "Resetovať na predvolené",
-      SaveAs: "Uložiť ako masku",
+      Reset: "ResetovaÅ¥ na predvolenÃ©",
+      SaveAs: "UloÅ¾iÅ¥ ako masku",
     },
-    IsContext: "Kontextová výzva",
+    IsContext: "KontextovÃ¡ vÃ½zva",
   },
   Export: {
-    Title: "Export správ",
-    Copy: "Kopírovať všetko",
-    Download: "Stiahnuť",
-    MessageFromYou: "Správa od vás",
-    MessageFromChatGPT: "Správa od ChatGPT",
-    Share: "Zdieľať na ShareGPT",
+    Title: "Export sprÃ¡v",
+    Copy: "KopÃ­rovaÅ¥ vÅ¡etko",
+    Download: "StiahnuÅ¥",
+    MessageFromYou: "SprÃ¡va od vÃ¡s",
+    MessageFromChatGPT: "SprÃ¡va od ChatGPT",
+    Share: "ZdieÄ¾aÅ¥ na ShareGPT",
     Format: {
-      Title: "Formát exportu",
-      SubTitle: "Markdown alebo PNG obrázok",
+      Title: "FormÃ¡t exportu",
+      SubTitle: "Markdown alebo PNG obrÃ¡zok",
     },
     IncludeContext: {
-      Title: "Vrátane kontextu",
-      SubTitle: "Exportovať kontextové výzvy v maske alebo nie",
+      Title: "VrÃ¡tane kontextu",
+      SubTitle: "ExportovaÅ¥ kontextovÃ© vÃ½zvy v maske alebo nie",
     },
     Steps: {
-      Select: "Vybrať",
-      Preview: "Náhľad",
+      Select: "VybraÅ¥",
+      Preview: "NÃ¡hÄ¾ad",
     },
     Image: {
-      Toast: "Snímanie obrázka...",
+      Toast: "SnÃ­manie obrÃ¡zka...",
       Modal:
-        "Dlhým stlačením alebo kliknutím pravým tlačidlom myši uložte obrázok",
+        "DlhÃ½m stlaÄenÃ­m alebo kliknutÃ­m pravÃ½m tlaÄidlom myÅ¡i uloÅ¾te obrÃ¡zok",
     },
   },
   Select: {
-    Search: "Hľadať",
-    All: "Vybrať všetko",
-    Latest: "Vybrať najnovšie",
-    Clear: "Vymazať",
+    Search: "HÄ¾adaÅ¥",
+    All: "VybraÅ¥ vÅ¡etko",
+    Latest: "VybraÅ¥ najnovÅ¡ie",
+    Clear: "VymazaÅ¥",
   },
   Memory: {
-    Title: "Výzva pamäti",
-    EmptyContent: "Zatiaľ nič.",
-    Send: "Odoslať pamäť",
-    Copy: "Kopírovať pamäť",
-    Reset: "Resetovať reláciu",
+    Title: "VÃ½zva pamÃ¤ti",
+    EmptyContent: "ZatiaÄ¾ niÄ.",
+    Send: "OdoslaÅ¥ pamÃ¤Å¥",
+    Copy: "KopÃ­rovaÅ¥ pamÃ¤Å¥",
+    Reset: "ResetovaÅ¥ relÃ¡ciu",
     ResetConfirm:
-      "Resetovaním sa vymaže aktuálna história konverzácie a historická pamäť. Ste si istí, že chcete resetovať?",
+      "ResetovanÃ­m sa vymaÅ¾e aktuÃ¡lna histÃ³ria konverzÃ¡cie a historickÃ¡ pamÃ¤Å¥. Ste si istÃ­, Å¾e chcete resetovaÅ¥?",
   },
   Home: {
-    NewChat: "Nový Chat",
-    DeleteChat: "Potvrdiť vymazanie vybranej konverzácie?",
-    DeleteToast: "Chat vymazaný",
-    Revert: "Vrátiť späť",
+    NewChat: "NovÃ½ Chat",
+    DeleteChat: "PotvrdiÅ¥ vymazanie vybranej konverzÃ¡cie?",
+    DeleteToast: "Chat vymazanÃ½",
+    Revert: "VrÃ¡tiÅ¥ spÃ¤Å¥",
   },
   Settings: {
     Title: "Nastavenia",
-    SubTitle: "Všetky nastavenia",
+    SubTitle: "VÅ¡etky nastavenia",
     Danger: {
       Reset: {
-        Title: "Resetovať všetky nastavenia",
-        SubTitle: "Resetovať všetky položky nastavení na predvolené",
-        Action: "Resetovať",
-        Confirm: "Potvrdiť resetovanie všetkých nastavení na predvolené?",
+        Title: "ResetovaÅ¥ vÅ¡etky nastavenia",
+        SubTitle: "ResetovaÅ¥ vÅ¡etky poloÅ¾ky nastavenÃ­ na predvolenÃ©",
+        Action: "ResetovaÅ¥",
+        Confirm: "PotvrdiÅ¥ resetovanie vÅ¡etkÃ½ch nastavenÃ­ na predvolenÃ©?",
       },
       Clear: {
-        Title: "Vymazať všetky údaje",
-        SubTitle: "Vymazať všetky správy a nastavenia",
-        Action: "Vymazať",
-        Confirm: "Potvrdiť vymazanie všetkých správ a nastavení?",
+        Title: "VymazaÅ¥ vÅ¡etky Ãºdaje",
+        SubTitle: "VymazaÅ¥ vÅ¡etky sprÃ¡vy a nastavenia",
+        Action: "VymazaÅ¥",
+        Confirm: "PotvrdiÅ¥ vymazanie vÅ¡etkÃ½ch sprÃ¡v a nastavenÃ­?",
       },
     },
     Lang: {
-      Name: "Jazyk", // POZOR: ak pridávate nový preklad, prosím neprekladajte túto hodnotu, nechajte ju ako "Jazyk"
-      All: "Všetky jazyky",
+      Name: "Jazyk", // POZOR: ak pridÃ¡vate novÃ½ preklad, prosÃ­m neprekladajte tÃºto hodnotu, nechajte ju ako "Jazyk"
+      All: "VÅ¡etky jazyky",
     },
     Avatar: "Avatar",
     FontSize: {
-      Title: "Veľkosť písma",
-      SubTitle: "Nastaviť veľkosť písma obsahu chatu",
+      Title: "VeÄ¾kosÅ¥ pÃ­sma",
+      SubTitle: "NastaviÅ¥ veÄ¾kosÅ¥ pÃ­sma obsahu chatu",
     },
     FontFamily: {
-      Title: "Chatové Písmo",
+      Title: "ChatovÃ© PÃ­smo",
       SubTitle:
-        "Písmo obsahu chatu, ponechajte prázdne pre použitie globálneho predvoleného písma",
-      Placeholder: "Názov Písma",
+        "PÃ­smo obsahu chatu, ponechajte prÃ¡zdne pre pouÅ¾itie globÃ¡lneho predvolenÃ©ho pÃ­sma",
+      Placeholder: "NÃ¡zov PÃ­sma",
     },
     InjectSystemPrompts: {
-      Title: "Vložiť systémové výzvy",
-      SubTitle: "Vložiť globálnu systémovú výzvu pre každú požiadavku",
+      Title: "VloÅ¾iÅ¥ systÃ©movÃ© vÃ½zvy",
+      SubTitle: "VloÅ¾iÅ¥ globÃ¡lnu systÃ©movÃº vÃ½zvu pre kaÅ¾dÃº poÅ¾iadavku",
     },
     InputTemplate: {
-      Title: "Šablóna vstupu",
-      SubTitle: "Najnovšia správa bude vyplnená do tejto šablóny",
+      Title: "Å ablÃ³na vstupu",
+      SubTitle: "NajnovÅ¡ia sprÃ¡va bude vyplnenÃ¡ do tejto Å¡ablÃ³ny",
     },
 
     Update: {
       Version: (x: string) => `Verzia: ${x}`,
-      IsLatest: "Najnovšia verzia",
-      CheckUpdate: "Skontrolovať aktualizácie",
-      IsChecking: "Kontrola aktualizácií...",
-      FoundUpdate: (x: string) => `Nájdená nová verzia: ${x}`,
-      GoToUpdate: "Aktualizovať",
+      IsLatest: "NajnovÅ¡ia verzia",
+      CheckUpdate: "SkontrolovaÅ¥ aktualizÃ¡cie",
+      IsChecking: "Kontrola aktualizÃ¡ciÃ­...",
+      FoundUpdate: (x: string) => `NÃ¡jdenÃ¡ novÃ¡ verzia: ${x}`,
+      GoToUpdate: "AktualizovaÅ¥",
     },
-    SendKey: "Odoslať kľúč",
-    Theme: "Motív",
-    TightBorder: "Tesný okraj",
+    SendKey: "OdoslaÅ¥ kÄ¾ÃºÄ",
+    Theme: "MotÃ­v",
+    TightBorder: "TesnÃ½ okraj",
     SendPreviewBubble: {
-      Title: "Bublina náhľadu odoslania",
-      SubTitle: "Náhľad markdownu v bubline",
+      Title: "Bublina nÃ¡hÄ¾adu odoslania",
+      SubTitle: "NÃ¡hÄ¾ad markdownu v bubline",
     },
     AutoGenerateTitle: {
-      Title: "Automaticky generovať názov",
-      SubTitle: "Generovať vhodný názov na základe obsahu konverzácie",
+      Title: "Automaticky generovaÅ¥ nÃ¡zov",
+      SubTitle: "GenerovaÅ¥ vhodnÃ½ nÃ¡zov na zÃ¡klade obsahu konverzÃ¡cie",
     },
     Sync: {
-      CloudState: "Posledná aktualizácia",
-      NotSyncYet: "Zatiaľ nesynchronizované",
-      Success: "Synchronizácia úspešná",
-      Fail: "Synchronizácia zlyhala",
+      CloudState: "PoslednÃ¡ aktualizÃ¡cia",
+      NotSyncYet: "ZatiaÄ¾ nesynchronizovanÃ©",
+      Success: "SynchronizÃ¡cia ÃºspeÅ¡nÃ¡",
+      Fail: "SynchronizÃ¡cia zlyhala",
 
       Config: {
         Modal: {
-          Title: "Konfigurácia synchronizácie",
-          Check: "Skontrolovať pripojenie",
+          Title: "KonfigurÃ¡cia synchronizÃ¡cie",
+          Check: "SkontrolovaÅ¥ pripojenie",
         },
         SyncType: {
-          Title: "Typ synchronizácie",
-          SubTitle: "Vyberte svoju obľúbenú službu synchronizácie",
+          Title: "Typ synchronizÃ¡cie",
+          SubTitle: "Vyberte svoju obÄ¾ÃºbenÃº sluÅ¾bu synchronizÃ¡cie",
         },
         Proxy: {
-          Title: "Povoliť CORS Proxy",
-          SubTitle: "Povoliť proxy na obídenie obmedzení cross-origin",
+          Title: "PovoliÅ¥ CORS Proxy",
+          SubTitle: "PovoliÅ¥ proxy na obÃ­denie obmedzenÃ­ cross-origin",
         },
         ProxyUrl: {
-          Title: "Koncový bod Proxy",
-          SubTitle: "Platné len pre vstavaný CORS proxy tohto projektu",
+          Title: "KoncovÃ½ bod Proxy",
+          SubTitle: "PlatnÃ© len pre vstavanÃ½ CORS proxy tohto projektu",
         },
 
         WebDav: {
-          Endpoint: "Koncový bod WebDAV",
-          UserName: "Meno používateľa",
+          Endpoint: "KoncovÃ½ bod WebDAV",
+          UserName: "Meno pouÅ¾Ã­vateÄ¾a",
           Password: "Heslo",
         },
 
         UpStash: {
-          Endpoint: "URL REST služby UpStash Redis",
-          UserName: "Názov zálohy",
-          Password: "Token REST služby UpStash Redis",
+          Endpoint: "URL REST sluÅ¾by UpStash Redis",
+          UserName: "NÃ¡zov zÃ¡lohy",
+          Password: "Token REST sluÅ¾by UpStash Redis",
         },
       },
 
-      LocalState: "Lokálne údaje",
+      LocalState: "LokÃ¡lne Ãºdaje",
       Overview: (overview: any) => {
-        return `${overview.chat} chaty, ${overview.message} správy, ${overview.prompt} výzvy, ${overview.mask} masky`;
+        return `${overview.chat} chaty, ${overview.message} sprÃ¡vy, ${overview.prompt} vÃ½zvy, ${overview.mask} masky`;
       },
-      ImportFailed: "Import z súboru zlyhal",
+      ImportFailed: "Import z sÃºboru zlyhal",
     },
     Mask: {
       Splash: {
-        Title: "Úvodná obrazovka masky",
-        SubTitle: "Zobraziť úvodnú obrazovku masky pred začatím nového chatu",
+        Title: "ÃšvodnÃ¡ obrazovka masky",
+        SubTitle: "ZobraziÅ¥ ÃºvodnÃº obrazovku masky pred zaÄatÃ­m novÃ©ho chatu",
       },
       Builtin: {
-        Title: "Skryť vstavané masky",
-        SubTitle: "Skryť vstavané masky v zozname masiek",
+        Title: "SkryÅ¥ vstavanÃ© masky",
+        SubTitle: "SkryÅ¥ vstavanÃ© masky v zozname masiek",
       },
     },
     Prompt: {
       Disable: {
-        Title: "Zakázať automatické dopĺňanie",
-        SubTitle: "Zadajte / na spustenie automatického dopĺňania",
+        Title: "ZakÃ¡zaÅ¥ automatickÃ© dopÄºÅˆanie",
+        SubTitle: "Zadajte / na spustenie automatickÃ©ho dopÄºÅˆania",
       },
-      List: "Zoznam výziev",
+      List: "Zoznam vÃ½ziev",
       ListCount: (builtin: number, custom: number) =>
-        `${builtin} vstavaných, ${custom} užívateľsky definovaných`,
-      Edit: "Upraviť",
+        `${builtin} vstavanÃ½ch, ${custom} uÅ¾Ã­vateÄ¾sky definovanÃ½ch`,
+      Edit: "UpraviÅ¥",
       Modal: {
-        Title: "Zoznam výziev",
-        Add: "Pridať jednu",
-        Search: "Hľadať výzvy",
+        Title: "Zoznam vÃ½ziev",
+        Add: "PridaÅ¥ jednu",
+        Search: "HÄ¾adaÅ¥ vÃ½zvy",
       },
       EditModal: {
-        Title: "Upraviť výzvu",
+        Title: "UpraviÅ¥ vÃ½zvu",
       },
     },
     HistoryCount: {
-      Title: "Počet pripojených správ",
-      SubTitle: "Počet odoslaných správ pripojených na požiadavku",
+      Title: "PoÄet pripojenÃ½ch sprÃ¡v",
+      SubTitle: "PoÄet odoslanÃ½ch sprÃ¡v pripojenÃ½ch na poÅ¾iadavku",
     },
     CompressThreshold: {
-      Title: "Práh kompresie histórie",
+      Title: "PrÃ¡h kompresie histÃ³rie",
       SubTitle:
-        "Bude komprimované, ak dĺžka nekomprimovaných správ presiahne túto hodnotu",
+        "Bude komprimovanÃ©, ak dÄºÅ¾ka nekomprimovanÃ½ch sprÃ¡v presiahne tÃºto hodnotu",
     },
 
     Usage: {
-      Title: "Stav účtu",
+      Title: "Stav ÃºÄtu",
       SubTitle(used: any, total: any) {
-        return `Tento mesiac použité ${used}, predplatné ${total}`;
+        return `Tento mesiac pouÅ¾itÃ© ${used}, predplatnÃ© ${total}`;
       },
       IsChecking: "Kontroluje sa...",
-      Check: "Skontrolovať",
-      NoAccess: "Zadajte API kľúč na skontrolovanie zostatku",
+      Check: "SkontrolovaÅ¥",
+      NoAccess: "Zadajte API kÄ¾ÃºÄ na skontrolovanie zostatku",
     },
     Access: {
       SaasStart: {
-        Title: "Použite NextChat AI",
-        Label: "(Najvýhodnejšie riešenie)",
+        Title: "PouÅ¾ite HeyChat AI",
+        Label: "(NajvÃ½hodnejÅ¡ie rieÅ¡enie)",
         SubTitle:
-          "Oficiálne udržiavané NextChat, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
-        ChatNow: "Chatovať teraz",
+          "OficiÃ¡lne udrÅ¾iavanÃ© HeyChat, pripravenÃ© na pouÅ¾itie bez konfigurÃ¡cie, podporuje najnovÅ¡ie veÄ¾kÃ© modely ako OpenAI o1, GPT-4o a Claude-3.5",
+        ChatNow: "ChatovaÅ¥ teraz",
       },
 
       AccessCode: {
-        Title: "Prístupový kód",
-        SubTitle: "Povolený prístupový kód",
-        Placeholder: "Zadajte kód",
+        Title: "PrÃ­stupovÃ½ kÃ³d",
+        SubTitle: "PovolenÃ½ prÃ­stupovÃ½ kÃ³d",
+        Placeholder: "Zadajte kÃ³d",
       },
       CustomEndpoint: {
-        Title: "Vlastný koncový bod",
-        SubTitle: "Použiť vlastnú službu Azure alebo OpenAI",
+        Title: "VlastnÃ½ koncovÃ½ bod",
+        SubTitle: "PouÅ¾iÅ¥ vlastnÃº sluÅ¾bu Azure alebo OpenAI",
       },
       Provider: {
-        Title: "Poskytovateľ modelu",
+        Title: "PoskytovateÄ¾ modelu",
         SubTitle: "Vyberte Azure alebo OpenAI",
       },
       OpenAI: {
         ApiKey: {
-          Title: "API kľúč OpenAI",
-          SubTitle: "Použiť vlastný API kľúč OpenAI",
+          Title: "API kÄ¾ÃºÄ OpenAI",
+          SubTitle: "PouÅ¾iÅ¥ vlastnÃ½ API kÄ¾ÃºÄ OpenAI",
           Placeholder: "sk-xxx",
         },
 
         Endpoint: {
-          Title: "Koncový bod OpenAI",
+          Title: "KoncovÃ½ bod OpenAI",
           SubTitle:
-            "Musí začínať http(s):// alebo použiť /api/openai ako predvolený",
+            "MusÃ­ zaÄÃ­naÅ¥ http(s):// alebo pouÅ¾iÅ¥ /api/openai ako predvolenÃ½",
         },
       },
       Azure: {
         ApiKey: {
-          Title: "API kľúč Azure",
-          SubTitle: "Skontrolujte svoj API kľúč v Azure konzole",
-          Placeholder: "API kľúč Azure",
+          Title: "API kÄ¾ÃºÄ Azure",
+          SubTitle: "Skontrolujte svoj API kÄ¾ÃºÄ v Azure konzole",
+          Placeholder: "API kÄ¾ÃºÄ Azure",
         },
 
         Endpoint: {
-          Title: "Koncový bod Azure",
-          SubTitle: "Príklad: ",
+          Title: "KoncovÃ½ bod Azure",
+          SubTitle: "PrÃ­klad: ",
         },
 
         ApiVerion: {
@@ -344,211 +344,212 @@ const sk: PartialLocaleType = {
       },
       Anthropic: {
         ApiKey: {
-          Title: "API kľúč Anthropic",
-          SubTitle: "Skontrolujte svoj API kľúč v Anthropic konzole",
-          Placeholder: "API kľúč Anthropic",
+          Title: "API kÄ¾ÃºÄ Anthropic",
+          SubTitle: "Skontrolujte svoj API kÄ¾ÃºÄ v Anthropic konzole",
+          Placeholder: "API kÄ¾ÃºÄ Anthropic",
         },
 
         Endpoint: {
-          Title: "Adresa koncového bodu",
-          SubTitle: "Príklad:",
+          Title: "Adresa koncovÃ©ho bodu",
+          SubTitle: "PrÃ­klad:",
         },
 
         ApiVerion: {
           Title: "Verzia API (claude verzia API)",
-          SubTitle: "Vyberte špecifickú verziu časti",
+          SubTitle: "Vyberte Å¡pecifickÃº verziu Äasti",
         },
       },
       CustomModel: {
-        Title: "Vlastné modely",
-        SubTitle: "Možnosti vlastného modelu, oddelené čiarkou",
+        Title: "VlastnÃ© modely",
+        SubTitle: "MoÅ¾nosti vlastnÃ©ho modelu, oddelenÃ© Äiarkou",
       },
       Google: {
         ApiKey: {
-          Title: "API kľúč",
+          Title: "API kÄ¾ÃºÄ",
           SubTitle:
-            "Obísť obmedzenia prístupu heslom pomocou vlastného API kľúča Google AI Studio",
-          Placeholder: "API kľúč Google AI Studio",
+            "ObÃ­sÅ¥ obmedzenia prÃ­stupu heslom pomocou vlastnÃ©ho API kÄ¾ÃºÄa Google AI Studio",
+          Placeholder: "API kÄ¾ÃºÄ Google AI Studio",
         },
 
         Endpoint: {
-          Title: "Adresa koncového bodu",
-          SubTitle: "Príklad:",
+          Title: "Adresa koncovÃ©ho bodu",
+          SubTitle: "PrÃ­klad:",
         },
 
         ApiVersion: {
           Title: "Verzia API (gemini-pro verzia API)",
-          SubTitle: "Vyberte špecifickú verziu časti",
+          SubTitle: "Vyberte Å¡pecifickÃº verziu Äasti",
         },
       },
       AI302: {
         ApiKey: {
-          Title: "API kľúč",
-          SubTitle: "Použiť vlastný API kľúč 302.AI",
-          Placeholder: "302.AI API kľúč",
+          Title: "API kÄ¾ÃºÄ",
+          SubTitle: "PouÅ¾iÅ¥ vlastnÃ½ API kÄ¾ÃºÄ 302.AI",
+          Placeholder: "302.AI API kÄ¾ÃºÄ",
         },
         Endpoint: {
-          Title: "Adresa koncového bodu",
-          SubTitle: "Príklad:",
+          Title: "Adresa koncovÃ©ho bodu",
+          SubTitle: "PrÃ­klad:",
         },
       },
     },
 
     Model: "Model",
     CompressModel: {
-      Title: "Kompresný model",
-      SubTitle: "Model používaný na kompresiu histórie",
+      Title: "KompresnÃ½ model",
+      SubTitle: "Model pouÅ¾Ã­vanÃ½ na kompresiu histÃ³rie",
     },
     Temperature: {
       Title: "Teplota",
-      SubTitle: "Vyššia hodnota robí výstup náhodnejším",
+      SubTitle: "VyÅ¡Å¡ia hodnota robÃ­ vÃ½stup nÃ¡hodnejÅ¡Ã­m",
     },
     TopP: {
       Title: "Top P",
-      SubTitle: "Neupravujte túto hodnotu spolu s teplotou",
+      SubTitle: "Neupravujte tÃºto hodnotu spolu s teplotou",
     },
     MaxTokens: {
-      Title: "Maximálny počet tokenov",
-      SubTitle: "Maximálna dĺžka vstupných tokenov a generovaných tokenov",
+      Title: "MaximÃ¡lny poÄet tokenov",
+      SubTitle: "MaximÃ¡lna dÄºÅ¾ka vstupnÃ½ch tokenov a generovanÃ½ch tokenov",
     },
     PresencePenalty: {
-      Title: "Penalizácia za prítomnosť",
+      Title: "PenalizÃ¡cia za prÃ­tomnosÅ¥",
       SubTitle:
-        "Vyššia hodnota zvyšuje pravdepodobnosť hovorenia o nových témach",
+        "VyÅ¡Å¡ia hodnota zvyÅ¡uje pravdepodobnosÅ¥ hovorenia o novÃ½ch tÃ©mach",
     },
     FrequencyPenalty: {
-      Title: "Penalizácia za frekvenciu",
+      Title: "PenalizÃ¡cia za frekvenciu",
       SubTitle:
-        "Vyššia hodnota znižuje pravdepodobnosť opakovania rovnakej línie",
+        "VyÅ¡Å¡ia hodnota zniÅ¾uje pravdepodobnosÅ¥ opakovania rovnakej lÃ­nie",
     },
   },
   Store: {
-    DefaultTopic: "Nová konverzácia",
-    BotHello: "Ahoj! Ako vám dnes môžem pomôcť?",
-    Error: "Niečo sa pokazilo, skúste to prosím neskôr znova.",
+    DefaultTopic: "NovÃ¡ konverzÃ¡cia",
+    BotHello: "Ahoj! Ako vÃ¡m dnes mÃ´Å¾em pomÃ´cÅ¥?",
+    Error: "NieÄo sa pokazilo, skÃºste to prosÃ­m neskÃ´r znova.",
     Prompt: {
       History: (content: string) =>
-        "Toto je zhrnutie histórie chatu ako rekapitulácia: " + content,
+        "Toto je zhrnutie histÃ³rie chatu ako rekapitulÃ¡cia: " + content,
       Topic:
-        "Prosím, vygenerujte štvor- až päťslovný titul, ktorý zhrnie našu konverzáciu bez akéhokoľvek úvodu, interpunkcie, úvodzoviek, bodiek, symbolov, tučného textu alebo ďalšieho textu. Odstráňte uzatváracie úvodzovky.",
+        "ProsÃ­m, vygenerujte Å¡tvor- aÅ¾ pÃ¤Å¥slovnÃ½ titul, ktorÃ½ zhrnie naÅ¡u konverzÃ¡ciu bez akÃ©hokoÄ¾vek Ãºvodu, interpunkcie, Ãºvodzoviek, bodiek, symbolov, tuÄnÃ©ho textu alebo ÄalÅ¡ieho textu. OdstrÃ¡Åˆte uzatvÃ¡racie Ãºvodzovky.",
       Summarize:
-        "Stručne zhrňte diskusiu na menej ako 200 slov, aby ste ju mohli použiť ako výzvu pre budúci kontext.",
+        "StruÄne zhrÅˆte diskusiu na menej ako 200 slov, aby ste ju mohli pouÅ¾iÅ¥ ako vÃ½zvu pre budÃºci kontext.",
     },
   },
   Copy: {
-    Success: "Skopírované do schránky",
+    Success: "SkopÃ­rovanÃ© do schrÃ¡nky",
     Failed:
-      "Kopírovanie zlyhalo, prosím udeľte povolenie na prístup k schránke",
+      "KopÃ­rovanie zlyhalo, prosÃ­m udeÄ¾te povolenie na prÃ­stup k schrÃ¡nke",
   },
   Download: {
-    Success: "Obsah stiahnutý do vášho adresára.",
+    Success: "Obsah stiahnutÃ½ do vÃ¡Å¡ho adresÃ¡ra.",
     Failed: "Stiahnutie zlyhalo.",
   },
   Context: {
-    Toast: (x: any) => `S ${x} kontextovými výzvami`,
-    Edit: "Aktuálne nastavenia chatu",
-    Add: "Pridať výzvu",
-    Clear: "Kontext vyčistený",
-    Revert: "Vrátiť späť",
+    Toast: (x: any) => `S ${x} kontextovÃ½mi vÃ½zvami`,
+    Edit: "AktuÃ¡lne nastavenia chatu",
+    Add: "PridaÅ¥ vÃ½zvu",
+    Clear: "Kontext vyÄistenÃ½",
+    Revert: "VrÃ¡tiÅ¥ spÃ¤Å¥",
   },
   Plugin: {
     Name: "Plugin",
   },
   FineTuned: {
-    Sysmessage: "Ste asistent, ktorý",
+    Sysmessage: "Ste asistent, ktorÃ½",
   },
   SearchChat: {
-    Name: "Hľadať",
+    Name: "HÄ¾adaÅ¥",
     Page: {
-      Title: "Hľadať v histórii chatu",
-      Search: "Zadajte kľúčové slová na vyhľadávanie",
-      NoResult: "Nenašli sa žiadne výsledky",
-      NoData: "Žiadne údaje",
-      Loading: "Načítava sa",
+      Title: "HÄ¾adaÅ¥ v histÃ³rii chatu",
+      Search: "Zadajte kÄ¾ÃºÄovÃ© slovÃ¡ na vyhÄ¾adÃ¡vanie",
+      NoResult: "NenaÅ¡li sa Å¾iadne vÃ½sledky",
+      NoData: "Å½iadne Ãºdaje",
+      Loading: "NaÄÃ­tava sa",
 
-      SubTitle: (count: number) => `Nájdených ${count} výsledkov`,
+      SubTitle: (count: number) => `NÃ¡jdenÃ½ch ${count} vÃ½sledkov`,
     },
     Item: {
-      View: "Zobraziť",
+      View: "ZobraziÅ¥",
     },
   },
   Mask: {
     Name: "Maska",
     Page: {
-      Title: "Šablóna výziev",
-      SubTitle: (count: number) => `${count} šablón výziev`,
-      Search: "Hľadať šablóny",
-      Create: "Vytvoriť",
+      Title: "Å ablÃ³na vÃ½ziev",
+      SubTitle: (count: number) => `${count} Å¡ablÃ³n vÃ½ziev`,
+      Search: "HÄ¾adaÅ¥ Å¡ablÃ³ny",
+      Create: "VytvoriÅ¥",
     },
     Item: {
-      Info: (count: number) => `${count} výziev`,
+      Info: (count: number) => `${count} vÃ½ziev`,
       Chat: "Chat",
-      View: "Zobraziť",
-      Edit: "Upraviť",
-      Delete: "Vymazať",
-      DeleteConfirm: "Potvrdiť vymazanie?",
+      View: "ZobraziÅ¥",
+      Edit: "UpraviÅ¥",
+      Delete: "VymazaÅ¥",
+      DeleteConfirm: "PotvrdiÅ¥ vymazanie?",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Upraviť šablónu výziev ${readonly ? "(iba na čítanie)" : ""}`,
-      Download: "Stiahnuť",
-      Clone: "Klonovať",
+        `UpraviÅ¥ Å¡ablÃ³nu vÃ½ziev ${readonly ? "(iba na ÄÃ­tanie)" : ""}`,
+      Download: "StiahnuÅ¥",
+      Clone: "KlonovaÅ¥",
     },
     Config: {
       Avatar: "Avatar robota",
       Name: "Meno robota",
       Sync: {
-        Title: "Použiť globálne nastavenia",
-        SubTitle: "Použiť globálne nastavenia v tomto chate",
-        Confirm: "Potvrdiť prepísanie vlastného nastavenia globálnym?",
+        Title: "PouÅ¾iÅ¥ globÃ¡lne nastavenia",
+        SubTitle: "PouÅ¾iÅ¥ globÃ¡lne nastavenia v tomto chate",
+        Confirm: "PotvrdiÅ¥ prepÃ­sanie vlastnÃ©ho nastavenia globÃ¡lnym?",
       },
       HideContext: {
-        Title: "Skryť kontextové výzvy",
-        SubTitle: "Nezobrazovať kontextové výzvy v chate",
+        Title: "SkryÅ¥ kontextovÃ© vÃ½zvy",
+        SubTitle: "NezobrazovaÅ¥ kontextovÃ© vÃ½zvy v chate",
       },
       Share: {
-        Title: "Zdieľať túto masku",
-        SubTitle: "Vygenerovať odkaz na túto masku",
-        Action: "Kopírovať odkaz",
+        Title: "ZdieÄ¾aÅ¥ tÃºto masku",
+        SubTitle: "VygenerovaÅ¥ odkaz na tÃºto masku",
+        Action: "KopÃ­rovaÅ¥ odkaz",
       },
     },
   },
   NewChat: {
-    Return: "Vrátiť sa",
-    Skip: "Len začať",
-    Title: "Vybrať masku",
-    SubTitle: "Chatovať s dušou za maskou",
-    More: "Nájsť viac",
-    NotShow: "Už nezobrazovať",
+    Return: "VrÃ¡tiÅ¥ sa",
+    Skip: "Len zaÄaÅ¥",
+    Title: "VybraÅ¥ masku",
+    SubTitle: "ChatovaÅ¥ s duÅ¡ou za maskou",
+    More: "NÃ¡jsÅ¥ viac",
+    NotShow: "UÅ¾ nezobrazovaÅ¥",
     ConfirmNoShow:
-      "Potvrdiť deaktiváciu? Môžete ju neskôr znova povoliť v nastaveniach.",
+      "PotvrdiÅ¥ deaktivÃ¡ciu? MÃ´Å¾ete ju neskÃ´r znova povoliÅ¥ v nastaveniach.",
   },
 
   UI: {
-    Confirm: "Potvrdiť",
-    Cancel: "Zrušiť",
-    Close: "Zavrieť",
-    Create: "Vytvoriť",
-    Edit: "Upraviť",
-    Export: "Exportovať",
-    Import: "Importovať",
-    Sync: "Synchronizovať",
-    Config: "Konfigurácia",
+    Confirm: "PotvrdiÅ¥",
+    Cancel: "ZruÅ¡iÅ¥",
+    Close: "ZavrieÅ¥",
+    Create: "VytvoriÅ¥",
+    Edit: "UpraviÅ¥",
+    Export: "ExportovaÅ¥",
+    Import: "ImportovaÅ¥",
+    Sync: "SynchronizovaÅ¥",
+    Config: "KonfigurÃ¡cia",
   },
   Exporter: {
     Description: {
-      Title: "Zobrazia sa len správy po vyčistení kontextu",
+      Title: "Zobrazia sa len sprÃ¡vy po vyÄistenÃ­ kontextu",
     },
     Model: "Model",
-    Messages: "Správy",
-    Topic: "Téma",
-    Time: "Čas",
+    Messages: "SprÃ¡vy",
+    Topic: "TÃ©ma",
+    Time: "ÄŒas",
   },
 
   URLCommand: {
-    Code: "Zistený prístupový kód z URL, potvrdiť na aplikovanie?",
-    Settings: "Zistené nastavenia z URL, potvrdiť na aplikovanie?",
+    Code: "ZistenÃ½ prÃ­stupovÃ½ kÃ³d z URL, potvrdiÅ¥ na aplikovanie?",
+    Settings: "ZistenÃ© nastavenia z URL, potvrdiÅ¥ na aplikovanie?",
   },
 };
 
 export default sk;
+

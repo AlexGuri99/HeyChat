@@ -1,4 +1,4 @@
-import { getClientConfig } from "../config/client";
+﻿import { getClientConfig } from "../config/client";
 import {
   ACCESS_CODE_PREFIX,
   ModelProvider,
@@ -198,10 +198,10 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [NextChat]: https://github.com/Yidadaa/ChatGPT-Next-Web",
+            "Share from [HeyChat]: https://github.com/Yidadaa/ChatGPT-Next-Web",
         },
       ]);
-    // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用
+    // æ•¬å‘ŠäºŒå¼€å¼€å‘è€…ä»¬ï¼Œä¸ºäº†å¼€æºå¤§æ¨¡åž‹çš„å‘å±•ï¼Œè¯·ä¸è¦ä¿®æ”¹ä¸Šè¿°æ¶ˆæ¯ï¼Œæ­¤æ¶ˆæ¯ç”¨äºŽåŽç»­æ•°æ®æ¸…æ´—ä½¿ç”¨
     // Please do not modify this message
 
     console.log("[Share]", messages, msgs);
@@ -397,3 +397,4 @@ export function getClientApi(provider: ServiceProvider): ClientApi {
       return new ClientApi(ModelProvider.GPT);
   }
 }
+

@@ -1,7 +1,7 @@
-export const OWNER = "ChatGPTNextWeb";
+﻿export const OWNER = "ChatGPTNextWeb";
 export const REPO = "ChatGPT-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
+export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/HeyChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
@@ -322,7 +322,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
    A. Tool Call Format:
       - Use markdown code blocks with format: \`\`\`json:mcp:{clientId}\`\`\`
       - Always include:
-        * method: "tools/call"（Only this method is supported）
+        * method: "tools/call"ï¼ˆOnly this method is supportedï¼‰
         * params: 
           - name: must match an available primitive name
           - arguments: required parameters for the primitive
@@ -372,8 +372,8 @@ You are an AI assistant with access to system tools. Your role is to help users 
   "params": {
     "name": "write_file",
     "arguments": {
-      "path": "/Users/river/dev/nextchat/test/joke.txt",
-      "content": "为什么数学书总是感到忧伤？因为它有太多的问题。"
+      "path": "/Users/river/dev/HeyChat/test/joke.txt",
+      "content": "ä¸ºä»€ä¹ˆæ•°å­¦ä¹¦æ€»æ˜¯æ„Ÿåˆ°å¿§ä¼¤ï¼Ÿå› ä¸ºå®ƒæœ‰å¤ªå¤šçš„é—®é¢˜ã€‚"
     }
   }
   }
@@ -385,7 +385,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
    {
       "method": "write_file",
       "params": {
-        "path": "NextChat_Information.txt",
+        "path": "HeyChat_Information.txt",
         "content": "1"
     }
    }
@@ -695,7 +695,7 @@ const chatglmModels = [
   "cogview-3-plus",
   "cogview-3",
   "cogview-3-flash", // free
-  // 目前无法适配轮询任务
+  // ç›®å‰æ— æ³•é€‚é…è½®è¯¢ä»»åŠ¡
   //   "cogvideox",
   //   "cogvideox-flash", // free
 ];
@@ -742,7 +742,7 @@ const ai302Models = [
   "gemini-2.5-pro",
 ];
 
-let seq = 1000; // 内置的模型序号生成器从1000开始
+let seq = 1000; // å†…ç½®çš„æ¨¡åž‹åºå·ç”Ÿæˆå™¨ä»Ž1000å¼€å§‹
 export const DEFAULT_MODELS = [
   ...openaiModels.map((name) => ({
     name,
@@ -752,7 +752,7 @@ export const DEFAULT_MODELS = [
       id: "openai",
       providerName: "OpenAI",
       providerType: "openai",
-      sorted: 1, // 这里是固定的，确保顺序与之前内置的版本一致
+      sorted: 1, // è¿™é‡Œæ˜¯å›ºå®šçš„ï¼Œç¡®ä¿é¡ºåºä¸Žä¹‹å‰å†…ç½®çš„ç‰ˆæœ¬ä¸€è‡´
     },
   })),
   ...openaiModels.map((name) => ({
@@ -929,5 +929,7 @@ export const internalAllowedWebDavEndpoints = [
 
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
-export const SAAS_CHAT_URL = "https://nextchat.club";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.club?utm=github";
+export const SAAS_CHAT_URL = "https://HeyChat.club";
+export const SAAS_CHAT_UTM_URL = "https://HeyChat.club?utm=github";
+
+

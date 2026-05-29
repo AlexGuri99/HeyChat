@@ -1,18 +1,18 @@
-<div align="center">
+﻿<div align="center">
 
-<a href='https://nextchat.club'>
+<a href='https://HeyChat.club'>
   <img src="https://github.com/user-attachments/assets/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3" width="1000" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat</h1>
+<h1 align="center">HeyChat</h1>
 
-영어 / [简体中文](./README_CN.md)
+ì˜ì–´ / [ç®€ä½“ä¸­æ–‡](./README_CN.md)
 
 <a href="https://trendshift.io/repositories/5973" target="_blank">
   <img src="https://trendshift.io/api/badge/repositories/5973" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </a>
 
-✨ 빠르고 가벼운 AI 어시스턴트, Claude, DeepSeek, GPT-4, Gemini Pro 지원
+âœ¨ ë¹ ë¥´ê³  ê°€ë²¼ìš´ AI ì–´ì‹œìŠ¤í„´íŠ¸, Claude, DeepSeek, GPT-4, Gemini Pro ì§€ì›
 
 [![Saas][Saas-image]][saas-url]
 [![Web][Web-image]][web-url]
@@ -20,115 +20,115 @@
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[NextChatAI 웹사이트](https://nextchat.club?utm_source=readme) / [iOS 앱](https://apps.apple.com/us/app/nextchat-ai/id6743085599) / [웹 데모](https://app.nextchat.club) / [데스크톱 앱](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [엔터프라이즈 버전](#enterprise-edition)
+[HeyChatAI ì›¹ì‚¬ì´íŠ¸](https://HeyChat.club?utm_source=readme) / [iOS ì•±](https://apps.apple.com/us/app/HeyChat-ai/id6743085599) / [ì›¹ ë°ëª¨](https://app.HeyChat.club) / [ë°ìŠ¤í¬í†± ì•±](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [ì—”í„°í”„ë¼ì´ì¦ˆ ë²„ì „](#enterprise-edition)
 
-[saas-url]: https://nextchat.club?utm_source=readme
-[saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
-[web-url]: https://app.nextchat.club/
+[saas-url]: https://HeyChat.club?utm_source=readme
+[saas-image]: https://img.shields.io/badge/HeyChat-Saas-green?logo=microsoftedge
+[web-url]: https://app.HeyChat.club/
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
+[<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=HeyChat&repository-name=HeyChat) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/ChatGPTNextWeb/HeyChat)
 
 [<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="50" width="" >](https://monica.im/?utm=nxcrp)
 
 </div>
 
-## ❤️ AI API 후원사
+## â¤ï¸ AI API í›„ì›ì‚¬
 
 <a href='https://302.ai/'>
   <img src="https://github.com/user-attachments/assets/a03edf82-2031-4f23-bdb8-bfc0bfd168a4" width="100%" alt="icon"/>
 </a>
 
-[302.AI](https://302.ai/)는 사용한 만큼만 비용을 지불하는 AI 애플리케이션 플랫폼으로, 다양한 AI API 및 온라인 애플리케이션을 제공합니다.
+[302.AI](https://302.ai/)ëŠ” ì‚¬ìš©í•œ ë§Œí¼ë§Œ ë¹„ìš©ì„ ì§€ë¶ˆí•˜ëŠ” AI ì• í”Œë¦¬ì¼€ì´ì…˜ í”Œëž«í¼ìœ¼ë¡œ, ë‹¤ì–‘í•œ AI API ë° ì˜¨ë¼ì¸ ì• í”Œë¦¬ì¼€ì´ì…˜ì„ ì œê³µí•©ë‹ˆë‹¤.
 
-## 🥳 NextChat iOS 버전 출시!
+## ðŸ¥³ HeyChat iOS ë²„ì „ ì¶œì‹œ!
 
-> 👉 [지금 설치하기](https://apps.apple.com/us/app/nextchat-ai/id6743085599)
+> ðŸ‘‰ [ì§€ê¸ˆ ì„¤ì¹˜í•˜ê¸°](https://apps.apple.com/us/app/HeyChat-ai/id6743085599)
 
-> ❤️ [소스 코드 곧 공개 예정](https://github.com/ChatGPTNextWeb/NextChat-iOS)
+> â¤ï¸ [ì†ŒìŠ¤ ì½”ë“œ ê³§ ê³µê°œ ì˜ˆì •](https://github.com/ChatGPTNextWeb/HeyChat-iOS)
 
 ![Github iOS Image](https://github.com/user-attachments/assets/e0aa334f-4c13-4dc9-8310-e3b09fa4b9f3)
 
-## 🫣 NextChat, MCP 지원!
+## ðŸ«£ HeyChat, MCP ì§€ì›!
 
-> 빌드 전 환경 변수(env) `ENABLE_MCP=true` 설정 필요
+> ë¹Œë“œ ì „ í™˜ê²½ ë³€ìˆ˜(env) `ENABLE_MCP=true` ì„¤ì • í•„ìš”
 
 <img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e" />
 
-## 엔터프라이즈 버전
+## ì—”í„°í”„ë¼ì´ì¦ˆ ë²„ì „
 
-회사 내부 시스템에 맞춘 프라이빗 배포 및 맞춤형 커스터마이징 지원:
+íšŒì‚¬ ë‚´ë¶€ ì‹œìŠ¤í…œì— ë§žì¶˜ í”„ë¼ì´ë¹— ë°°í¬ ë° ë§žì¶¤í˜• ì»¤ìŠ¤í„°ë§ˆì´ì§• ì§€ì›:
 
-- **브랜드 커스터마이징**: 기업 이미지에 맞는 UI/UX 테마 적용
-- **리소스 통합 관리**: 다양한 AI 모델을 통합하여 팀원이 손쉽게 사용 가능
-- **권한 제어**: 관리자 패널을 통한 멤버·리소스·지식 베이스 권한 설정
-- **지식 통합**: 사내 문서 및 데이터와 AI를 결합한 맞춤형 답변 제공
-- **보안 감사**: 민감한 질문 차단 및 모든 기록 추적 가능
-- **프라이빗 배포 지원**: 주요 클라우드 서비스에 맞춘 배포 옵션
-- **지속적 업데이트**: 멀티모달 등 최신 AI 기능 지속 반영
+- **ë¸Œëžœë“œ ì»¤ìŠ¤í„°ë§ˆì´ì§•**: ê¸°ì—… ì´ë¯¸ì§€ì— ë§žëŠ” UI/UX í…Œë§ˆ ì ìš©
+- **ë¦¬ì†ŒìŠ¤ í†µí•© ê´€ë¦¬**: ë‹¤ì–‘í•œ AI ëª¨ë¸ì„ í†µí•©í•˜ì—¬ íŒ€ì›ì´ ì†ì‰½ê²Œ ì‚¬ìš© ê°€ëŠ¥
+- **ê¶Œí•œ ì œì–´**: ê´€ë¦¬ìž íŒ¨ë„ì„ í†µí•œ ë©¤ë²„Â·ë¦¬ì†ŒìŠ¤Â·ì§€ì‹ ë² ì´ìŠ¤ ê¶Œí•œ ì„¤ì •
+- **ì§€ì‹ í†µí•©**: ì‚¬ë‚´ ë¬¸ì„œ ë° ë°ì´í„°ì™€ AIë¥¼ ê²°í•©í•œ ë§žì¶¤í˜• ë‹µë³€ ì œê³µ
+- **ë³´ì•ˆ ê°ì‚¬**: ë¯¼ê°í•œ ì§ˆë¬¸ ì°¨ë‹¨ ë° ëª¨ë“  ê¸°ë¡ ì¶”ì  ê°€ëŠ¥
+- **í”„ë¼ì´ë¹— ë°°í¬ ì§€ì›**: ì£¼ìš” í´ë¼ìš°ë“œ ì„œë¹„ìŠ¤ì— ë§žì¶˜ ë°°í¬ ì˜µì…˜
+- **ì§€ì†ì  ì—…ë°ì´íŠ¸**: ë©€í‹°ëª¨ë‹¬ ë“± ìµœì‹  AI ê¸°ëŠ¥ ì§€ì† ë°˜ì˜
 
-엔터프라이즈 문의: **business@nextchat.dev**
+ì—”í„°í”„ë¼ì´ì¦ˆ ë¬¸ì˜: **business@HeyChat.dev**
 
-## 🖼️ 스크린샷
+## ðŸ–¼ï¸ ìŠ¤í¬ë¦°ìƒ·
 
-![설정](./docs/images/settings.png)
-![기타](./docs/images/more.png)
+![ì„¤ì •](./docs/images/settings.png)
+![ê¸°íƒ€](./docs/images/more.png)
 
-## 주요 기능 소개
+## ì£¼ìš” ê¸°ëŠ¥ ì†Œê°œ
 
-- Vercel에서 원클릭 무료 배포 (1분 내 완성)
-- 모든 OS(Linux/Windows/MacOS)에서 사용 가능한 클라이언트 (~5MB) [지금 다운 받기](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- 자체 LLM 서버와 완벽 호환. [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) 또는 [LocalAI](https://github.com/go-skynet/LocalAI)와 함께 사용하는 것을 추천
-- 개인 정보 보호: 모든 대화 기록은 브라우저에만 저장
-- Markdown 지원: LaTex, Mermaid, 코드 하이라이팅 등
-- 반응형 디자인, 다크 모드, PWA 지원
-- 빠른 초기 로딩 속도 (~100kb), 스트리밍 응답
-- 프롬프트 템플릿 생성/공유/디버깅 지원 (v2)
-- v2: 프롬프트 템플릿 기반 도구 생성, 공유, 디버깅 가능
-- 고급 프롬프트 내장 [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
-- 긴 대화 내용 자동 압축 저장으로 토큰 절약
-- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
+- Vercelì—ì„œ ì›í´ë¦­ ë¬´ë£Œ ë°°í¬ (1ë¶„ ë‚´ ì™„ì„±)
+- ëª¨ë“  OS(Linux/Windows/MacOS)ì—ì„œ ì‚¬ìš© ê°€ëŠ¥í•œ í´ë¼ì´ì–¸íŠ¸ (~5MB) [ì§€ê¸ˆ ë‹¤ìš´ ë°›ê¸°](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- ìžì²´ LLM ì„œë²„ì™€ ì™„ë²½ í˜¸í™˜. [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ë˜ëŠ” [LocalAI](https://github.com/go-skynet/LocalAI)ì™€ í•¨ê»˜ ì‚¬ìš©í•˜ëŠ” ê²ƒì„ ì¶”ì²œ
+- ê°œì¸ ì •ë³´ ë³´í˜¸: ëª¨ë“  ëŒ€í™” ê¸°ë¡ì€ ë¸Œë¼ìš°ì €ì—ë§Œ ì €ìž¥
+- Markdown ì§€ì›: LaTex, Mermaid, ì½”ë“œ í•˜ì´ë¼ì´íŒ… ë“±
+- ë°˜ì‘í˜• ë””ìžì¸, ë‹¤í¬ ëª¨ë“œ, PWA ì§€ì›
+- ë¹ ë¥¸ ì´ˆê¸° ë¡œë”© ì†ë„ (~100kb), ìŠ¤íŠ¸ë¦¬ë° ì‘ë‹µ
+- í”„ë¡¬í”„íŠ¸ í…œí”Œë¦¿ ìƒì„±/ê³µìœ /ë””ë²„ê¹… ì§€ì› (v2)
+- v2: í”„ë¡¬í”„íŠ¸ í…œí”Œë¦¿ ê¸°ë°˜ ë„êµ¬ ìƒì„±, ê³µìœ , ë””ë²„ê¹… ê°€ëŠ¥
+- ê³ ê¸‰ í”„ë¡¬í”„íŠ¸ ë‚´ìž¥ [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+- ê¸´ ëŒ€í™” ë‚´ìš© ìžë™ ì••ì¶• ì €ìž¥ìœ¼ë¡œ í† í° ì ˆì•½
+- I18n: English, ç®€ä½“ä¸­æ–‡, ç¹ä½“ä¸­æ–‡, æ—¥æœ¬èªž, FranÃ§ais, EspaÃ±ol, Italiano, TÃ¼rkÃ§e, Deutsch, Tiáº¿ng Viá»‡t, Ð ÑƒÑÑÐºÐ¸Ð¹, ÄŒeÅ¡tina, í•œêµ­ì–´, Indonesia
 
 <div align="center">
    
-![主界面](./docs/images/cover.png)
+![ä¸»ç•Œé¢](./docs/images/cover.png)
 
 </div>
 
-## 개발 로드맵
+## ê°œë°œ ë¡œë“œë§µ
 
-- [x] 시스템 프롬프트: 사용자가 정의한 프롬프트를 시스템 프롬프트로 고정하기 [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] 사용자 프롬프트: 사용자 정의 프롬프트를 편집 및 저장하여 리스트로 관리 가능
-- [x] 프롬프트 템플릿: 사전 정의된 인컨텍스트 프롬프트로 새 채팅 생성 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] 이미지로 공유하거나 ShareGPT로 공유 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] Tauri 기반 데스크톱 앱
-- [x] 자체 모델 호스팅: [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), [LocalAI](https://github.com/go-skynet/LocalAI) 등 서버 배포 모델들과 완벽 호환 (llama, gpt4all, rwkv, vicuna, koala, gpt4all-j, cerebras, falcon, dolly 등)
-- [x] 아티팩트: 생성된 콘텐츠 및 웹페이지를 별도 창으로 미리보기, 복사, 공유 가능 [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
-- [x] 플러그인: 웹 검색, 계산기, 기타 외부 API 기능 지원 [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-- [x] 실시간 채팅 지원 [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
-- [ ] 로컬 지식 베이스 지원 예정
+- [x] ì‹œìŠ¤í…œ í”„ë¡¬í”„íŠ¸: ì‚¬ìš©ìžê°€ ì •ì˜í•œ í”„ë¡¬í”„íŠ¸ë¥¼ ì‹œìŠ¤í…œ í”„ë¡¬í”„íŠ¸ë¡œ ê³ ì •í•˜ê¸° [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] ì‚¬ìš©ìž í”„ë¡¬í”„íŠ¸: ì‚¬ìš©ìž ì •ì˜ í”„ë¡¬í”„íŠ¸ë¥¼ íŽ¸ì§‘ ë° ì €ìž¥í•˜ì—¬ ë¦¬ìŠ¤íŠ¸ë¡œ ê´€ë¦¬ ê°€ëŠ¥
+- [x] í”„ë¡¬í”„íŠ¸ í…œí”Œë¦¿: ì‚¬ì „ ì •ì˜ëœ ì¸ì»¨í…ìŠ¤íŠ¸ í”„ë¡¬í”„íŠ¸ë¡œ ìƒˆ ì±„íŒ… ìƒì„± [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] ì´ë¯¸ì§€ë¡œ ê³µìœ í•˜ê±°ë‚˜ ShareGPTë¡œ ê³µìœ  [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] Tauri ê¸°ë°˜ ë°ìŠ¤í¬í†± ì•±
+- [x] ìžì²´ ëª¨ë¸ í˜¸ìŠ¤íŒ…: [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), [LocalAI](https://github.com/go-skynet/LocalAI) ë“± ì„œë²„ ë°°í¬ ëª¨ë¸ë“¤ê³¼ ì™„ë²½ í˜¸í™˜ (llama, gpt4all, rwkv, vicuna, koala, gpt4all-j, cerebras, falcon, dolly ë“±)
+- [x] ì•„í‹°íŒ©íŠ¸: ìƒì„±ëœ ì½˜í…ì¸  ë° ì›¹íŽ˜ì´ì§€ë¥¼ ë³„ë„ ì°½ìœ¼ë¡œ ë¯¸ë¦¬ë³´ê¸°, ë³µì‚¬, ê³µìœ  ê°€ëŠ¥ [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
+- [x] í”ŒëŸ¬ê·¸ì¸: ì›¹ ê²€ìƒ‰, ê³„ì‚°ê¸°, ê¸°íƒ€ ì™¸ë¶€ API ê¸°ëŠ¥ ì§€ì› [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+- [x] ì‹¤ì‹œê°„ ì±„íŒ… ì§€ì› [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- [ ] ë¡œì»¬ ì§€ì‹ ë² ì´ìŠ¤ ì§€ì› ì˜ˆì •
 
-## 🚀 최근 업데이트
+## ðŸš€ ìµœê·¼ ì—…ë°ì´íŠ¸
 
-- 🚀 v2.15.8 실시간 채팅 지원 [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
-- 🚀 v2.15.4 Tauri 기반 LLM API 호출 기능 추가 → 보안 강화 [#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
-- 🚀 v2.15.0 플러그인 기능 추가 → [NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
-- 🚀 v2.14.0 아티팩트 및 Stable Diffusion 기능 추가
-- 🚀 v2.10.1 Google Gemini Pro 모델 지원
-- 🚀 v2.9.11 Azure Endpoint 사용 가능
-- 🚀 v2.8 모든 플랫폼에서 실행 가능한 클라이언트 출시
-- 🚀 v2.7 대화 내용을 이미지로, 또는 ShareGPT로 공유 가능
-- 🚀 v2.0 릴리즈: 프롬프트 템플릿 생성 및 아이디어 구현 가능! → [ChatGPT Prompt Engineering Tips](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/)
+- ðŸš€ v2.15.8 ì‹¤ì‹œê°„ ì±„íŒ… ì§€ì› [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- ðŸš€ v2.15.4 Tauri ê¸°ë°˜ LLM API í˜¸ì¶œ ê¸°ëŠ¥ ì¶”ê°€ â†’ ë³´ì•ˆ ê°•í™” [#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
+- ðŸš€ v2.15.0 í”ŒëŸ¬ê·¸ì¸ ê¸°ëŠ¥ ì¶”ê°€ â†’ [HeyChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/HeyChat-Awesome-Plugins)
+- ðŸš€ v2.14.0 ì•„í‹°íŒ©íŠ¸ ë° Stable Diffusion ê¸°ëŠ¥ ì¶”ê°€
+- ðŸš€ v2.10.1 Google Gemini Pro ëª¨ë¸ ì§€ì›
+- ðŸš€ v2.9.11 Azure Endpoint ì‚¬ìš© ê°€ëŠ¥
+- ðŸš€ v2.8 ëª¨ë“  í”Œëž«í¼ì—ì„œ ì‹¤í–‰ ê°€ëŠ¥í•œ í´ë¼ì´ì–¸íŠ¸ ì¶œì‹œ
+- ðŸš€ v2.7 ëŒ€í™” ë‚´ìš©ì„ ì´ë¯¸ì§€ë¡œ, ë˜ëŠ” ShareGPTë¡œ ê³µìœ  ê°€ëŠ¥
+- ðŸš€ v2.0 ë¦´ë¦¬ì¦ˆ: í”„ë¡¬í”„íŠ¸ í…œí”Œë¦¿ ìƒì„± ë° ì•„ì´ë””ì–´ êµ¬í˜„ ê°€ëŠ¥! â†’ [ChatGPT Prompt Engineering Tips](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/)
 
-## 시작하기
+## ì‹œìž‘í•˜ê¸°
 
-1. [OpenAI API 키](https://platform.openai.com/account/api-keys)를 발급받습니다.
+1. [OpenAI API í‚¤](https://platform.openai.com/account/api-keys)ë¥¼ ë°œê¸‰ë°›ìŠµë‹ˆë‹¤.
 2. 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web) 버튼을 클릭해 Vercel에 배포합니다. `CODE`는 페이지 비밀번호라는 점을 기억하세요.
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web) ë²„íŠ¼ì„ í´ë¦­í•´ Vercelì— ë°°í¬í•©ë‹ˆë‹¤. `CODE`ëŠ” íŽ˜ì´ì§€ ë¹„ë°€ë²ˆí˜¸ë¼ëŠ” ì ì„ ê¸°ì–µí•˜ì„¸ìš”.
 
 3. Enjoy :)
 
@@ -136,281 +136,281 @@
 
 [FAQ](./docs/faq-ko.md)
 
-## 최신 상태 유지 (Keep Updated)
+## ìµœì‹  ìƒíƒœ ìœ ì§€ (Keep Updated)
 
-Vercel로 배포한 경우, "Updates Available" 메시지가 계속 나타날 수 있습니다. 이는 프로젝트를 포크하지 않고 새로 생성했기 때문입니다.
+Vercelë¡œ ë°°í¬í•œ ê²½ìš°, "Updates Available" ë©”ì‹œì§€ê°€ ê³„ì† ë‚˜íƒ€ë‚  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì´ëŠ” í”„ë¡œì íŠ¸ë¥¼ í¬í¬í•˜ì§€ ì•Šê³  ìƒˆë¡œ ìƒì„±í–ˆê¸° ë•Œë¬¸ìž…ë‹ˆë‹¤.
 
-다음 절차에 따라 다시 배포를 권장합니다:
+ë‹¤ìŒ ì ˆì°¨ì— ë”°ë¼ ë‹¤ì‹œ ë°°í¬ë¥¼ ê¶Œìž¥í•©ë‹ˆë‹¤:
 
-1. 기존 레포 삭제
-2. 우측 상단 "Fork" 버튼 클릭 → 포크 생성
-3. 포크된 프로젝트를 다시 Vercel에 배포  
-   → [자세한 튜토리얼 보기](./docs/vercel-ko.md)
+1. ê¸°ì¡´ ë ˆí¬ ì‚­ì œ
+2. ìš°ì¸¡ ìƒë‹¨ "Fork" ë²„íŠ¼ í´ë¦­ â†’ í¬í¬ ìƒì„±
+3. í¬í¬ëœ í”„ë¡œì íŠ¸ë¥¼ ë‹¤ì‹œ Vercelì— ë°°í¬  
+   â†’ [ìžì„¸í•œ íŠœí† ë¦¬ì–¼ ë³´ê¸°](./docs/vercel-ko.md)
 
-### 자동 업데이트 활성화 (Enable Automatic Updates)
+### ìžë™ ì—…ë°ì´íŠ¸ í™œì„±í™” (Enable Automatic Updates)
 
-> Upstream Sync 오류 발생 시, [수동으로 코드 업데이트](./README_KO.md#manually-updating-code)하세요.
+> Upstream Sync ì˜¤ë¥˜ ë°œìƒ ì‹œ, [ìˆ˜ë™ìœ¼ë¡œ ì½”ë“œ ì—…ë°ì´íŠ¸](./README_KO.md#manually-updating-code)í•˜ì„¸ìš”.
 
-프로젝트 포크 후에는 GitHub의 제약으로 인해 Actions 페이지에서 아래 항목들을 수동으로 활성화해야 합니다:
+í”„ë¡œì íŠ¸ í¬í¬ í›„ì—ëŠ” GitHubì˜ ì œì•½ìœ¼ë¡œ ì¸í•´ Actions íŽ˜ì´ì§€ì—ì„œ ì•„ëž˜ í•­ëª©ë“¤ì„ ìˆ˜ë™ìœ¼ë¡œ í™œì„±í™”í•´ì•¼ í•©ë‹ˆë‹¤:
 
 - `Workflows`
 - `Upstream Sync Action`
 
-이후 매 시간 자동으로 업데이트됩니다:
+ì´í›„ ë§¤ ì‹œê°„ ìžë™ìœ¼ë¡œ ì—…ë°ì´íŠ¸ë©ë‹ˆë‹¤:
 
-![자동 업데이트 활성화](./docs/images/enable-actions.jpg)  
-![업스트림 동기화 활성화](./docs/images/enable-actions-sync.jpg)
+![ìžë™ ì—…ë°ì´íŠ¸ í™œì„±í™”](./docs/images/enable-actions.jpg)  
+![ì—…ìŠ¤íŠ¸ë¦¼ ë™ê¸°í™” í™œì„±í™”](./docs/images/enable-actions-sync.jpg)
 
-### 수동 업데이트 방법 (Manually Updating Code)
+### ìˆ˜ë™ ì—…ë°ì´íŠ¸ ë°©ë²• (Manually Updating Code)
 
-즉시 업데이트가 필요한 경우, [깃헙 문서](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)를 참고해 포크된 프로젝트를 upstream code와 동기화하세요.
+ì¦‰ì‹œ ì—…ë°ì´íŠ¸ê°€ í•„ìš”í•œ ê²½ìš°, [ê¹ƒí—™ ë¬¸ì„œ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)ë¥¼ ì°¸ê³ í•´ í¬í¬ëœ í”„ë¡œì íŠ¸ë¥¼ upstream codeì™€ ë™ê¸°í™”í•˜ì„¸ìš”.
 
-릴리스 알림을 원하시면 star 또는 watch를 눌러주세요.
+ë¦´ë¦¬ìŠ¤ ì•Œë¦¼ì„ ì›í•˜ì‹œë©´ star ë˜ëŠ” watchë¥¼ ëˆŒëŸ¬ì£¼ì„¸ìš”.
 
-## 접근 비밀번호 설정 (Access Password)
+## ì ‘ê·¼ ë¹„ë°€ë²ˆí˜¸ ì„¤ì • (Access Password)
 
-이 프로젝트는 제한된 접근 제어를 제공합니다.  
-Vercel 환경 변수에 `CODE`를 다음 형식으로 추가하세요. value는 ,를 통해 구분된 비밀번호여야 합니다.:
+ì´ í”„ë¡œì íŠ¸ëŠ” ì œí•œëœ ì ‘ê·¼ ì œì–´ë¥¼ ì œê³µí•©ë‹ˆë‹¤.  
+Vercel í™˜ê²½ ë³€ìˆ˜ì— `CODE`ë¥¼ ë‹¤ìŒ í˜•ì‹ìœ¼ë¡œ ì¶”ê°€í•˜ì„¸ìš”. valueëŠ” ,ë¥¼ í†µí•´ êµ¬ë¶„ëœ ë¹„ë°€ë²ˆí˜¸ì—¬ì•¼ í•©ë‹ˆë‹¤.:
 
 ```
 code1,code2,code3
 ```
 
-수정 후 반드시 다시 배포해야 적용됩니다.
+ìˆ˜ì • í›„ ë°˜ë“œì‹œ ë‹¤ì‹œ ë°°í¬í•´ì•¼ ì ìš©ë©ë‹ˆë‹¤.
 
-## 환경 변수 (Environment Variables)
+## í™˜ê²½ ë³€ìˆ˜ (Environment Variables)
 
-### `CODE` (선택 사항)
+### `CODE` (ì„ íƒ ì‚¬í•­)
 
-접속 비밀번호. 쉼표로 구분합니다.
+ì ‘ì† ë¹„ë°€ë²ˆí˜¸. ì‰¼í‘œë¡œ êµ¬ë¶„í•©ë‹ˆë‹¤.
 
-### `OPENAI_API_KEY` (필수)
+### `OPENAI_API_KEY` (í•„ìˆ˜)
 
-당신의 OpenAI API 키, 여러 개를 사용하려면 쉼표로 연결합니다.
+ë‹¹ì‹ ì˜ OpenAI API í‚¤, ì—¬ëŸ¬ ê°œë¥¼ ì‚¬ìš©í•˜ë ¤ë©´ ì‰¼í‘œë¡œ ì—°ê²°í•©ë‹ˆë‹¤.
 
-### `BASE_URL` (선택 사항)
+### `BASE_URL` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: `https://api.openai.com`
+> ê¸°ë³¸ê°’: `https://api.openai.com`
 
-> 예시: `http://your-openai-proxy.com`
+> ì˜ˆì‹œ: `http://your-openai-proxy.com`
 
-OpenAI API 요청의 기본 URL을 재정의합니다.
+OpenAI API ìš”ì²­ì˜ ê¸°ë³¸ URLì„ ìž¬ì •ì˜í•©ë‹ˆë‹¤.
 
-### `OPENAI_ORG_ID` (선택 사항)
+### `OPENAI_ORG_ID` (ì„ íƒ ì‚¬í•­)
 
-OpenAI organization ID를 지정합니다.
+OpenAI organization IDë¥¼ ì§€ì •í•©ë‹ˆë‹¤.
 
-### `AZURE_URL` (선택 사항)
+### `AZURE_URL` (ì„ íƒ ì‚¬í•­)
 
-> 예시: https://{azure-resource-url}/openai
+> ì˜ˆì‹œ: https://{azure-resource-url}/openai
 
-Azure 배포 URL입니다.
+Azure ë°°í¬ URLìž…ë‹ˆë‹¤.
 
-### `AZURE_API_KEY` (선택 사항)
+### `AZURE_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Azure API 키입니다.
+Azure API í‚¤ìž…ë‹ˆë‹¤.
 
-### `AZURE_API_VERSION` (선택 사항)
+### `AZURE_API_VERSION` (ì„ íƒ ì‚¬í•­)
 
-Azure API 버전입니다. [Azure 문서](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)에서 확인할 수 있습니다.
+Azure API ë²„ì „ìž…ë‹ˆë‹¤. [Azure ë¬¸ì„œ](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)ì—ì„œ í™•ì¸í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-### `GOOGLE_API_KEY` (선택 사항)
+### `GOOGLE_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Google Gemini Pro API 키입니다.
+Google Gemini Pro API í‚¤ìž…ë‹ˆë‹¤.
 
-### `GOOGLE_URL` (선택 사항)
+### `GOOGLE_URL` (ì„ íƒ ì‚¬í•­)
 
-Google Gemini Pro API URL입니다.
+Google Gemini Pro API URLìž…ë‹ˆë‹¤.
 
-### `ANTHROPIC_API_KEY` (선택 사항)
+### `ANTHROPIC_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Anthropic Claude API 키입니다.
+Anthropic Claude API í‚¤ìž…ë‹ˆë‹¤.
 
-### `ANTHROPIC_API_VERSION` (선택 사항)
+### `ANTHROPIC_API_VERSION` (ì„ íƒ ì‚¬í•­)
 
-Anthropic Claude API 버전입니다.
+Anthropic Claude API ë²„ì „ìž…ë‹ˆë‹¤.
 
-### `ANTHROPIC_URL` (선택 사항)
+### `ANTHROPIC_URL` (ì„ íƒ ì‚¬í•­)
 
-Anthropic Claude API URL입니다.
+Anthropic Claude API URLìž…ë‹ˆë‹¤.
 
-### `BAIDU_API_KEY` (선택 사항)
+### `BAIDU_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Baidu API 키입니다.
+Baidu API í‚¤ìž…ë‹ˆë‹¤.
 
-### `BAIDU_SECRET_KEY` (선택 사항)
+### `BAIDU_SECRET_KEY` (ì„ íƒ ì‚¬í•­)
 
-Baidu Secret 키입니다.
+Baidu Secret í‚¤ìž…ë‹ˆë‹¤.
 
-### `BAIDU_URL` (선택 사항)
+### `BAIDU_URL` (ì„ íƒ ì‚¬í•­)
 
-Baidu API URL입니다.
+Baidu API URLìž…ë‹ˆë‹¤.
 
-### `BYTEDANCE_API_KEY` (선택 사항)
+### `BYTEDANCE_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-ByteDance API 키입니다.
+ByteDance API í‚¤ìž…ë‹ˆë‹¤.
 
-### `BYTEDANCE_URL` (선택 사항)
+### `BYTEDANCE_URL` (ì„ íƒ ì‚¬í•­)
 
-ByteDance API URL입니다.
+ByteDance API URLìž…ë‹ˆë‹¤.
 
-### `ALIBABA_API_KEY` (선택 사항)
+### `ALIBABA_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Alibaba Cloud API 키입니다.
+Alibaba Cloud API í‚¤ìž…ë‹ˆë‹¤.
 
-### `ALIBABA_URL` (선택 사항)
+### `ALIBABA_URL` (ì„ íƒ ì‚¬í•­)
 
-Alibaba Cloud API URL입니다.
+Alibaba Cloud API URLìž…ë‹ˆë‹¤.
 
-### `IFLYTEK_URL` (선택 사항)
+### `IFLYTEK_URL` (ì„ íƒ ì‚¬í•­)
 
-iflytek API URL입니다.
+iflytek API URLìž…ë‹ˆë‹¤.
 
-### `IFLYTEK_API_KEY` (선택 사항)
+### `IFLYTEK_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-iflytek API 키입니다.
+iflytek API í‚¤ìž…ë‹ˆë‹¤.
 
-### `IFLYTEK_API_SECRET` (선택 사항)
+### `IFLYTEK_API_SECRET` (ì„ íƒ ì‚¬í•­)
 
-iflytek API 시크릿입니다.
+iflytek API ì‹œí¬ë¦¿ìž…ë‹ˆë‹¤.
 
-### `CHATGLM_API_KEY` (선택 사항)
+### `CHATGLM_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-ChatGLM API 키입니다.
+ChatGLM API í‚¤ìž…ë‹ˆë‹¤.
 
-### `CHATGLM_URL` (선택 사항)
+### `CHATGLM_URL` (ì„ íƒ ì‚¬í•­)
 
-ChatGLM API URL입니다.
+ChatGLM API URLìž…ë‹ˆë‹¤.
 
-### `DEEPSEEK_API_KEY` (선택 사항)
+### `DEEPSEEK_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-DeepSeek API 키입니다.
+DeepSeek API í‚¤ìž…ë‹ˆë‹¤.
 
-### `DEEPSEEK_URL` (선택 사항)
+### `DEEPSEEK_URL` (ì„ íƒ ì‚¬í•­)
 
-DeepSeek API URL입니다.
+DeepSeek API URLìž…ë‹ˆë‹¤.
 
-### `HIDE_USER_API_KEY` (선택 사항)
+### `HIDE_USER_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ
 
-사용자가 자신의 API 키를 입력하지 못하게 하려면 이 값을 1로 설정하세요.
+ì‚¬ìš©ìžê°€ ìžì‹ ì˜ API í‚¤ë¥¼ ìž…ë ¥í•˜ì§€ ëª»í•˜ê²Œ í•˜ë ¤ë©´ ì´ ê°’ì„ 1ë¡œ ì„¤ì •í•˜ì„¸ìš”.
 
-### `DISABLE_GPT4` (선택 사항)
+### `DISABLE_GPT4` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ
 
-사용자가 GPT-4를 사용하지 못하게 하려면 이 값을 1로 설정하세요.
+ì‚¬ìš©ìžê°€ GPT-4ë¥¼ ì‚¬ìš©í•˜ì§€ ëª»í•˜ê²Œ í•˜ë ¤ë©´ ì´ ê°’ì„ 1ë¡œ ì„¤ì •í•˜ì„¸ìš”.
 
-### `ENABLE_BALANCE_QUERY` (선택 사항)
+### `ENABLE_BALANCE_QUERY` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ
 
-사용자가 쿼리 잔액을 조회할 수 있도록 하려면 이 값을 1로 설정하세요.
+ì‚¬ìš©ìžê°€ ì¿¼ë¦¬ ìž”ì•¡ì„ ì¡°íšŒí•  ìˆ˜ ìžˆë„ë¡ í•˜ë ¤ë©´ ì´ ê°’ì„ 1ë¡œ ì„¤ì •í•˜ì„¸ìš”.
 
-### `DISABLE_FAST_LINK` (선택 사항)
+### `DISABLE_FAST_LINK` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ
 
-URL에서 설정을 파싱하는 기능을 비활성화하려면 이 값을 1로 설정하세요.
+URLì—ì„œ ì„¤ì •ì„ íŒŒì‹±í•˜ëŠ” ê¸°ëŠ¥ì„ ë¹„í™œì„±í™”í•˜ë ¤ë©´ ì´ ê°’ì„ 1ë¡œ ì„¤ì •í•˜ì„¸ìš”.
 
-### `CUSTOM_MODELS` (선택 사항)
+### `CUSTOM_MODELS` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음  
-> 예시: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo`  
-이는 `llama`, `claude-2`를 모델 리스트에 추가하고, `gpt-3.5-turbo`를 제거하며, `gpt-4-1106-preview`를 `gpt-4-turbo`로 표시합니다.
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ  
+> ì˜ˆì‹œ: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo`  
+ì´ëŠ” `llama`, `claude-2`ë¥¼ ëª¨ë¸ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€í•˜ê³ , `gpt-3.5-turbo`ë¥¼ ì œê±°í•˜ë©°, `gpt-4-1106-preview`ë¥¼ `gpt-4-turbo`ë¡œ í‘œì‹œí•©ë‹ˆë‹¤.
 
-사용자 지정 모델 제어 시 `+`는 추가, `-`는 제거, `이름=표시이름`은 모델명 커스터마이징을 의미합니다. 쉼표로 구분하세요.
+ì‚¬ìš©ìž ì§€ì • ëª¨ë¸ ì œì–´ ì‹œ `+`ëŠ” ì¶”ê°€, `-`ëŠ” ì œê±°, `ì´ë¦„=í‘œì‹œì´ë¦„`ì€ ëª¨ë¸ëª… ì»¤ìŠ¤í„°ë§ˆì´ì§•ì„ ì˜ë¯¸í•©ë‹ˆë‹¤. ì‰¼í‘œë¡œ êµ¬ë¶„í•˜ì„¸ìš”.
 
-- `-all`은 기본 모델을 모두 비활성화  
-- `+all`은 기본 모델을 모두 활성화
+- `-all`ì€ ê¸°ë³¸ ëª¨ë¸ì„ ëª¨ë‘ ë¹„í™œì„±í™”  
+- `+all`ì€ ê¸°ë³¸ ëª¨ë¸ì„ ëª¨ë‘ í™œì„±í™”
 
-Azure 용법 예시: `modelName@Azure=deploymentName` → 배포 이름을 커스터마이징 가능  
-> 예시: `+gpt-3.5-turbo@Azure=gpt35` → 리스트에 `gpt35(Azure)` 표시됨  
-> Azure 모델만 사용할 경우: `-all,+gpt-3.5-turbo@Azure=gpt35`
+Azure ìš©ë²• ì˜ˆì‹œ: `modelName@Azure=deploymentName` â†’ ë°°í¬ ì´ë¦„ì„ ì»¤ìŠ¤í„°ë§ˆì´ì§• ê°€ëŠ¥  
+> ì˜ˆì‹œ: `+gpt-3.5-turbo@Azure=gpt35` â†’ ë¦¬ìŠ¤íŠ¸ì— `gpt35(Azure)` í‘œì‹œë¨  
+> Azure ëª¨ë¸ë§Œ ì‚¬ìš©í•  ê²½ìš°: `-all,+gpt-3.5-turbo@Azure=gpt35`
 
-ByteDance 용법 예시: `modelName@bytedance=deploymentName`  
-> 예시: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` → `Doubao-lite-4k(ByteDance)`로 표시됨
+ByteDance ìš©ë²• ì˜ˆì‹œ: `modelName@bytedance=deploymentName`  
+> ì˜ˆì‹œ: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` â†’ `Doubao-lite-4k(ByteDance)`ë¡œ í‘œì‹œë¨
 
-### `DEFAULT_MODEL` (선택 사항)
+### `DEFAULT_MODEL` (ì„ íƒ ì‚¬í•­)
 
-기본 모델을 변경합니다.
+ê¸°ë³¸ ëª¨ë¸ì„ ë³€ê²½í•©ë‹ˆë‹¤.
 
-### `VISION_MODELS` (선택 사항)
+### `VISION_MODELS` (ì„ íƒ ì‚¬í•­)
 
-> 기본값: 비어 있음  
-> 예시: `gpt-4-vision,claude-3-opus,my-custom-model`  
-위의 모델들에 시각 기능을 부여합니다 (기본적으로 `"vision"`, `"claude-3"`, `"gemini-1.5"` 키워드를 포함한 모델은 자동 인식됨). 기본 모델 외에도 모델을 추가할 수 있습니다. 쉼표로 구분하세요.
+> ê¸°ë³¸ê°’: ë¹„ì–´ ìžˆìŒ  
+> ì˜ˆì‹œ: `gpt-4-vision,claude-3-opus,my-custom-model`  
+ìœ„ì˜ ëª¨ë¸ë“¤ì— ì‹œê° ê¸°ëŠ¥ì„ ë¶€ì—¬í•©ë‹ˆë‹¤ (ê¸°ë³¸ì ìœ¼ë¡œ `"vision"`, `"claude-3"`, `"gemini-1.5"` í‚¤ì›Œë“œë¥¼ í¬í•¨í•œ ëª¨ë¸ì€ ìžë™ ì¸ì‹ë¨). ê¸°ë³¸ ëª¨ë¸ ì™¸ì—ë„ ëª¨ë¸ì„ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì‰¼í‘œë¡œ êµ¬ë¶„í•˜ì„¸ìš”.
 
-### `WHITE_WEBDAV_ENDPOINTS` (선택 사항)
+### `WHITE_WEBDAV_ENDPOINTS` (ì„ íƒ ì‚¬í•­)
 
-접속 허용할 WebDAV 서비스 주소를 늘리고자 할 때 사용합니다.
+ì ‘ì† í—ˆìš©í•  WebDAV ì„œë¹„ìŠ¤ ì£¼ì†Œë¥¼ ëŠ˜ë¦¬ê³ ìž í•  ë•Œ ì‚¬ìš©í•©ë‹ˆë‹¤.
 
-- 각 주소는 완전한 endpoint 여야 함: `https://xxxx/yyy`  
-- 여러 주소는 `,`로 구분
+- ê° ì£¼ì†ŒëŠ” ì™„ì „í•œ endpoint ì—¬ì•¼ í•¨: `https://xxxx/yyy`  
+- ì—¬ëŸ¬ ì£¼ì†ŒëŠ” `,`ë¡œ êµ¬ë¶„
 
-### `DEFAULT_INPUT_TEMPLATE` (선택 사항)
+### `DEFAULT_INPUT_TEMPLATE` (ì„ íƒ ì‚¬í•­)
 
-설정 메뉴의 사용자 입력 전처리 구성 항목 초기화 시 사용할 기본 템플릿을 설정합니다.
+ì„¤ì • ë©”ë‰´ì˜ ì‚¬ìš©ìž ìž…ë ¥ ì „ì²˜ë¦¬ êµ¬ì„± í•­ëª© ì´ˆê¸°í™” ì‹œ ì‚¬ìš©í•  ê¸°ë³¸ í…œí”Œë¦¿ì„ ì„¤ì •í•©ë‹ˆë‹¤.
 
-### `STABILITY_API_KEY` (선택 사항)
+### `STABILITY_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-Stability API 키입니다.
+Stability API í‚¤ìž…ë‹ˆë‹¤.
 
-### `STABILITY_URL` (선택 사항)
+### `STABILITY_URL` (ì„ íƒ ì‚¬í•­)
 
-Stability API URL을 커스터마이징합니다.
+Stability API URLì„ ì»¤ìŠ¤í„°ë§ˆì´ì§•í•©ë‹ˆë‹¤.
 
-### `ENABLE_MCP` (선택 사항)
+### `ENABLE_MCP` (ì„ íƒ ì‚¬í•­)
 
-MCP (Model Context Protocol) 기능을 활성화합니다.
+MCP (Model Context Protocol) ê¸°ëŠ¥ì„ í™œì„±í™”í•©ë‹ˆë‹¤.
 
-### `SILICONFLOW_API_KEY` (선택 사항)
+### `SILICONFLOW_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-SiliconFlow API 키입니다.
+SiliconFlow API í‚¤ìž…ë‹ˆë‹¤.
 
-### `SILICONFLOW_URL` (선택 사항)
+### `SILICONFLOW_URL` (ì„ íƒ ì‚¬í•­)
 
-SiliconFlow API URL입니다.
+SiliconFlow API URLìž…ë‹ˆë‹¤.
 
-### `AI302_API_KEY` (선택 사항)
+### `AI302_API_KEY` (ì„ íƒ ì‚¬í•­)
 
-302.AI API 키입니다.
+302.AI API í‚¤ìž…ë‹ˆë‹¤.
 
-### `AI302_URL` (선택 사항)
+### `AI302_URL` (ì„ íƒ ì‚¬í•­)
 
-302.AI API URL입니다.
+302.AI API URLìž…ë‹ˆë‹¤.
 
-## 요구 사항 (Requirements)
+## ìš”êµ¬ ì‚¬í•­ (Requirements)
 
 NodeJS >= 18, Docker >= 20
 
-## 개발 (Development)
+## ê°œë°œ (Development)
 
-[![Gitpod에서 열기](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Gitpodì—ì„œ ì—´ê¸°](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-개발을 시작하기 전에 프로젝트 루트에 `.env.local` 파일을 만들고, 아래와 같이 API 키를 입력하세요:
+ê°œë°œì„ ì‹œìž‘í•˜ê¸° ì „ì— í”„ë¡œì íŠ¸ ë£¨íŠ¸ì— `.env.local` íŒŒì¼ì„ ë§Œë“¤ê³ , ì•„ëž˜ì™€ ê°™ì´ API í‚¤ë¥¼ ìž…ë ¥í•˜ì„¸ìš”:
 
 ```
-OPENAI_API_KEY=<여기에 API 키 입력>
+OPENAI_API_KEY=<ì—¬ê¸°ì— API í‚¤ ìž…ë ¥>
 
-# OpenAI 서비스를 사용할 수 없는 경우 아래 BASE_URL 사용
+# OpenAI ì„œë¹„ìŠ¤ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ëŠ” ê²½ìš° ì•„ëž˜ BASE_URL ì‚¬ìš©
 BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
 ```
 
-### 로컬 개발 실행
+### ë¡œì»¬ ê°œë°œ ì‹¤í–‰
 
 ```shell
-# 1. Node.js와 Yarn을 먼저 설치
-# 2. `.env.local` 파일에 환경 변수 설정
-# 3. 실행
+# 1. Node.jsì™€ Yarnì„ ë¨¼ì € ì„¤ì¹˜
+# 2. `.env.local` íŒŒì¼ì— í™˜ê²½ ë³€ìˆ˜ ì„¤ì •
+# 3. ì‹¤í–‰
 yarn install
 yarn dev
 ```
 
-## 배포 (Deployment)
+## ë°°í¬ (Deployment)
 
-### Docker (권장)
+### Docker (ê¶Œìž¥)
 
 ```shell
 docker pull yidadaa/chatgpt-next-web
@@ -421,7 +421,7 @@ docker run -d -p 3000:3000 \
    yidadaa/chatgpt-next-web
 ```
 
-서비스에 프록시를 사용하려면:
+ì„œë¹„ìŠ¤ì— í”„ë¡ì‹œë¥¼ ì‚¬ìš©í•˜ë ¤ë©´:
 
 ```shell
 docker run -d -p 3000:3000 \
@@ -431,13 +431,13 @@ docker run -d -p 3000:3000 \
    yidadaa/chatgpt-next-web
 ```
 
-프록시에 인증이 필요한 경우:
+í”„ë¡ì‹œì— ì¸ì¦ì´ í•„ìš”í•œ ê²½ìš°:
 
 ```shell
 -e PROXY_URL="http://127.0.0.1:7890 user pass"
 ```
 
-MCP를 활성화하려면:
+MCPë¥¼ í™œì„±í™”í•˜ë ¤ë©´:
 
 ```
 docker run -d -p 3000:3000 \
@@ -447,46 +447,47 @@ docker run -d -p 3000:3000 \
    yidadaa/chatgpt-next-web
 ```
 
-### 로컬 배포
+### ë¡œì»¬ ë°°í¬
 
-콘솔에서 다음 명령을 실행하세요.
+ì½˜ì†”ì—ì„œ ë‹¤ìŒ ëª…ë ¹ì„ ì‹¤í–‰í•˜ì„¸ìš”.
 
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-⚠️ 참고: 설치 중에 문제가 발생하면 Docker 배포를 사용하세요.
+âš ï¸ ì°¸ê³ : ì„¤ì¹˜ ì¤‘ì— ë¬¸ì œê°€ ë°œìƒí•˜ë©´ Docker ë°°í¬ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 
-## 채팅 기록 동기화 (UpStash)
+## ì±„íŒ… ê¸°ë¡ ë™ê¸°í™” (UpStash)
 
-| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
+| [ç®€ä½“ä¸­æ–‡](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [æ—¥æœ¬èªž](./docs/synchronise-chat-logs-ja.md) | [í•œêµ­ì–´](./docs/synchronise-chat-logs-ko.md)
 
-## 문서 (Documentation)
+## ë¬¸ì„œ (Documentation)
 
-> 더 많은 문서는 [docs](./docs) 디렉토리를 참고하세요.
+> ë” ë§Žì€ ë¬¸ì„œëŠ” [docs](./docs) ë””ë ‰í† ë¦¬ë¥¼ ì°¸ê³ í•˜ì„¸ìš”.
 
-- [Cloudflare 배포 가이드 (폐기됨)](./docs/cloudflare-pages-ko.md)
-- [자주 묻는 질문](./docs/faq-ko.md)
-- [새 번역 추가 방법](./docs/translation.md)
-- [Vercel 사용법 (중문)](./docs/vercel-cn.md)
-- [사용자 매뉴얼 (중문, 작성 중)](./docs/user-manual-cn.md)
+- [Cloudflare ë°°í¬ ê°€ì´ë“œ (íê¸°ë¨)](./docs/cloudflare-pages-ko.md)
+- [ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸](./docs/faq-ko.md)
+- [ìƒˆ ë²ˆì—­ ì¶”ê°€ ë°©ë²•](./docs/translation.md)
+- [Vercel ì‚¬ìš©ë²• (ì¤‘ë¬¸)](./docs/vercel-cn.md)
+- [ì‚¬ìš©ìž ë§¤ë‰´ì–¼ (ì¤‘ë¬¸, ìž‘ì„± ì¤‘)](./docs/user-manual-cn.md)
 
-## 번역 (Translation)
+## ë²ˆì—­ (Translation)
 
-새로운 번역을 추가하고 싶다면, [이 문서](./docs/translation.md)를 읽어보세요.
+ìƒˆë¡œìš´ ë²ˆì—­ì„ ì¶”ê°€í•˜ê³  ì‹¶ë‹¤ë©´, [ì´ ë¬¸ì„œ](./docs/translation.md)ë¥¼ ì½ì–´ë³´ì„¸ìš”.
 
-## 후원 (Donation)
+## í›„ì› (Donation)
 
 [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-## 특별 감사 (Special Thanks)
+## íŠ¹ë³„ ê°ì‚¬ (Special Thanks)
 
-### 기여자 (Contributors)
+### ê¸°ì—¬ìž (Contributors)
 
 <a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
 </a>
 
-## 라이선스 (LICENSE)
+## ë¼ì´ì„ ìŠ¤ (LICENSE)
 
 [MIT](https://opensource.org/license/mit/)
+

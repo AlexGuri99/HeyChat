@@ -4,22 +4,22 @@
 @mixin light {
   --theme: light;
 
-  /* color */
-  --white: white;
-  --black: rgb(48, 48, 48);
-  --gray: rgb(250, 250, 250);
-  --primary: rgb(29, 147, 171);
-  --second: rgb(231, 248, 255);
-  --hover-color: #f3f3f3;
-  --bar-color: rgba(0, 0, 0, 0.1);
+  /* Clean White & Soft Blue Dashboard Palette (Ref: image_d86f39.jpg) */
+  --white: #ffffff;                 /* Sidebar & floating message backgrounds */
+  --black: #1e293b;                 /* Crisp deep charcoal text */
+  --gray: #eef2f6;                  /* Muted soft gray main chat background */
+  --primary: #4d61fc;               /* Accent blue from your reference image */
+  --second: #e7f0ff;                /* Selection / Active state light blue tints */
+  --hover-color: #f1f5f9;
+  --bar-color: rgba(0, 0, 0, 0.06);
   --theme-color: var(--gray);
 
-  /* shadow */
-  --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
-  --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
+  /* Shadows */
+  --shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+  --card-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
 
-  /* stroke */
-  --border-in-light: 1px solid rgb(222, 222, 222);
+  /* Borders & Radii Overrides */
+  --border-in-light: 1px solid #e2e8f0;
 }
 
 @mixin dark {
@@ -59,11 +59,12 @@
 :root {
   @include light;
 
-  --window-width: 90vw;
+  /* Dashboard structural dimension rules */
+  --window-width: 95vw;
   --window-height: 90vh;
-  --sidebar-width: 300px;
+  --sidebar-width: 280px;
   --window-content-width: calc(100% - var(--sidebar-width));
-  --message-max-width: 80%;
+  --message-max-width: 75%;
   --full-height: 100%;
 }
 
@@ -398,4 +399,38 @@ pre {
 
 .copyable {
   user-select: text;
+}
+
+/* ==========================================================================
+   LAYOUT STRUCTURE PATCHES FOR IN-CHAT FLOATING COMPONENTS
+   ========================================================================== */
+
+/* Forces system message containers to float like distinct cards over the gray background */
+.chat-message-item {
+  background-color: #ffffff !important;
+  border: var(--border-in-light) !important;
+  box-shadow: var(--card-shadow) !important;
+  border-radius: 12px !important;
+  padding: 18px 24px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Upgrade to Pro Action Flag on the right side window margin */
+body::after {
+  content: "Upgrade to Pro ✦";
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: right bottom;
+  background: linear-gradient(135deg, #4d61fc, #6366f1);
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.05);
+  z-index: 999;
+  letter-spacing: 0.05em;
 }

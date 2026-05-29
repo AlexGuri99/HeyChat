@@ -1,4 +1,4 @@
-// ANSI color codes for terminal output
+﻿// ANSI color codes for terminal output
 const colors = {
   reset: "\x1b[0m",
   bright: "\x1b[1m",
@@ -14,7 +14,7 @@ export class MCPClientLogger {
   private readonly debugMode: boolean;
 
   constructor(
-    prefix: string = "NextChat MCP Client",
+    prefix: string = "HeyChat MCP Client",
     debugMode: boolean = false,
   ) {
     this.prefix = prefix;
@@ -59,7 +59,8 @@ export class MCPClientLogger {
     const formattedMessage = this.formatMessage(message);
     const logMessage = `${color}${colors.bright}[${this.prefix}]${colors.reset} ${formattedMessage}`;
 
-    // 只使用 console.log，这样日志会显示在 Tauri 的终端中
+    // åªä½¿ç”¨ console.logï¼Œè¿™æ ·æ—¥å¿—ä¼šæ˜¾ç¤ºåœ¨ Tauri çš„ç»ˆç«¯ä¸­
     console.log(logMessage);
   }
 }
+
