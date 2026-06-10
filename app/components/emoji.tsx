@@ -4,6 +4,7 @@ import EmojiPicker, {
   Theme as EmojiTheme,
 } from "emoji-picker-react";
 
+import { CircleUser } from "lucide-react";
 import { ModelType } from "../store";
 
 import BotIconDefault from "../icons/llm-icons/default.svg";
@@ -101,7 +102,7 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
 
   return (
     <div className="user-avatar">
-      {props.avatar && <EmojiAvatar avatar={props.avatar} />}
+      <CircleUser size={28} />
     </div>
   );
 }

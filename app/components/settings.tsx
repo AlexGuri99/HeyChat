@@ -85,7 +85,6 @@ import { Avatar, AvatarPicker } from "./emoji";
 import { getClientConfig } from "../config/client";
 import { useSyncStore } from "../store/sync";
 import { nanoid } from "nanoid";
-import { useMaskStore } from "../store/mask";
 import { ProviderType } from "../utils/cloud";
 import { TTSConfigList } from "./tts-config";
 import { RealtimeConfigList } from "./realtime-chat/realtime-config";
@@ -490,7 +489,6 @@ function SyncItems() {
   const syncStore = useSyncStore();
   const chatStore = useChatStore();
   const promptStore = usePromptStore();
-  const maskStore = useMaskStore();
   const couldSync = useMemo(() => {
     return syncStore.cloudSync();
   }, [syncStore]);
@@ -505,9 +503,8 @@ function SyncItems() {
       chat: sessions.length,
       message: messageCount,
       prompt: Object.keys(promptStore.prompts).length,
-      mask: Object.keys(maskStore.masks).length,
     };
-  }, [chatStore.sessions, maskStore.masks, promptStore.prompts]);
+  }, [chatStore.sessions, promptStore.prompts]);
 
   return (
     <>

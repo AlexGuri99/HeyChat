@@ -549,6 +549,17 @@ const cn = {
           SubTitle: "æ ·ä¾‹ï¼š",
         },
       },
+      OpenRouter: {
+        ApiKey: {
+          Title: "OpenRouter API Key",
+          SubTitle: "使用自定义 OpenRouter API Key",
+          Placeholder: "OpenRouter API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+      },
     },
 
     Model: "æ¨¡åž‹ (model)",
@@ -657,9 +668,6 @@ const cn = {
     Clear: "ä¸Šä¸‹æ–‡å·²æ¸…é™¤",
     Revert: "æ¢å¤ä¸Šä¸‹æ–‡",
   },
-  Discovery: {
-    Name: "å‘çŽ°",
-  },
   Mcp: {
     Name: "MCP",
   },
@@ -719,55 +727,6 @@ const cn = {
       Load: "ä»Žç½‘é¡µåŠ è½½",
       Method: "æ–¹æ³•",
       Error: "æ ¼å¼é”™è¯¯",
-    },
-  },
-  Mask: {
-    Name: "é¢å…·",
-    Page: {
-      Title: "é¢„è®¾è§’è‰²é¢å…·",
-      SubTitle: (count: number) => `${count} ä¸ªé¢„è®¾è§’è‰²å®šä¹‰`,
-      Search: "æœç´¢è§’è‰²é¢å…·",
-      Create: "æ–°å»º",
-    },
-    Item: {
-      Info: (count: number) => `åŒ…å« ${count} æ¡é¢„è®¾å¯¹è¯`,
-      Chat: "å¯¹è¯",
-      View: "æŸ¥çœ‹",
-      Edit: "ç¼–è¾‘",
-      Delete: "åˆ é™¤",
-      DeleteConfirm: "ç¡®è®¤åˆ é™¤ï¼Ÿ",
-    },
-    EditModal: {
-      Title: (readonly: boolean) =>
-        `ç¼–è¾‘é¢„è®¾é¢å…· ${readonly ? "ï¼ˆåªè¯»ï¼‰" : ""}`,
-      Download: "ä¸‹è½½é¢„è®¾",
-      Clone: "å…‹éš†é¢„è®¾",
-    },
-    Config: {
-      Avatar: "è§’è‰²å¤´åƒ",
-      Name: "è§’è‰²åç§°",
-      Sync: {
-        Title: "ä½¿ç”¨å…¨å±€è®¾ç½®",
-        SubTitle: "å½“å‰å¯¹è¯æ˜¯å¦ä½¿ç”¨å…¨å±€æ¨¡åž‹è®¾ç½®",
-        Confirm: "å½“å‰å¯¹è¯çš„è‡ªå®šä¹‰è®¾ç½®å°†ä¼šè¢«è‡ªåŠ¨è¦†ç›–ï¼Œç¡®è®¤å¯ç”¨å…¨å±€è®¾ç½®ï¼Ÿ",
-      },
-      HideContext: {
-        Title: "éšè—é¢„è®¾å¯¹è¯",
-        SubTitle: "éšè—åŽé¢„è®¾å¯¹è¯ä¸ä¼šå‡ºçŽ°åœ¨èŠå¤©ç•Œé¢",
-      },
-      Artifacts: {
-        Title: "å¯ç”¨Artifacts",
-        SubTitle: "å¯ç”¨ä¹‹åŽå¯ä»¥ç›´æŽ¥æ¸²æŸ“HTMLé¡µé¢",
-      },
-      CodeFold: {
-        Title: "å¯ç”¨ä»£ç æŠ˜å ",
-        SubTitle: "å¯ç”¨ä¹‹åŽå¯ä»¥è‡ªåŠ¨æŠ˜å /å±•å¼€è¿‡é•¿çš„ä»£ç å—",
-      },
-      Share: {
-        Title: "åˆ†äº«æ­¤é¢å…·",
-        SubTitle: "ç”Ÿæˆæ­¤é¢å…·çš„ç›´è¾¾é“¾æŽ¥",
-        Action: "å¤åˆ¶é“¾æŽ¥",
-      },
     },
   },
   NewChat: {

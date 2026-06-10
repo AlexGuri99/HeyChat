@@ -554,6 +554,17 @@ const en: LocaleType = {
           SubTitle: "Example: ",
         },
       },
+      OpenRouter: {
+        ApiKey: {
+          Title: "OpenRouter API Key",
+          SubTitle: "Use a custom OpenRouter API Key",
+          Placeholder: "OpenRouter API Key",
+        },
+        Endpoint: {
+          Title: "Endpoint Address",
+          SubTitle: "Example: ",
+        },
+      },
     },
 
     Model: "Model",
@@ -666,9 +677,6 @@ const en: LocaleType = {
     Clear: "Context Cleared",
     Revert: "Revert",
   },
-  Discovery: {
-    Name: "Discovery",
-  },
   Mcp: {
     Name: "MCP",
   },
@@ -729,56 +737,6 @@ const en: LocaleType = {
       Load: "Load From URL",
       Method: "Method",
       Error: "OpenAPI Schema Error",
-    },
-  },
-  Mask: {
-    Name: "Mask",
-    Page: {
-      Title: "Prompt Template",
-      SubTitle: (count: number) => `${count} prompt templates`,
-      Search: "Search Templates",
-      Create: "Create",
-    },
-    Item: {
-      Info: (count: number) => `${count} prompts`,
-      Chat: "Chat",
-      View: "View",
-      Edit: "Edit",
-      Delete: "Delete",
-      DeleteConfirm: "Confirm to delete?",
-    },
-    EditModal: {
-      Title: (readonly: boolean) =>
-        `Edit Prompt Template ${readonly ? "(readonly)" : ""}`,
-      Download: "Download",
-      Clone: "Clone",
-    },
-    Config: {
-      Avatar: "Bot Avatar",
-      Name: "Bot Name",
-      Sync: {
-        Title: "Use Global Config",
-        SubTitle: "Use global config in this chat",
-        Confirm: "Confirm to override custom config with global config?",
-      },
-      HideContext: {
-        Title: "Hide Context Prompts",
-        SubTitle: "Do not show in-context prompts in chat",
-      },
-      Artifacts: {
-        Title: "Enable Artifacts",
-        SubTitle: "Can render HTML page when enable artifacts.",
-      },
-      CodeFold: {
-        Title: "Enable CodeFold",
-        SubTitle:
-          "Automatically collapse/expand overly long code blocks when CodeFold is enabled",
-      },
-      Share: {
-        Title: "Share This Mask",
-        SubTitle: "Generate a link to this mask",
-        Action: "Copy Link",
-      },
     },
   },
   NewChat: {

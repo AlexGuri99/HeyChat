@@ -415,22 +415,3 @@ pre {
   margin-bottom: 20px !important;
 }
 
-/* Upgrade to Pro Action Flag on the right side window margin */
-body::after {
-  content: "Upgrade to Pro ✦";
-  position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%) rotate(-90deg);
-  transform-origin: right bottom;
-  background: linear-gradient(135deg, #4d61fc, #6366f1);
-  color: #ffffff;
-  padding: 8px 16px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  border-radius: 8px 8px 0 0;
-  cursor: pointer;
-  box-shadow: -2px 0 10px rgba(0,0,0,0.05);
-  z-index: 999;
-  letter-spacing: 0.05em;
-}

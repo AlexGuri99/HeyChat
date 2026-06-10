@@ -57,9 +57,6 @@ export const DEFAULT_CONFIG = {
 
   disablePromptHint: false,
 
-  dontShowMaskSplashScreen: false, // dont show splash screen when create chat
-  hideBuiltinMasks: false, // dont add builtin masks
-
   customModels: "",
   models: DEFAULT_MODELS as any as LLMModel[],
 
@@ -221,8 +218,6 @@ export const useAppConfig = createPersistStore(
         state.modelConfig.frequency_penalty = 0;
         state.modelConfig.top_p = 1;
         state.modelConfig.template = DEFAULT_INPUT_TEMPLATE;
-        state.dontShowMaskSplashScreen = false;
-        state.hideBuiltinMasks = false;
       }
 
       if (version < 3.5) {

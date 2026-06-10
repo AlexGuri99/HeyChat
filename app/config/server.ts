@@ -92,6 +92,12 @@ declare global {
       AI302_URL?: string;
       AI302_API_KEY?: string;
 
+      // openrouter only
+      OPENROUTER_URL?: string;
+      OPENROUTER_API_KEY?: string;
+      OPENROUTER_REFERER?: string;
+      OPENROUTER_TITLE?: string;
+
       // custom template for preprocessing user input
       DEFAULT_INPUT_TEMPLATE?: string;
 
@@ -168,6 +174,7 @@ export const getServerSideConfig = () => {
   const isChatGLM = !!process.env.CHATGLM_API_KEY;
   const isSiliconFlow = !!process.env.SILICONFLOW_API_KEY;
   const isAI302 = !!process.env.AI302_API_KEY;
+  const isOpenRouter = !!process.env.OPENROUTER_API_KEY;
   // const apiKeyEnvVar = process.env.OPENAI_API_KEY ?? "";
   // const apiKeys = apiKeyEnvVar.split(",").map((v) => v.trim());
   // const randomIndex = Math.floor(Math.random() * apiKeys.length);
@@ -254,6 +261,12 @@ export const getServerSideConfig = () => {
     isAI302,
     ai302Url: process.env.AI302_URL,
     ai302ApiKey: getApiKey(process.env.AI302_API_KEY),
+
+    isOpenRouter,
+    openrouterUrl: process.env.OPENROUTER_URL,
+    openrouterApiKey: getApiKey(process.env.OPENROUTER_API_KEY),
+    openrouterReferer: process.env.OPENROUTER_REFERER,
+    openrouterTitle: process.env.OPENROUTER_TITLE,
 
     gtmId: process.env.GTM_ID,
     gaId: process.env.GA_ID || DEFAULT_GA_ID,
